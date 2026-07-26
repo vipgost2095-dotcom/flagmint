@@ -1,0 +1,36 @@
+<svg viewBox="-30 -24 660 456" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="wave-AZ" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="turbulence" numOctaves="2" seed="155" result="turb">
+        <animate attributeName="baseFrequency" dur="4.5s" repeatCount="indefinite"
+          values="0.010 0.045;0.016 0.055;0.010 0.045"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="shine-AZ" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pole-AZ" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a8f98"/>
+      <stop offset="50%" stop-color="#e5e8ec"/>
+      <stop offset="100%" stop-color="#8a8f98"/>
+    </linearGradient>
+    <clipPath id="clip-AZ"><rect x="0" y="0" width="600" height="400"/></clipPath>
+  </defs>
+
+  <rect x="-14" y="-24" width="14" height="456" fill="url(#pole-AZ)"/>
+  <circle cx="-7" cy="-24" r="11" fill="#d9b64a"/>
+
+  <g filter="url(#wave-AZ)">
+    <g clip-path="url(#clip-AZ)">
+      <rect x="0" y="0.0" width="600" height="133.9" fill="#00B9E4"/><rect x="0" y="133.3" width="600" height="133.9" fill="#E4002B"/><rect x="0" y="266.7" width="600" height="133.9" fill="#3F9C35"/>
+      <rect x="-600" y="0" width="1800" height="400" fill="url(#shine-AZ)">
+        <animateTransform attributeName="transform" type="translate" dur="5.5s" repeatCount="indefinite"
+          values="-600 0; 600 0; -600 0"/>
+      </rect>
+    </g>
+  </g>
+</svg>
