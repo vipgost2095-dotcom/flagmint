@@ -5,7 +5,11 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: true, // чтобы был доступен через ngrok/локальную сеть при тесте в Telegram
+    host: true,
     port: 5173,
+  },
+  preview: {
+    host: true,
+    allowedHosts: true,
   },
 });
