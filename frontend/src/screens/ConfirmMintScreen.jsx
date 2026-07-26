@@ -36,7 +36,7 @@ export default function ConfirmMintScreen() {
       <div className="card">
         <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
           <div style={{ width: 56, height: 56, borderRadius: 12, overflow: "hidden", flexShrink: 0 }}>
-            <AnimatedFlagPreview animation={flag.animation} variant="gif" alt={flag.name[lang]} />
+            <AnimatedFlagPreview animation={flag.animation} variant="poster" alt={flag.name[lang]} />
           </div>
           <div>
             <strong>{flag.name[lang]}</strong>

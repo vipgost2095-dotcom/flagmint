@@ -41,7 +41,7 @@ export default function FlagDetailScreen() {
   return (
     <div className="screen">
       <div className="detail-preview">
-        <AnimatedFlagPreview animation={flag.animation} variant="lottie" alt={flag.name[lang]} />
+        <AnimatedFlagPreview animation={flag.animation} variant="animated" alt={flag.name[lang]} />
       </div>
 
       <h1>{flag.name[lang]}</h1>
