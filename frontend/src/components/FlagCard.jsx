@@ -17,7 +17,7 @@ export default function FlagCard({ flag }) {
       }}
     >
       <div className="flag-card__preview">
-        <AnimatedFlagPreview animation={flag.animation} variant="gif" alt={flag.name[lang]} />
+        <AnimatedFlagPreview animation={flag.animation} variant="poster" alt={flag.name[lang]} />
       </div>
       <div className="flag-card__body">
         <p className="flag-card__title">{flag.name[lang]}</p>

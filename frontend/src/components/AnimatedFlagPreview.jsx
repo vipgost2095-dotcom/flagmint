@@ -1,79 +1,20 @@
-import { useEffect, useRef, useState } from "react";
-
 /**
  * Превью анимации флага.
  *
- * Чтобы каталог с десятками карточек не тормозил (требование из ТЗ —
- * "превью не должно тормозить интерфейс"):
- *  - в режиме "gif" используется обычный <img loading="lazy"> с GIF —
- *    браузер сам декодирует его во фоновом потоке, это дёшево;
- *  - полноценный Lottie-плеер (JS-анимация на canvas/SVG) подключается
- *    только когда variant="lottie" и элемент реально попал во вьюпорт
- *    (IntersectionObserver) — используется на детальном экране флага,
- *    где рендерится всего одна анимация, а не десятки сразу.
+ * Наши флаги — это самоанимирующиеся SVG (эффект "развевается на ветру"
+ * встроен в сам файл через SMIL, см. flags-gen/generate_flags.py), поэтому
+ * никакой JS-библиотеки анимации не требуется — достаточно обычного <img>.
+ * Это же решает требование "превью не должно тормозить интерфейс":
+ *  - в сетке каталога (variant="poster") показываем статичный PNG —
+ *    десятки одновременных SVG-анимаций на одном экране были бы дороже;
+ *  - на детальном экране одного флага (variant="animated") показываем
+ *    живой SVG — там анимация всего одна, это дёшево.
+ *
+ * Для флагов, для которых своя анимация ещё не подготовлена (остались
+ * старые ссылки-заглушки cdn.example.com), <img> просто покажет "битую"
+ * иконку — это ожидаемо, пока для них нет реального ассета.
  */
-export default function AnimatedFlagPreview({ animation, variant = "gif", alt = "" }) {
-  if (variant === "lottie") {
-    return <LottiePreview animation={animation} alt={alt} />;
-  }
-  return (
-    <img
-      src={animation.fallbackGifUrl}
-      alt={alt}
-      loading="lazy"
-      decoding="async"
-    />
-  );
-}
-
-function LottiePreview({ animation, alt }) {
-  const containerRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.1 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!isVisible) return;
-    let animInstance;
-    let cancelled = false;
-
-    // Динамический импорт: lottie-web грузится только когда реально нужен
-    import("lottie-web").then(({ default: lottie }) => {
-      if (cancelled || !containerRef.current) return;
-      animInstance = lottie.loadAnimation({
-        container: containerRef.current,
-        renderer: "svg",
-        loop: true,
-        autoplay: true,
-        path: animation.previewUrl,
-      });
-    });
-
-    return () => {
-      cancelled = true;
-      animInstance?.destroy();
-    };
-  }, [isVisible, animation.previewUrl]);
-
-  return (
-    <div ref={containerRef} role="img" aria-label={alt} style={{ width: "100%", height: "100%" }}>
-      {!isVisible && (
-        <img src={animation.fallbackGifUrl} alt={alt} loading="lazy" decoding="async" />
-      )}
-    </div>
-  );
+export default function AnimatedFlagPreview({ animation, variant = "poster", alt = "" }) {
+  const src = variant === "animated" ? animation.previewUrl : animation.fallbackGifUrl;
+  return <img src={src} alt={alt} loading="lazy" decoding="async" />;
 }
