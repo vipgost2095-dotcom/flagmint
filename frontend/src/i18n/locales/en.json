@@ -1,0 +1,54 @@
+{
+  "catalog": {
+    "title": "Flags",
+    "searchPlaceholder": "Search country or region",
+    "filterAll": "All",
+    "filterCountries": "Countries",
+    "filterRegions": "Regions",
+    "empty": "Nothing found. Try a different search.",
+    "edition": "Edition: {{count}}"
+  },
+  "detail": {
+    "mintButton": "Mint for {{price}} TON",
+    "attributes": {
+      "country": "Country",
+      "region": "Region",
+      "animation_type": "Animation type",
+      "edition": "Edition"
+    }
+  },
+  "confirm": {
+    "title": "Confirm mint",
+    "price": "Price",
+    "networkFee": "Network fee",
+    "total": "Total",
+    "confirmButton": "Sign in wallet",
+    "connectWalletButton": "Connect wallet",
+    "signing": "Waiting for signature in wallet…",
+    "pending": "Transaction sent, waiting for network confirmation…",
+    "success": "Done! Your NFT is minted and already in your collection.",
+    "error": "Mint failed",
+    "viewOnGetgems": "View on Getgems",
+    "backToCatalog": "Back to catalog",
+    "tryAgain": "Try again"
+  },
+  "profile": {
+    "title": "My NFTs",
+    "empty": "You haven't minted anything yet. Pick a flag from the catalog!",
+    "status": {
+      "pending": "Pending",
+      "success": "Minted",
+      "error": "Error"
+    },
+    "viewOnGetgems": "View on Getgems"
+  },
+  "nav": {
+    "catalog": "Catalog",
+    "profile": "Profile"
+  },
+  "errors": {
+    "network": "Network issue. Check your connection and try again.",
+    "walletRejected": "Transaction was rejected in the wallet.",
+    "generic": "Something went wrong. Please try again."
+  }
+}

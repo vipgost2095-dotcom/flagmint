@@ -1,1 +1,54 @@
-
+{
+  "catalog": {
+    "title": "Флаги",
+    "searchPlaceholder": "Найти страну или регион",
+    "filterAll": "Все",
+    "filterCountries": "Страны",
+    "filterRegions": "Регионы",
+    "empty": "Ничего не найдено. Попробуйте другой запрос.",
+    "edition": "Тираж: {{count}}"
+  },
+  "detail": {
+    "mintButton": "Заминтить за {{price}} TON",
+    "attributes": {
+      "country": "Страна",
+      "region": "Регион",
+      "animation_type": "Тип анимации",
+      "edition": "Тираж"
+    }
+  },
+  "confirm": {
+    "title": "Подтверждение минта",
+    "price": "Цена",
+    "networkFee": "Комиссия сети",
+    "total": "Итого",
+    "confirmButton": "Подписать в кошельке",
+    "connectWalletButton": "Подключить кошелёк",
+    "signing": "Ждём подпись в кошельке…",
+    "pending": "Транзакция отправлена, ждём подтверждения в сети…",
+    "success": "Готово! NFT заминчен и уже в вашей коллекции.",
+    "error": "Не удалось выполнить минт",
+    "viewOnGetgems": "Открыть на Getgems",
+    "backToCatalog": "Вернуться в каталог",
+    "tryAgain": "Попробовать снова"
+  },
+  "profile": {
+    "title": "Мои NFT",
+    "empty": "Вы ещё ничего не заминтили. Выберите флаг в каталоге!",
+    "status": {
+      "pending": "В обработке",
+      "success": "Заминчен",
+      "error": "Ошибка"
+    },
+    "viewOnGetgems": "Смотреть на Getgems"
+  },
+  "nav": {
+    "catalog": "Каталог",
+    "profile": "Профиль"
+  },
+  "errors": {
+    "network": "Проблема с сетью. Проверьте соединение и попробуйте снова.",
+    "walletRejected": "Транзакция отклонена в кошельке.",
+    "generic": "Что-то пошло не так. Попробуйте ещё раз."
+  }
+}
