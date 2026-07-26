@@ -12,9 +12,9 @@
       "en": "Flag of Afghanistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/af/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/af/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/af.svg",
+      "fallbackGifUrl": "/flags/af.png"
     },
     "attributes": {
       "country": "Afghanistan",
@@ -37,9 +37,9 @@
       "en": "Flag of Albania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/al/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/al/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/al.svg",
+      "fallbackGifUrl": "/flags/al.png"
     },
     "attributes": {
       "country": "Albania",
@@ -62,9 +62,9 @@
       "en": "Flag of Algeria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/dz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/dz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/dz.svg",
+      "fallbackGifUrl": "/flags/dz.png"
     },
     "attributes": {
       "country": "Algeria",
@@ -87,9 +87,9 @@
       "en": "Flag of Andorra with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ad/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ad/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ad.svg",
+      "fallbackGifUrl": "/flags/ad.png"
     },
     "attributes": {
       "country": "Andorra",
@@ -112,9 +112,9 @@
       "en": "Flag of Angola with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ao/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ao/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ao.svg",
+      "fallbackGifUrl": "/flags/ao.png"
     },
     "attributes": {
       "country": "Angola",
@@ -137,9 +137,9 @@
       "en": "Flag of Antigua & Barbuda with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ag/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ag/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ag.svg",
+      "fallbackGifUrl": "/flags/ag.png"
     },
     "attributes": {
       "country": "Antigua & Barbuda",
@@ -162,9 +162,9 @@
       "en": "Flag of Argentina with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ar/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ar/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ar.svg",
+      "fallbackGifUrl": "/flags/ar.png"
     },
     "attributes": {
       "country": "Argentina",
@@ -187,9 +187,9 @@
       "en": "Flag of Armenia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/am/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/am/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/am.svg",
+      "fallbackGifUrl": "/flags/am.png"
     },
     "attributes": {
       "country": "Armenia",
@@ -212,9 +212,9 @@
       "en": "Flag of Australia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/au/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/au/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/au.svg",
+      "fallbackGifUrl": "/flags/au.png"
     },
     "attributes": {
       "country": "Australia",
@@ -237,9 +237,9 @@
       "en": "Flag of Austria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/at/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/at/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/at.svg",
+      "fallbackGifUrl": "/flags/at.png"
     },
     "attributes": {
       "country": "Austria",
@@ -262,9 +262,9 @@
       "en": "Flag of Azerbaijan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/az/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/az/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/az.svg",
+      "fallbackGifUrl": "/flags/az.png"
     },
     "attributes": {
       "country": "Azerbaijan",
@@ -287,9 +287,9 @@
       "en": "Flag of Bahamas with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bs/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bs/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bs.svg",
+      "fallbackGifUrl": "/flags/bs.png"
     },
     "attributes": {
       "country": "Bahamas",
@@ -312,9 +312,9 @@
       "en": "Flag of Bahrain with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bh/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bh/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bh.svg",
+      "fallbackGifUrl": "/flags/bh.png"
     },
     "attributes": {
       "country": "Bahrain",
@@ -337,9 +337,9 @@
       "en": "Flag of Bangladesh with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bd/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bd/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bd.svg",
+      "fallbackGifUrl": "/flags/bd.png"
     },
     "attributes": {
       "country": "Bangladesh",
@@ -362,9 +362,9 @@
       "en": "Flag of Barbados with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bb/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bb/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bb.svg",
+      "fallbackGifUrl": "/flags/bb.png"
     },
     "attributes": {
       "country": "Barbados",
@@ -387,9 +387,9 @@
       "en": "Flag of Belarus with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/by/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/by/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/by.svg",
+      "fallbackGifUrl": "/flags/by.png"
     },
     "attributes": {
       "country": "Belarus",
@@ -412,9 +412,9 @@
       "en": "Flag of Belgium with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/be/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/be/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/be.svg",
+      "fallbackGifUrl": "/flags/be.png"
     },
     "attributes": {
       "country": "Belgium",
@@ -437,9 +437,9 @@
       "en": "Flag of Belize with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bz.svg",
+      "fallbackGifUrl": "/flags/bz.png"
     },
     "attributes": {
       "country": "Belize",
@@ -462,9 +462,9 @@
       "en": "Flag of Benin with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bj/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bj/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bj.svg",
+      "fallbackGifUrl": "/flags/bj.png"
     },
     "attributes": {
       "country": "Benin",
@@ -487,9 +487,9 @@
       "en": "Flag of Bhutan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bt/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bt/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bt.svg",
+      "fallbackGifUrl": "/flags/bt.png"
     },
     "attributes": {
       "country": "Bhutan",
@@ -512,9 +512,9 @@
       "en": "Flag of Bolivia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bo/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bo/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bo.svg",
+      "fallbackGifUrl": "/flags/bo.png"
     },
     "attributes": {
       "country": "Bolivia",
@@ -537,9 +537,9 @@
       "en": "Flag of Bosnia & Herzegovina with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ba/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ba/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ba.svg",
+      "fallbackGifUrl": "/flags/ba.png"
     },
     "attributes": {
       "country": "Bosnia & Herzegovina",
@@ -562,9 +562,9 @@
       "en": "Flag of Botswana with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bw/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bw/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bw.svg",
+      "fallbackGifUrl": "/flags/bw.png"
     },
     "attributes": {
       "country": "Botswana",
@@ -587,9 +587,9 @@
       "en": "Flag of Brazil with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/br/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/br/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/br.svg",
+      "fallbackGifUrl": "/flags/br.png"
     },
     "attributes": {
       "country": "Brazil",
@@ -612,9 +612,9 @@
       "en": "Flag of Brunei with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bn.svg",
+      "fallbackGifUrl": "/flags/bn.png"
     },
     "attributes": {
       "country": "Brunei",
@@ -637,9 +637,9 @@
       "en": "Flag of Bulgaria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bg.svg",
+      "fallbackGifUrl": "/flags/bg.png"
     },
     "attributes": {
       "country": "Bulgaria",
@@ -662,9 +662,9 @@
       "en": "Flag of Burkina Faso with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bf/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bf/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bf.svg",
+      "fallbackGifUrl": "/flags/bf.png"
     },
     "attributes": {
       "country": "Burkina Faso",
@@ -687,9 +687,9 @@
       "en": "Flag of Burundi with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/bi/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/bi/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/bi.svg",
+      "fallbackGifUrl": "/flags/bi.png"
     },
     "attributes": {
       "country": "Burundi",
@@ -712,9 +712,9 @@
       "en": "Flag of Cape Verde with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cv/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cv/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cv.svg",
+      "fallbackGifUrl": "/flags/cv.png"
     },
     "attributes": {
       "country": "Cape Verde",
@@ -737,9 +737,9 @@
       "en": "Flag of Cambodia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/kh/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/kh/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/kh.svg",
+      "fallbackGifUrl": "/flags/kh.png"
     },
     "attributes": {
       "country": "Cambodia",
@@ -762,9 +762,9 @@
       "en": "Flag of Cameroon with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cm.svg",
+      "fallbackGifUrl": "/flags/cm.png"
     },
     "attributes": {
       "country": "Cameroon",
@@ -787,9 +787,9 @@
       "en": "Flag of Canada with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ca/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ca/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ca.svg",
+      "fallbackGifUrl": "/flags/ca.png"
     },
     "attributes": {
       "country": "Canada",
@@ -812,9 +812,9 @@
       "en": "Flag of Central African Republic with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cf/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cf/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cf.svg",
+      "fallbackGifUrl": "/flags/cf.png"
     },
     "attributes": {
       "country": "Central African Republic",
@@ -837,9 +837,9 @@
       "en": "Flag of Chad with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/td/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/td/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/td.svg",
+      "fallbackGifUrl": "/flags/td.png"
     },
     "attributes": {
       "country": "Chad",
@@ -862,9 +862,9 @@
       "en": "Flag of Chile with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cl/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cl/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cl.svg",
+      "fallbackGifUrl": "/flags/cl.png"
     },
     "attributes": {
       "country": "Chile",
@@ -887,9 +887,9 @@
       "en": "Flag of China with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cn.svg",
+      "fallbackGifUrl": "/flags/cn.png"
     },
     "attributes": {
       "country": "China",
@@ -912,9 +912,9 @@
       "en": "Flag of Colombia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/co/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/co/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/co.svg",
+      "fallbackGifUrl": "/flags/co.png"
     },
     "attributes": {
       "country": "Colombia",
@@ -937,9 +937,9 @@
       "en": "Flag of Comoros with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/km/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/km/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/km.svg",
+      "fallbackGifUrl": "/flags/km.png"
     },
     "attributes": {
       "country": "Comoros",
@@ -962,9 +962,9 @@
       "en": "Flag of Congo - Brazzaville with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cg.svg",
+      "fallbackGifUrl": "/flags/cg.png"
     },
     "attributes": {
       "country": "Congo - Brazzaville",
@@ -987,9 +987,9 @@
       "en": "Flag of Congo - Kinshasa with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cd/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cd/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cd.svg",
+      "fallbackGifUrl": "/flags/cd.png"
     },
     "attributes": {
       "country": "Congo - Kinshasa",
@@ -1012,9 +1012,9 @@
       "en": "Flag of Costa Rica with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cr.svg",
+      "fallbackGifUrl": "/flags/cr.png"
     },
     "attributes": {
       "country": "Costa Rica",
@@ -1037,9 +1037,9 @@
       "en": "Flag of Côte d’Ivoire with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ci/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ci/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ci.svg",
+      "fallbackGifUrl": "/flags/ci.png"
     },
     "attributes": {
       "country": "Côte d’Ivoire",
@@ -1062,9 +1062,9 @@
       "en": "Flag of Croatia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/hr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/hr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/hr.svg",
+      "fallbackGifUrl": "/flags/hr.png"
     },
     "attributes": {
       "country": "Croatia",
@@ -1087,9 +1087,9 @@
       "en": "Flag of Cuba with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cu/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cu/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cu.svg",
+      "fallbackGifUrl": "/flags/cu.png"
     },
     "attributes": {
       "country": "Cuba",
@@ -1112,9 +1112,9 @@
       "en": "Flag of Cyprus with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cy/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cy/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cy.svg",
+      "fallbackGifUrl": "/flags/cy.png"
     },
     "attributes": {
       "country": "Cyprus",
@@ -1137,9 +1137,9 @@
       "en": "Flag of Czechia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cz.svg",
+      "fallbackGifUrl": "/flags/cz.png"
     },
     "attributes": {
       "country": "Czechia",
@@ -1162,9 +1162,9 @@
       "en": "Flag of Denmark with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/dk/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/dk/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/dk.svg",
+      "fallbackGifUrl": "/flags/dk.png"
     },
     "attributes": {
       "country": "Denmark",
@@ -1187,9 +1187,9 @@
       "en": "Flag of Djibouti with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/dj/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/dj/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/dj.svg",
+      "fallbackGifUrl": "/flags/dj.png"
     },
     "attributes": {
       "country": "Djibouti",
@@ -1212,9 +1212,9 @@
       "en": "Flag of Dominica with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/dm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/dm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/dm.svg",
+      "fallbackGifUrl": "/flags/dm.png"
     },
     "attributes": {
       "country": "Dominica",
@@ -1237,9 +1237,9 @@
       "en": "Flag of Dominican Republic with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/do/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/do/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/do.svg",
+      "fallbackGifUrl": "/flags/do.png"
     },
     "attributes": {
       "country": "Dominican Republic",
@@ -1262,9 +1262,9 @@
       "en": "Flag of Ecuador with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ec/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ec/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ec.svg",
+      "fallbackGifUrl": "/flags/ec.png"
     },
     "attributes": {
       "country": "Ecuador",
@@ -1287,9 +1287,9 @@
       "en": "Flag of Egypt with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/eg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/eg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/eg.svg",
+      "fallbackGifUrl": "/flags/eg.png"
     },
     "attributes": {
       "country": "Egypt",
@@ -1312,9 +1312,9 @@
       "en": "Flag of El Salvador with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sv/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sv/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sv.svg",
+      "fallbackGifUrl": "/flags/sv.png"
     },
     "attributes": {
       "country": "El Salvador",
@@ -1337,9 +1337,9 @@
       "en": "Flag of Equatorial Guinea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gq/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gq/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gq.svg",
+      "fallbackGifUrl": "/flags/gq.png"
     },
     "attributes": {
       "country": "Equatorial Guinea",
@@ -1362,9 +1362,9 @@
       "en": "Flag of Eritrea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/er/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/er/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/er.svg",
+      "fallbackGifUrl": "/flags/er.png"
     },
     "attributes": {
       "country": "Eritrea",
@@ -1387,9 +1387,9 @@
       "en": "Flag of Estonia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ee/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ee/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ee.svg",
+      "fallbackGifUrl": "/flags/ee.png"
     },
     "attributes": {
       "country": "Estonia",
@@ -1412,9 +1412,9 @@
       "en": "Flag of Eswatini with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sz.svg",
+      "fallbackGifUrl": "/flags/sz.png"
     },
     "attributes": {
       "country": "Eswatini",
@@ -1437,9 +1437,9 @@
       "en": "Flag of Ethiopia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/et/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/et/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/et.svg",
+      "fallbackGifUrl": "/flags/et.png"
     },
     "attributes": {
       "country": "Ethiopia",
@@ -1462,9 +1462,9 @@
       "en": "Flag of Fiji with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/fj/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/fj/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/fj.svg",
+      "fallbackGifUrl": "/flags/fj.png"
     },
     "attributes": {
       "country": "Fiji",
@@ -1487,9 +1487,9 @@
       "en": "Flag of Finland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/fi/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/fi/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/fi.svg",
+      "fallbackGifUrl": "/flags/fi.png"
     },
     "attributes": {
       "country": "Finland",
@@ -1512,9 +1512,9 @@
       "en": "Flag of France with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/fr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/fr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/fr.svg",
+      "fallbackGifUrl": "/flags/fr.png"
     },
     "attributes": {
       "country": "France",
@@ -1537,9 +1537,9 @@
       "en": "Flag of Gabon with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ga/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ga/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ga.svg",
+      "fallbackGifUrl": "/flags/ga.png"
     },
     "attributes": {
       "country": "Gabon",
@@ -1562,9 +1562,9 @@
       "en": "Flag of Gambia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gm.svg",
+      "fallbackGifUrl": "/flags/gm.png"
     },
     "attributes": {
       "country": "Gambia",
@@ -1587,9 +1587,9 @@
       "en": "Flag of Georgia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ge/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ge/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ge.svg",
+      "fallbackGifUrl": "/flags/ge.png"
     },
     "attributes": {
       "country": "Georgia",
@@ -1612,9 +1612,9 @@
       "en": "Flag of Germany with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/de/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/de/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/de.svg",
+      "fallbackGifUrl": "/flags/de.png"
     },
     "attributes": {
       "country": "Germany",
@@ -1637,9 +1637,9 @@
       "en": "Flag of Ghana with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gh/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gh/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gh.svg",
+      "fallbackGifUrl": "/flags/gh.png"
     },
     "attributes": {
       "country": "Ghana",
@@ -1662,9 +1662,9 @@
       "en": "Flag of Greece with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gr.svg",
+      "fallbackGifUrl": "/flags/gr.png"
     },
     "attributes": {
       "country": "Greece",
@@ -1687,9 +1687,9 @@
       "en": "Flag of Grenada with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gd/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gd/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gd.svg",
+      "fallbackGifUrl": "/flags/gd.png"
     },
     "attributes": {
       "country": "Grenada",
@@ -1712,9 +1712,9 @@
       "en": "Flag of Guatemala with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gt/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gt/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gt.svg",
+      "fallbackGifUrl": "/flags/gt.png"
     },
     "attributes": {
       "country": "Guatemala",
@@ -1737,9 +1737,9 @@
       "en": "Flag of Guinea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gn.svg",
+      "fallbackGifUrl": "/flags/gn.png"
     },
     "attributes": {
       "country": "Guinea",
@@ -1762,9 +1762,9 @@
       "en": "Flag of Guinea-Bissau with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gw/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gw/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gw.svg",
+      "fallbackGifUrl": "/flags/gw.png"
     },
     "attributes": {
       "country": "Guinea-Bissau",
@@ -1787,9 +1787,9 @@
       "en": "Flag of Guyana with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gy/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gy/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gy.svg",
+      "fallbackGifUrl": "/flags/gy.png"
     },
     "attributes": {
       "country": "Guyana",
@@ -1812,9 +1812,9 @@
       "en": "Flag of Haiti with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ht/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ht/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ht.svg",
+      "fallbackGifUrl": "/flags/ht.png"
     },
     "attributes": {
       "country": "Haiti",
@@ -1837,9 +1837,9 @@
       "en": "Flag of Honduras with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/hn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/hn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/hn.svg",
+      "fallbackGifUrl": "/flags/hn.png"
     },
     "attributes": {
       "country": "Honduras",
@@ -1862,9 +1862,9 @@
       "en": "Flag of Hungary with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/hu/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/hu/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/hu.svg",
+      "fallbackGifUrl": "/flags/hu.png"
     },
     "attributes": {
       "country": "Hungary",
@@ -1887,9 +1887,9 @@
       "en": "Flag of Iceland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/is/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/is/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/is.svg",
+      "fallbackGifUrl": "/flags/is.png"
     },
     "attributes": {
       "country": "Iceland",
@@ -1912,9 +1912,9 @@
       "en": "Flag of India with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/in/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/in/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/in.svg",
+      "fallbackGifUrl": "/flags/in.png"
     },
     "attributes": {
       "country": "India",
@@ -1937,9 +1937,9 @@
       "en": "Flag of Indonesia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/id/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/id/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/id.svg",
+      "fallbackGifUrl": "/flags/id.png"
     },
     "attributes": {
       "country": "Indonesia",
@@ -1962,9 +1962,9 @@
       "en": "Flag of Iran with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ir/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ir/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ir.svg",
+      "fallbackGifUrl": "/flags/ir.png"
     },
     "attributes": {
       "country": "Iran",
@@ -1987,9 +1987,9 @@
       "en": "Flag of Iraq with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/iq/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/iq/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/iq.svg",
+      "fallbackGifUrl": "/flags/iq.png"
     },
     "attributes": {
       "country": "Iraq",
@@ -2012,9 +2012,9 @@
       "en": "Flag of Ireland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ie/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ie/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ie.svg",
+      "fallbackGifUrl": "/flags/ie.png"
     },
     "attributes": {
       "country": "Ireland",
@@ -2037,9 +2037,9 @@
       "en": "Flag of Israel with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/il/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/il/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/il.svg",
+      "fallbackGifUrl": "/flags/il.png"
     },
     "attributes": {
       "country": "Israel",
@@ -2062,9 +2062,9 @@
       "en": "Flag of Italy with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/it/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/it/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/it.svg",
+      "fallbackGifUrl": "/flags/it.png"
     },
     "attributes": {
       "country": "Italy",
@@ -2087,9 +2087,9 @@
       "en": "Flag of Jamaica with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/jm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/jm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/jm.svg",
+      "fallbackGifUrl": "/flags/jm.png"
     },
     "attributes": {
       "country": "Jamaica",
@@ -2112,9 +2112,9 @@
       "en": "Flag of Japan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/jp/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/jp/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/jp.svg",
+      "fallbackGifUrl": "/flags/jp.png"
     },
     "attributes": {
       "country": "Japan",
@@ -2137,9 +2137,9 @@
       "en": "Flag of Jordan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/jo/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/jo/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/jo.svg",
+      "fallbackGifUrl": "/flags/jo.png"
     },
     "attributes": {
       "country": "Jordan",
@@ -2162,9 +2162,9 @@
       "en": "Flag of Kazakhstan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/kz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/kz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/kz.svg",
+      "fallbackGifUrl": "/flags/kz.png"
     },
     "attributes": {
       "country": "Kazakhstan",
@@ -2187,9 +2187,9 @@
       "en": "Flag of Kenya with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ke/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ke/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ke.svg",
+      "fallbackGifUrl": "/flags/ke.png"
     },
     "attributes": {
       "country": "Kenya",
@@ -2212,9 +2212,9 @@
       "en": "Flag of Kiribati with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ki/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ki/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ki.svg",
+      "fallbackGifUrl": "/flags/ki.png"
     },
     "attributes": {
       "country": "Kiribati",
@@ -2237,9 +2237,9 @@
       "en": "Flag of North Korea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/kp/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/kp/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/kp.svg",
+      "fallbackGifUrl": "/flags/kp.png"
     },
     "attributes": {
       "country": "North Korea",
@@ -2262,9 +2262,9 @@
       "en": "Flag of South Korea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/kr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/kr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/kr.svg",
+      "fallbackGifUrl": "/flags/kr.png"
     },
     "attributes": {
       "country": "South Korea",
@@ -2287,9 +2287,9 @@
       "en": "Flag of Kuwait with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/kw/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/kw/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/kw.svg",
+      "fallbackGifUrl": "/flags/kw.png"
     },
     "attributes": {
       "country": "Kuwait",
@@ -2312,9 +2312,9 @@
       "en": "Flag of Kyrgyzstan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/kg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/kg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/kg.svg",
+      "fallbackGifUrl": "/flags/kg.png"
     },
     "attributes": {
       "country": "Kyrgyzstan",
@@ -2337,9 +2337,9 @@
       "en": "Flag of Laos with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/la/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/la/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/la.svg",
+      "fallbackGifUrl": "/flags/la.png"
     },
     "attributes": {
       "country": "Laos",
@@ -2362,9 +2362,9 @@
       "en": "Flag of Latvia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/lv/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/lv/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/lv.svg",
+      "fallbackGifUrl": "/flags/lv.png"
     },
     "attributes": {
       "country": "Latvia",
@@ -2387,9 +2387,9 @@
       "en": "Flag of Lebanon with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/lb/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/lb/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/lb.svg",
+      "fallbackGifUrl": "/flags/lb.png"
     },
     "attributes": {
       "country": "Lebanon",
@@ -2412,9 +2412,9 @@
       "en": "Flag of Lesotho with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ls/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ls/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ls.svg",
+      "fallbackGifUrl": "/flags/ls.png"
     },
     "attributes": {
       "country": "Lesotho",
@@ -2437,9 +2437,9 @@
       "en": "Flag of Liberia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/lr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/lr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/lr.svg",
+      "fallbackGifUrl": "/flags/lr.png"
     },
     "attributes": {
       "country": "Liberia",
@@ -2462,9 +2462,9 @@
       "en": "Flag of Libya with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ly/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ly/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ly.svg",
+      "fallbackGifUrl": "/flags/ly.png"
     },
     "attributes": {
       "country": "Libya",
@@ -2487,9 +2487,9 @@
       "en": "Flag of Liechtenstein with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/li/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/li/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/li.svg",
+      "fallbackGifUrl": "/flags/li.png"
     },
     "attributes": {
       "country": "Liechtenstein",
@@ -2512,9 +2512,9 @@
       "en": "Flag of Lithuania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/lt/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/lt/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/lt.svg",
+      "fallbackGifUrl": "/flags/lt.png"
     },
     "attributes": {
       "country": "Lithuania",
@@ -2537,9 +2537,9 @@
       "en": "Flag of Luxembourg with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/lu/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/lu/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/lu.svg",
+      "fallbackGifUrl": "/flags/lu.png"
     },
     "attributes": {
       "country": "Luxembourg",
@@ -2562,9 +2562,9 @@
       "en": "Flag of Madagascar with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mg.svg",
+      "fallbackGifUrl": "/flags/mg.png"
     },
     "attributes": {
       "country": "Madagascar",
@@ -2587,9 +2587,9 @@
       "en": "Flag of Malawi with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mw/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mw/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mw.svg",
+      "fallbackGifUrl": "/flags/mw.png"
     },
     "attributes": {
       "country": "Malawi",
@@ -2612,9 +2612,9 @@
       "en": "Flag of Malaysia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/my/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/my/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/my.svg",
+      "fallbackGifUrl": "/flags/my.png"
     },
     "attributes": {
       "country": "Malaysia",
@@ -2637,9 +2637,9 @@
       "en": "Flag of Maldives with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mv/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mv/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mv.svg",
+      "fallbackGifUrl": "/flags/mv.png"
     },
     "attributes": {
       "country": "Maldives",
@@ -2662,9 +2662,9 @@
       "en": "Flag of Mali with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ml/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ml/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ml.svg",
+      "fallbackGifUrl": "/flags/ml.png"
     },
     "attributes": {
       "country": "Mali",
@@ -2687,9 +2687,9 @@
       "en": "Flag of Malta with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mt/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mt/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mt.svg",
+      "fallbackGifUrl": "/flags/mt.png"
     },
     "attributes": {
       "country": "Malta",
@@ -2712,9 +2712,9 @@
       "en": "Flag of Marshall Islands with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mh/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mh/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mh.svg",
+      "fallbackGifUrl": "/flags/mh.png"
     },
     "attributes": {
       "country": "Marshall Islands",
@@ -2737,9 +2737,9 @@
       "en": "Flag of Mauritania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mr.svg",
+      "fallbackGifUrl": "/flags/mr.png"
     },
     "attributes": {
       "country": "Mauritania",
@@ -2762,9 +2762,9 @@
       "en": "Flag of Mauritius with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mu/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mu/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mu.svg",
+      "fallbackGifUrl": "/flags/mu.png"
     },
     "attributes": {
       "country": "Mauritius",
@@ -2787,9 +2787,9 @@
       "en": "Flag of Mexico with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mx/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mx/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mx.svg",
+      "fallbackGifUrl": "/flags/mx.png"
     },
     "attributes": {
       "country": "Mexico",
@@ -2812,9 +2812,9 @@
       "en": "Flag of Micronesia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/fm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/fm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/fm.svg",
+      "fallbackGifUrl": "/flags/fm.png"
     },
     "attributes": {
       "country": "Micronesia",
@@ -2837,9 +2837,9 @@
       "en": "Flag of Moldova with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/md/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/md/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/md.svg",
+      "fallbackGifUrl": "/flags/md.png"
     },
     "attributes": {
       "country": "Moldova",
@@ -2862,9 +2862,9 @@
       "en": "Flag of Monaco with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mc/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mc/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mc.svg",
+      "fallbackGifUrl": "/flags/mc.png"
     },
     "attributes": {
       "country": "Monaco",
@@ -2887,9 +2887,9 @@
       "en": "Flag of Mongolia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mn.svg",
+      "fallbackGifUrl": "/flags/mn.png"
     },
     "attributes": {
       "country": "Mongolia",
@@ -2912,9 +2912,9 @@
       "en": "Flag of Montenegro with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/me/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/me/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/me.svg",
+      "fallbackGifUrl": "/flags/me.png"
     },
     "attributes": {
       "country": "Montenegro",
@@ -2937,9 +2937,9 @@
       "en": "Flag of Morocco with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ma/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ma/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ma.svg",
+      "fallbackGifUrl": "/flags/ma.png"
     },
     "attributes": {
       "country": "Morocco",
@@ -2962,9 +2962,9 @@
       "en": "Flag of Mozambique with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mz.svg",
+      "fallbackGifUrl": "/flags/mz.png"
     },
     "attributes": {
       "country": "Mozambique",
@@ -2987,9 +2987,9 @@
       "en": "Flag of Myanmar (Burma) with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mm.svg",
+      "fallbackGifUrl": "/flags/mm.png"
     },
     "attributes": {
       "country": "Myanmar (Burma)",
@@ -3012,9 +3012,9 @@
       "en": "Flag of Namibia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/na/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/na/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/na.svg",
+      "fallbackGifUrl": "/flags/na.png"
     },
     "attributes": {
       "country": "Namibia",
@@ -3037,9 +3037,9 @@
       "en": "Flag of Nauru with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/nr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/nr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/nr.svg",
+      "fallbackGifUrl": "/flags/nr.png"
     },
     "attributes": {
       "country": "Nauru",
@@ -3062,9 +3062,9 @@
       "en": "Flag of Nepal with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/np/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/np/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/np.svg",
+      "fallbackGifUrl": "/flags/np.png"
     },
     "attributes": {
       "country": "Nepal",
@@ -3087,9 +3087,9 @@
       "en": "Flag of Netherlands with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/nl/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/nl/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/nl.svg",
+      "fallbackGifUrl": "/flags/nl.png"
     },
     "attributes": {
       "country": "Netherlands",
@@ -3112,9 +3112,9 @@
       "en": "Flag of New Zealand with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/nz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/nz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/nz.svg",
+      "fallbackGifUrl": "/flags/nz.png"
     },
     "attributes": {
       "country": "New Zealand",
@@ -3137,9 +3137,9 @@
       "en": "Flag of Nicaragua with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ni/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ni/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ni.svg",
+      "fallbackGifUrl": "/flags/ni.png"
     },
     "attributes": {
       "country": "Nicaragua",
@@ -3162,9 +3162,9 @@
       "en": "Flag of Niger with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ne/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ne/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ne.svg",
+      "fallbackGifUrl": "/flags/ne.png"
     },
     "attributes": {
       "country": "Niger",
@@ -3187,9 +3187,9 @@
       "en": "Flag of Nigeria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ng/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ng/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ng.svg",
+      "fallbackGifUrl": "/flags/ng.png"
     },
     "attributes": {
       "country": "Nigeria",
@@ -3212,9 +3212,9 @@
       "en": "Flag of North Macedonia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mk/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mk/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mk.svg",
+      "fallbackGifUrl": "/flags/mk.png"
     },
     "attributes": {
       "country": "North Macedonia",
@@ -3237,9 +3237,9 @@
       "en": "Flag of Norway with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/no/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/no/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/no.svg",
+      "fallbackGifUrl": "/flags/no.png"
     },
     "attributes": {
       "country": "Norway",
@@ -3262,9 +3262,9 @@
       "en": "Flag of Oman with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/om/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/om/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/om.svg",
+      "fallbackGifUrl": "/flags/om.png"
     },
     "attributes": {
       "country": "Oman",
@@ -3287,9 +3287,9 @@
       "en": "Flag of Pakistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/pk/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/pk/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/pk.svg",
+      "fallbackGifUrl": "/flags/pk.png"
     },
     "attributes": {
       "country": "Pakistan",
@@ -3312,9 +3312,9 @@
       "en": "Flag of Palau with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/pw/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/pw/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/pw.svg",
+      "fallbackGifUrl": "/flags/pw.png"
     },
     "attributes": {
       "country": "Palau",
@@ -3337,9 +3337,9 @@
       "en": "Flag of Panama with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/pa/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/pa/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/pa.svg",
+      "fallbackGifUrl": "/flags/pa.png"
     },
     "attributes": {
       "country": "Panama",
@@ -3362,9 +3362,9 @@
       "en": "Flag of Papua New Guinea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/pg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/pg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/pg.svg",
+      "fallbackGifUrl": "/flags/pg.png"
     },
     "attributes": {
       "country": "Papua New Guinea",
@@ -3387,9 +3387,9 @@
       "en": "Flag of Paraguay with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/py/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/py/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/py.svg",
+      "fallbackGifUrl": "/flags/py.png"
     },
     "attributes": {
       "country": "Paraguay",
@@ -3412,9 +3412,9 @@
       "en": "Flag of Peru with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/pe/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/pe/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/pe.svg",
+      "fallbackGifUrl": "/flags/pe.png"
     },
     "attributes": {
       "country": "Peru",
@@ -3437,9 +3437,9 @@
       "en": "Flag of Philippines with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ph/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ph/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ph.svg",
+      "fallbackGifUrl": "/flags/ph.png"
     },
     "attributes": {
       "country": "Philippines",
@@ -3462,9 +3462,9 @@
       "en": "Flag of Poland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/pl/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/pl/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/pl.svg",
+      "fallbackGifUrl": "/flags/pl.png"
     },
     "attributes": {
       "country": "Poland",
@@ -3487,9 +3487,9 @@
       "en": "Flag of Portugal with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/pt/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/pt/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/pt.svg",
+      "fallbackGifUrl": "/flags/pt.png"
     },
     "attributes": {
       "country": "Portugal",
@@ -3512,9 +3512,9 @@
       "en": "Flag of Qatar with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/qa/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/qa/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/qa.svg",
+      "fallbackGifUrl": "/flags/qa.png"
     },
     "attributes": {
       "country": "Qatar",
@@ -3537,9 +3537,9 @@
       "en": "Flag of Romania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ro/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ro/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ro.svg",
+      "fallbackGifUrl": "/flags/ro.png"
     },
     "attributes": {
       "country": "Romania",
@@ -3562,9 +3562,9 @@
       "en": "Flag of Russia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ru/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ru/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ru.svg",
+      "fallbackGifUrl": "/flags/ru.png"
     },
     "attributes": {
       "country": "Russia",
@@ -3587,9 +3587,9 @@
       "en": "Flag of Rwanda with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/rw/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/rw/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/rw.svg",
+      "fallbackGifUrl": "/flags/rw.png"
     },
     "attributes": {
       "country": "Rwanda",
@@ -3612,9 +3612,9 @@
       "en": "Flag of St. Kitts & Nevis with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/kn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/kn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/kn.svg",
+      "fallbackGifUrl": "/flags/kn.png"
     },
     "attributes": {
       "country": "St. Kitts & Nevis",
@@ -3637,9 +3637,9 @@
       "en": "Flag of St. Lucia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/lc/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/lc/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/lc.svg",
+      "fallbackGifUrl": "/flags/lc.png"
     },
     "attributes": {
       "country": "St. Lucia",
@@ -3662,9 +3662,9 @@
       "en": "Flag of St. Vincent & Grenadines with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/vc/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/vc/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/vc.svg",
+      "fallbackGifUrl": "/flags/vc.png"
     },
     "attributes": {
       "country": "St. Vincent & Grenadines",
@@ -3687,9 +3687,9 @@
       "en": "Flag of Samoa with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ws/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ws/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ws.svg",
+      "fallbackGifUrl": "/flags/ws.png"
     },
     "attributes": {
       "country": "Samoa",
@@ -3712,9 +3712,9 @@
       "en": "Flag of San Marino with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sm.svg",
+      "fallbackGifUrl": "/flags/sm.png"
     },
     "attributes": {
       "country": "San Marino",
@@ -3737,9 +3737,9 @@
       "en": "Flag of São Tomé & Príncipe with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/st/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/st/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/st.svg",
+      "fallbackGifUrl": "/flags/st.png"
     },
     "attributes": {
       "country": "São Tomé & Príncipe",
@@ -3762,9 +3762,9 @@
       "en": "Flag of Saudi Arabia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sa/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sa/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sa.svg",
+      "fallbackGifUrl": "/flags/sa.png"
     },
     "attributes": {
       "country": "Saudi Arabia",
@@ -3787,9 +3787,9 @@
       "en": "Flag of Senegal with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sn.svg",
+      "fallbackGifUrl": "/flags/sn.png"
     },
     "attributes": {
       "country": "Senegal",
@@ -3812,9 +3812,9 @@
       "en": "Flag of Serbia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/rs/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/rs/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/rs.svg",
+      "fallbackGifUrl": "/flags/rs.png"
     },
     "attributes": {
       "country": "Serbia",
@@ -3837,9 +3837,9 @@
       "en": "Flag of Seychelles with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sc/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sc/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sc.svg",
+      "fallbackGifUrl": "/flags/sc.png"
     },
     "attributes": {
       "country": "Seychelles",
@@ -3862,9 +3862,9 @@
       "en": "Flag of Sierra Leone with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sl/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sl/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sl.svg",
+      "fallbackGifUrl": "/flags/sl.png"
     },
     "attributes": {
       "country": "Sierra Leone",
@@ -3887,9 +3887,9 @@
       "en": "Flag of Singapore with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sg.svg",
+      "fallbackGifUrl": "/flags/sg.png"
     },
     "attributes": {
       "country": "Singapore",
@@ -3912,9 +3912,9 @@
       "en": "Flag of Slovakia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sk/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sk/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sk.svg",
+      "fallbackGifUrl": "/flags/sk.png"
     },
     "attributes": {
       "country": "Slovakia",
@@ -3937,9 +3937,9 @@
       "en": "Flag of Slovenia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/si/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/si/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/si.svg",
+      "fallbackGifUrl": "/flags/si.png"
     },
     "attributes": {
       "country": "Slovenia",
@@ -3962,9 +3962,9 @@
       "en": "Flag of Solomon Islands with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sb/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sb/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sb.svg",
+      "fallbackGifUrl": "/flags/sb.png"
     },
     "attributes": {
       "country": "Solomon Islands",
@@ -3987,9 +3987,9 @@
       "en": "Flag of Somalia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/so/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/so/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/so.svg",
+      "fallbackGifUrl": "/flags/so.png"
     },
     "attributes": {
       "country": "Somalia",
@@ -4012,9 +4012,9 @@
       "en": "Flag of South Africa with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/za/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/za/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/za.svg",
+      "fallbackGifUrl": "/flags/za.png"
     },
     "attributes": {
       "country": "South Africa",
@@ -4037,9 +4037,9 @@
       "en": "Flag of South Sudan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ss/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ss/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ss.svg",
+      "fallbackGifUrl": "/flags/ss.png"
     },
     "attributes": {
       "country": "South Sudan",
@@ -4062,9 +4062,9 @@
       "en": "Flag of Spain with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/es/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/es/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/es.svg",
+      "fallbackGifUrl": "/flags/es.png"
     },
     "attributes": {
       "country": "Spain",
@@ -4087,9 +4087,9 @@
       "en": "Flag of Sri Lanka with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/lk/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/lk/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/lk.svg",
+      "fallbackGifUrl": "/flags/lk.png"
     },
     "attributes": {
       "country": "Sri Lanka",
@@ -4112,9 +4112,9 @@
       "en": "Flag of Sudan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sd/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sd/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sd.svg",
+      "fallbackGifUrl": "/flags/sd.png"
     },
     "attributes": {
       "country": "Sudan",
@@ -4137,9 +4137,9 @@
       "en": "Flag of Suriname with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sr.svg",
+      "fallbackGifUrl": "/flags/sr.png"
     },
     "attributes": {
       "country": "Suriname",
@@ -4162,9 +4162,9 @@
       "en": "Flag of Sweden with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/se/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/se/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/se.svg",
+      "fallbackGifUrl": "/flags/se.png"
     },
     "attributes": {
       "country": "Sweden",
@@ -4187,9 +4187,9 @@
       "en": "Flag of Switzerland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ch/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ch/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ch.svg",
+      "fallbackGifUrl": "/flags/ch.png"
     },
     "attributes": {
       "country": "Switzerland",
@@ -4212,9 +4212,9 @@
       "en": "Flag of Syria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sy/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sy/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sy.svg",
+      "fallbackGifUrl": "/flags/sy.png"
     },
     "attributes": {
       "country": "Syria",
@@ -4237,9 +4237,9 @@
       "en": "Flag of Tajikistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tj/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tj/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tj.svg",
+      "fallbackGifUrl": "/flags/tj.png"
     },
     "attributes": {
       "country": "Tajikistan",
@@ -4262,9 +4262,9 @@
       "en": "Flag of Tanzania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tz.svg",
+      "fallbackGifUrl": "/flags/tz.png"
     },
     "attributes": {
       "country": "Tanzania",
@@ -4287,9 +4287,9 @@
       "en": "Flag of Thailand with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/th/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/th/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/th.svg",
+      "fallbackGifUrl": "/flags/th.png"
     },
     "attributes": {
       "country": "Thailand",
@@ -4312,9 +4312,9 @@
       "en": "Flag of Timor-Leste with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tl/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tl/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tl.svg",
+      "fallbackGifUrl": "/flags/tl.png"
     },
     "attributes": {
       "country": "Timor-Leste",
@@ -4337,9 +4337,9 @@
       "en": "Flag of Togo with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tg/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tg/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tg.svg",
+      "fallbackGifUrl": "/flags/tg.png"
     },
     "attributes": {
       "country": "Togo",
@@ -4362,9 +4362,9 @@
       "en": "Flag of Tonga with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/to/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/to/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/to.svg",
+      "fallbackGifUrl": "/flags/to.png"
     },
     "attributes": {
       "country": "Tonga",
@@ -4387,9 +4387,9 @@
       "en": "Flag of Trinidad & Tobago with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tt/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tt/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tt.svg",
+      "fallbackGifUrl": "/flags/tt.png"
     },
     "attributes": {
       "country": "Trinidad & Tobago",
@@ -4412,9 +4412,9 @@
       "en": "Flag of Tunisia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tn.svg",
+      "fallbackGifUrl": "/flags/tn.png"
     },
     "attributes": {
       "country": "Tunisia",
@@ -4437,9 +4437,9 @@
       "en": "Flag of Türkiye with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tr/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tr/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tr.svg",
+      "fallbackGifUrl": "/flags/tr.png"
     },
     "attributes": {
       "country": "Türkiye",
@@ -4462,9 +4462,9 @@
       "en": "Flag of Turkmenistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tm.svg",
+      "fallbackGifUrl": "/flags/tm.png"
     },
     "attributes": {
       "country": "Turkmenistan",
@@ -4487,9 +4487,9 @@
       "en": "Flag of Tuvalu with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/tv/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/tv/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/tv.svg",
+      "fallbackGifUrl": "/flags/tv.png"
     },
     "attributes": {
       "country": "Tuvalu",
@@ -4512,9 +4512,9 @@
       "en": "Flag of Uganda with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ug/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ug/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ug.svg",
+      "fallbackGifUrl": "/flags/ug.png"
     },
     "attributes": {
       "country": "Uganda",
@@ -4537,9 +4537,9 @@
       "en": "Flag of Ukraine with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ua/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ua/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ua.svg",
+      "fallbackGifUrl": "/flags/ua.png"
     },
     "attributes": {
       "country": "Ukraine",
@@ -4562,9 +4562,9 @@
       "en": "Flag of United Arab Emirates with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ae/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ae/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ae.svg",
+      "fallbackGifUrl": "/flags/ae.png"
     },
     "attributes": {
       "country": "United Arab Emirates",
@@ -4587,9 +4587,9 @@
       "en": "Flag of United Kingdom with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/gb/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/gb/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/gb.svg",
+      "fallbackGifUrl": "/flags/gb.png"
     },
     "attributes": {
       "country": "United Kingdom",
@@ -4612,9 +4612,9 @@
       "en": "Flag of United States with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/us/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/us/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/us.svg",
+      "fallbackGifUrl": "/flags/us.png"
     },
     "attributes": {
       "country": "United States",
@@ -4637,9 +4637,9 @@
       "en": "Flag of Uruguay with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/uy/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/uy/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/uy.svg",
+      "fallbackGifUrl": "/flags/uy.png"
     },
     "attributes": {
       "country": "Uruguay",
@@ -4662,9 +4662,9 @@
       "en": "Flag of Uzbekistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/uz/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/uz/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/uz.svg",
+      "fallbackGifUrl": "/flags/uz.png"
     },
     "attributes": {
       "country": "Uzbekistan",
@@ -4687,9 +4687,9 @@
       "en": "Flag of Vanuatu with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/vu/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/vu/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/vu.svg",
+      "fallbackGifUrl": "/flags/vu.png"
     },
     "attributes": {
       "country": "Vanuatu",
@@ -4712,9 +4712,9 @@
       "en": "Flag of Vatican City with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/va/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/va/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/va.svg",
+      "fallbackGifUrl": "/flags/va.png"
     },
     "attributes": {
       "country": "Vatican City",
@@ -4737,9 +4737,9 @@
       "en": "Flag of Venezuela with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ve/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ve/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ve.svg",
+      "fallbackGifUrl": "/flags/ve.png"
     },
     "attributes": {
       "country": "Venezuela",
@@ -4762,9 +4762,9 @@
       "en": "Flag of Vietnam with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/vn/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/vn/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/vn.svg",
+      "fallbackGifUrl": "/flags/vn.png"
     },
     "attributes": {
       "country": "Vietnam",
@@ -4787,9 +4787,9 @@
       "en": "Flag of Yemen with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/ye/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/ye/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/ye.svg",
+      "fallbackGifUrl": "/flags/ye.png"
     },
     "attributes": {
       "country": "Yemen",
@@ -4812,9 +4812,9 @@
       "en": "Flag of Zambia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/zm/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/zm/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/zm.svg",
+      "fallbackGifUrl": "/flags/zm.png"
     },
     "attributes": {
       "country": "Zambia",
@@ -4837,9 +4837,9 @@
       "en": "Flag of Zimbabwe with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/zw/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/zw/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/zw.svg",
+      "fallbackGifUrl": "/flags/zw.png"
     },
     "attributes": {
       "country": "Zimbabwe",
@@ -4862,9 +4862,9 @@
       "en": "Flag of European Union with a looping waving animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/eu/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/eu/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/eu.svg",
+      "fallbackGifUrl": "/flags/eu.png"
     },
     "attributes": {
       "country": null,
@@ -4887,9 +4887,9 @@
       "en": "Flag of Hong Kong with a looping waving animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/hk/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/hk/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/hk.svg",
+      "fallbackGifUrl": "/flags/hk.png"
     },
     "attributes": {
       "country": null,
@@ -4912,9 +4912,9 @@
       "en": "Flag of Macau with a looping waving animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/mo/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/mo/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/mo.svg",
+      "fallbackGifUrl": "/flags/mo.png"
     },
     "attributes": {
       "country": null,
@@ -4937,9 +4937,9 @@
       "en": "Flag of Scotland with a looping waving animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/sct/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/sct/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/sct.svg",
+      "fallbackGifUrl": "/flags/sct.png"
     },
     "attributes": {
       "country": null,
@@ -4962,9 +4962,9 @@
       "en": "Flag of Wales with a looping waving animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/wls/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/wls/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/wls.svg",
+      "fallbackGifUrl": "/flags/wls.png"
     },
     "attributes": {
       "country": null,
@@ -4987,9 +4987,9 @@
       "en": "Flag of Catalonia with a looping waving animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/cat/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/cat/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/cat.svg",
+      "fallbackGifUrl": "/flags/cat.png"
     },
     "attributes": {
       "country": null,
@@ -5012,9 +5012,9 @@
       "en": "Flag of United Nations with a looping waving animation."
     },
     "animation": {
-      "type": "lottie",
-      "previewUrl": "https://cdn.example.com/flags/un/preview.json",
-      "fallbackGifUrl": "https://cdn.example.com/flags/un/preview.gif"
+      "type": "svg-wave",
+      "previewUrl": "/flags/un.svg",
+      "fallbackGifUrl": "/flags/un.png"
     },
     "attributes": {
       "country": null,
