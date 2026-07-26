@@ -1,0 +1,36 @@
+<svg viewBox="-30 -24 660 456" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="wave-HN" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="turbulence" numOctaves="2" seed="150" result="turb">
+        <animate attributeName="baseFrequency" dur="4.5s" repeatCount="indefinite"
+          values="0.010 0.045;0.016 0.055;0.010 0.045"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="shine-HN" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pole-HN" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a8f98"/>
+      <stop offset="50%" stop-color="#e5e8ec"/>
+      <stop offset="100%" stop-color="#8a8f98"/>
+    </linearGradient>
+    <clipPath id="clip-HN"><rect x="0" y="0" width="600" height="400"/></clipPath>
+  </defs>
+
+  <rect x="-14" y="-24" width="14" height="456" fill="url(#pole-HN)"/>
+  <circle cx="-7" cy="-24" r="11" fill="#d9b64a"/>
+
+  <g filter="url(#wave-HN)">
+    <g clip-path="url(#clip-HN)">
+      <rect x="0" y="0.0" width="600" height="133.9" fill="#0073CF"/><rect x="0" y="133.3" width="600" height="133.9" fill="#FFFFFF"/><rect x="0" y="266.7" width="600" height="133.9" fill="#0073CF"/><polygon points="210.0,182.0 214.2,194.2 227.1,194.4 216.8,202.2 220.6,214.6 210.0,207.2 199.4,214.6 203.2,202.2 192.9,194.4 205.8,194.2" fill="#0073CF"/><polygon points="264.0,182.0 268.2,194.2 281.1,194.4 270.8,202.2 274.6,214.6 264.0,207.2 253.4,214.6 257.2,202.2 246.9,194.4 259.8,194.2" fill="#0073CF"/><polygon points="300.0,182.0 304.2,194.2 317.1,194.4 306.8,202.2 310.6,214.6 300.0,207.2 289.4,214.6 293.2,202.2 282.9,194.4 295.8,194.2" fill="#0073CF"/><polygon points="336.0,182.0 340.2,194.2 353.1,194.4 342.8,202.2 346.6,214.6 336.0,207.2 325.4,214.6 329.2,202.2 318.9,194.4 331.8,194.2" fill="#0073CF"/><polygon points="390.0,182.0 394.2,194.2 407.1,194.4 396.8,202.2 400.6,214.6 390.0,207.2 379.4,214.6 383.2,202.2 372.9,194.4 385.8,194.2" fill="#0073CF"/>
+      <rect x="-600" y="0" width="1800" height="400" fill="url(#shine-HN)">
+        <animateTransform attributeName="transform" type="translate" dur="5.5s" repeatCount="indefinite"
+          values="-600 0; 600 0; -600 0"/>
+      </rect>
+    </g>
+  </g>
+</svg>
