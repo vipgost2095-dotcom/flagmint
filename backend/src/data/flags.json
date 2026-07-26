@@ -1,1 +1,5027 @@
-
+[
+  {
+    "id": "country-af",
+    "code": "AF",
+    "type": "country",
+    "name": {
+      "ru": "Афганистан",
+      "en": "Afghanistan"
+    },
+    "description": {
+      "ru": "Флаг страны «Афганистан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Afghanistan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/af/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/af/preview.gif"
+    },
+    "attributes": {
+      "country": "Afghanistan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-al",
+    "code": "AL",
+    "type": "country",
+    "name": {
+      "ru": "Албания",
+      "en": "Albania"
+    },
+    "description": {
+      "ru": "Флаг страны «Албания» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Albania with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/al/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/al/preview.gif"
+    },
+    "attributes": {
+      "country": "Albania",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-dz",
+    "code": "DZ",
+    "type": "country",
+    "name": {
+      "ru": "Алжир",
+      "en": "Algeria"
+    },
+    "description": {
+      "ru": "Флаг страны «Алжир» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Algeria with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/dz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/dz/preview.gif"
+    },
+    "attributes": {
+      "country": "Algeria",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ad",
+    "code": "AD",
+    "type": "country",
+    "name": {
+      "ru": "Андорра",
+      "en": "Andorra"
+    },
+    "description": {
+      "ru": "Флаг страны «Андорра» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Andorra with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ad/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ad/preview.gif"
+    },
+    "attributes": {
+      "country": "Andorra",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ao",
+    "code": "AO",
+    "type": "country",
+    "name": {
+      "ru": "Ангола",
+      "en": "Angola"
+    },
+    "description": {
+      "ru": "Флаг страны «Ангола» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Angola with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ao/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ao/preview.gif"
+    },
+    "attributes": {
+      "country": "Angola",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ag",
+    "code": "AG",
+    "type": "country",
+    "name": {
+      "ru": "Антигуа и Барбуда",
+      "en": "Antigua & Barbuda"
+    },
+    "description": {
+      "ru": "Флаг страны «Антигуа и Барбуда» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Antigua & Barbuda with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ag/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ag/preview.gif"
+    },
+    "attributes": {
+      "country": "Antigua & Barbuda",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ar",
+    "code": "AR",
+    "type": "country",
+    "name": {
+      "ru": "Аргентина",
+      "en": "Argentina"
+    },
+    "description": {
+      "ru": "Флаг страны «Аргентина» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Argentina with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ar/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ar/preview.gif"
+    },
+    "attributes": {
+      "country": "Argentina",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-am",
+    "code": "AM",
+    "type": "country",
+    "name": {
+      "ru": "Армения",
+      "en": "Armenia"
+    },
+    "description": {
+      "ru": "Флаг страны «Армения» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Armenia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/am/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/am/preview.gif"
+    },
+    "attributes": {
+      "country": "Armenia",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-au",
+    "code": "AU",
+    "type": "country",
+    "name": {
+      "ru": "Австралия",
+      "en": "Australia"
+    },
+    "description": {
+      "ru": "Флаг страны «Австралия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Australia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/au/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/au/preview.gif"
+    },
+    "attributes": {
+      "country": "Australia",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-at",
+    "code": "AT",
+    "type": "country",
+    "name": {
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "description": {
+      "ru": "Флаг страны «Австрия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Austria with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/at/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/at/preview.gif"
+    },
+    "attributes": {
+      "country": "Austria",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-az",
+    "code": "AZ",
+    "type": "country",
+    "name": {
+      "ru": "Азербайджан",
+      "en": "Azerbaijan"
+    },
+    "description": {
+      "ru": "Флаг страны «Азербайджан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Azerbaijan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/az/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/az/preview.gif"
+    },
+    "attributes": {
+      "country": "Azerbaijan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bs",
+    "code": "BS",
+    "type": "country",
+    "name": {
+      "ru": "Багамы",
+      "en": "Bahamas"
+    },
+    "description": {
+      "ru": "Флаг страны «Багамы» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bahamas with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bs/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bs/preview.gif"
+    },
+    "attributes": {
+      "country": "Bahamas",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bh",
+    "code": "BH",
+    "type": "country",
+    "name": {
+      "ru": "Бахрейн",
+      "en": "Bahrain"
+    },
+    "description": {
+      "ru": "Флаг страны «Бахрейн» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bahrain with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bh/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bh/preview.gif"
+    },
+    "attributes": {
+      "country": "Bahrain",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bd",
+    "code": "BD",
+    "type": "country",
+    "name": {
+      "ru": "Бангладеш",
+      "en": "Bangladesh"
+    },
+    "description": {
+      "ru": "Флаг страны «Бангладеш» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bangladesh with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bd/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bd/preview.gif"
+    },
+    "attributes": {
+      "country": "Bangladesh",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bb",
+    "code": "BB",
+    "type": "country",
+    "name": {
+      "ru": "Барбадос",
+      "en": "Barbados"
+    },
+    "description": {
+      "ru": "Флаг страны «Барбадос» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Barbados with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bb/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bb/preview.gif"
+    },
+    "attributes": {
+      "country": "Barbados",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-by",
+    "code": "BY",
+    "type": "country",
+    "name": {
+      "ru": "Беларусь",
+      "en": "Belarus"
+    },
+    "description": {
+      "ru": "Флаг страны «Беларусь» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Belarus with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/by/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/by/preview.gif"
+    },
+    "attributes": {
+      "country": "Belarus",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-be",
+    "code": "BE",
+    "type": "country",
+    "name": {
+      "ru": "Бельгия",
+      "en": "Belgium"
+    },
+    "description": {
+      "ru": "Флаг страны «Бельгия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Belgium with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/be/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/be/preview.gif"
+    },
+    "attributes": {
+      "country": "Belgium",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bz",
+    "code": "BZ",
+    "type": "country",
+    "name": {
+      "ru": "Белиз",
+      "en": "Belize"
+    },
+    "description": {
+      "ru": "Флаг страны «Белиз» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Belize with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bz/preview.gif"
+    },
+    "attributes": {
+      "country": "Belize",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bj",
+    "code": "BJ",
+    "type": "country",
+    "name": {
+      "ru": "Бенин",
+      "en": "Benin"
+    },
+    "description": {
+      "ru": "Флаг страны «Бенин» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Benin with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bj/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bj/preview.gif"
+    },
+    "attributes": {
+      "country": "Benin",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bt",
+    "code": "BT",
+    "type": "country",
+    "name": {
+      "ru": "Бутан",
+      "en": "Bhutan"
+    },
+    "description": {
+      "ru": "Флаг страны «Бутан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bhutan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bt/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bt/preview.gif"
+    },
+    "attributes": {
+      "country": "Bhutan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bo",
+    "code": "BO",
+    "type": "country",
+    "name": {
+      "ru": "Боливия",
+      "en": "Bolivia"
+    },
+    "description": {
+      "ru": "Флаг страны «Боливия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bolivia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bo/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bo/preview.gif"
+    },
+    "attributes": {
+      "country": "Bolivia",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ba",
+    "code": "BA",
+    "type": "country",
+    "name": {
+      "ru": "Босния и Герцеговина",
+      "en": "Bosnia & Herzegovina"
+    },
+    "description": {
+      "ru": "Флаг страны «Босния и Герцеговина» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bosnia & Herzegovina with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ba/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ba/preview.gif"
+    },
+    "attributes": {
+      "country": "Bosnia & Herzegovina",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bw",
+    "code": "BW",
+    "type": "country",
+    "name": {
+      "ru": "Ботсвана",
+      "en": "Botswana"
+    },
+    "description": {
+      "ru": "Флаг страны «Ботсвана» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Botswana with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bw/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bw/preview.gif"
+    },
+    "attributes": {
+      "country": "Botswana",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-br",
+    "code": "BR",
+    "type": "country",
+    "name": {
+      "ru": "Бразилия",
+      "en": "Brazil"
+    },
+    "description": {
+      "ru": "Флаг страны «Бразилия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Brazil with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/br/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/br/preview.gif"
+    },
+    "attributes": {
+      "country": "Brazil",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bn",
+    "code": "BN",
+    "type": "country",
+    "name": {
+      "ru": "Бруней",
+      "en": "Brunei"
+    },
+    "description": {
+      "ru": "Флаг страны «Бруней» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Brunei with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bn/preview.gif"
+    },
+    "attributes": {
+      "country": "Brunei",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bg",
+    "code": "BG",
+    "type": "country",
+    "name": {
+      "ru": "Болгария",
+      "en": "Bulgaria"
+    },
+    "description": {
+      "ru": "Флаг страны «Болгария» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bulgaria with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bg/preview.gif"
+    },
+    "attributes": {
+      "country": "Bulgaria",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bf",
+    "code": "BF",
+    "type": "country",
+    "name": {
+      "ru": "Буркина-Фасо",
+      "en": "Burkina Faso"
+    },
+    "description": {
+      "ru": "Флаг страны «Буркина-Фасо» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Burkina Faso with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bf/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bf/preview.gif"
+    },
+    "attributes": {
+      "country": "Burkina Faso",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-bi",
+    "code": "BI",
+    "type": "country",
+    "name": {
+      "ru": "Бурунди",
+      "en": "Burundi"
+    },
+    "description": {
+      "ru": "Флаг страны «Бурунди» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Burundi with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/bi/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/bi/preview.gif"
+    },
+    "attributes": {
+      "country": "Burundi",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cv",
+    "code": "CV",
+    "type": "country",
+    "name": {
+      "ru": "Кабо-Верде",
+      "en": "Cape Verde"
+    },
+    "description": {
+      "ru": "Флаг страны «Кабо-Верде» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Cape Verde with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cv/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cv/preview.gif"
+    },
+    "attributes": {
+      "country": "Cape Verde",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-kh",
+    "code": "KH",
+    "type": "country",
+    "name": {
+      "ru": "Камбоджа",
+      "en": "Cambodia"
+    },
+    "description": {
+      "ru": "Флаг страны «Камбоджа» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Cambodia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/kh/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/kh/preview.gif"
+    },
+    "attributes": {
+      "country": "Cambodia",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cm",
+    "code": "CM",
+    "type": "country",
+    "name": {
+      "ru": "Камерун",
+      "en": "Cameroon"
+    },
+    "description": {
+      "ru": "Флаг страны «Камерун» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Cameroon with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cm/preview.gif"
+    },
+    "attributes": {
+      "country": "Cameroon",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ca",
+    "code": "CA",
+    "type": "country",
+    "name": {
+      "ru": "Канада",
+      "en": "Canada"
+    },
+    "description": {
+      "ru": "Флаг страны «Канада» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Canada with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ca/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ca/preview.gif"
+    },
+    "attributes": {
+      "country": "Canada",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cf",
+    "code": "CF",
+    "type": "country",
+    "name": {
+      "ru": "Центрально-Африканская Республика",
+      "en": "Central African Republic"
+    },
+    "description": {
+      "ru": "Флаг страны «Центрально-Африканская Республика» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Central African Republic with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cf/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cf/preview.gif"
+    },
+    "attributes": {
+      "country": "Central African Republic",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-td",
+    "code": "TD",
+    "type": "country",
+    "name": {
+      "ru": "Чад",
+      "en": "Chad"
+    },
+    "description": {
+      "ru": "Флаг страны «Чад» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Chad with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/td/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/td/preview.gif"
+    },
+    "attributes": {
+      "country": "Chad",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cl",
+    "code": "CL",
+    "type": "country",
+    "name": {
+      "ru": "Чили",
+      "en": "Chile"
+    },
+    "description": {
+      "ru": "Флаг страны «Чили» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Chile with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cl/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cl/preview.gif"
+    },
+    "attributes": {
+      "country": "Chile",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cn",
+    "code": "CN",
+    "type": "country",
+    "name": {
+      "ru": "Китай",
+      "en": "China"
+    },
+    "description": {
+      "ru": "Флаг страны «Китай» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of China with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cn/preview.gif"
+    },
+    "attributes": {
+      "country": "China",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-co",
+    "code": "CO",
+    "type": "country",
+    "name": {
+      "ru": "Колумбия",
+      "en": "Colombia"
+    },
+    "description": {
+      "ru": "Флаг страны «Колумбия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Colombia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/co/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/co/preview.gif"
+    },
+    "attributes": {
+      "country": "Colombia",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-km",
+    "code": "KM",
+    "type": "country",
+    "name": {
+      "ru": "Коморы",
+      "en": "Comoros"
+    },
+    "description": {
+      "ru": "Флаг страны «Коморы» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Comoros with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/km/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/km/preview.gif"
+    },
+    "attributes": {
+      "country": "Comoros",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cg",
+    "code": "CG",
+    "type": "country",
+    "name": {
+      "ru": "Конго - Браззавиль",
+      "en": "Congo - Brazzaville"
+    },
+    "description": {
+      "ru": "Флаг страны «Конго - Браззавиль» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Congo - Brazzaville with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cg/preview.gif"
+    },
+    "attributes": {
+      "country": "Congo - Brazzaville",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cd",
+    "code": "CD",
+    "type": "country",
+    "name": {
+      "ru": "Конго - Киншаса",
+      "en": "Congo - Kinshasa"
+    },
+    "description": {
+      "ru": "Флаг страны «Конго - Киншаса» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Congo - Kinshasa with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cd/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cd/preview.gif"
+    },
+    "attributes": {
+      "country": "Congo - Kinshasa",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cr",
+    "code": "CR",
+    "type": "country",
+    "name": {
+      "ru": "Коста-Рика",
+      "en": "Costa Rica"
+    },
+    "description": {
+      "ru": "Флаг страны «Коста-Рика» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Costa Rica with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cr/preview.gif"
+    },
+    "attributes": {
+      "country": "Costa Rica",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ci",
+    "code": "CI",
+    "type": "country",
+    "name": {
+      "ru": "Кот-д’Ивуар",
+      "en": "Côte d’Ivoire"
+    },
+    "description": {
+      "ru": "Флаг страны «Кот-д’Ивуар» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Côte d’Ivoire with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ci/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ci/preview.gif"
+    },
+    "attributes": {
+      "country": "Côte d’Ivoire",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-hr",
+    "code": "HR",
+    "type": "country",
+    "name": {
+      "ru": "Хорватия",
+      "en": "Croatia"
+    },
+    "description": {
+      "ru": "Флаг страны «Хорватия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Croatia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/hr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/hr/preview.gif"
+    },
+    "attributes": {
+      "country": "Croatia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cu",
+    "code": "CU",
+    "type": "country",
+    "name": {
+      "ru": "Куба",
+      "en": "Cuba"
+    },
+    "description": {
+      "ru": "Флаг страны «Куба» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Cuba with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cu/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cu/preview.gif"
+    },
+    "attributes": {
+      "country": "Cuba",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cy",
+    "code": "CY",
+    "type": "country",
+    "name": {
+      "ru": "Кипр",
+      "en": "Cyprus"
+    },
+    "description": {
+      "ru": "Флаг страны «Кипр» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Cyprus with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cy/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cy/preview.gif"
+    },
+    "attributes": {
+      "country": "Cyprus",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-cz",
+    "code": "CZ",
+    "type": "country",
+    "name": {
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "description": {
+      "ru": "Флаг страны «Чехия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Czechia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cz/preview.gif"
+    },
+    "attributes": {
+      "country": "Czechia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-dk",
+    "code": "DK",
+    "type": "country",
+    "name": {
+      "ru": "Дания",
+      "en": "Denmark"
+    },
+    "description": {
+      "ru": "Флаг страны «Дания» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Denmark with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/dk/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/dk/preview.gif"
+    },
+    "attributes": {
+      "country": "Denmark",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-dj",
+    "code": "DJ",
+    "type": "country",
+    "name": {
+      "ru": "Джибути",
+      "en": "Djibouti"
+    },
+    "description": {
+      "ru": "Флаг страны «Джибути» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Djibouti with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/dj/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/dj/preview.gif"
+    },
+    "attributes": {
+      "country": "Djibouti",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-dm",
+    "code": "DM",
+    "type": "country",
+    "name": {
+      "ru": "Доминика",
+      "en": "Dominica"
+    },
+    "description": {
+      "ru": "Флаг страны «Доминика» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Dominica with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/dm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/dm/preview.gif"
+    },
+    "attributes": {
+      "country": "Dominica",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-do",
+    "code": "DO",
+    "type": "country",
+    "name": {
+      "ru": "Доминиканская Республика",
+      "en": "Dominican Republic"
+    },
+    "description": {
+      "ru": "Флаг страны «Доминиканская Республика» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Dominican Republic with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/do/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/do/preview.gif"
+    },
+    "attributes": {
+      "country": "Dominican Republic",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ec",
+    "code": "EC",
+    "type": "country",
+    "name": {
+      "ru": "Эквадор",
+      "en": "Ecuador"
+    },
+    "description": {
+      "ru": "Флаг страны «Эквадор» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ecuador with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ec/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ec/preview.gif"
+    },
+    "attributes": {
+      "country": "Ecuador",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-eg",
+    "code": "EG",
+    "type": "country",
+    "name": {
+      "ru": "Египет",
+      "en": "Egypt"
+    },
+    "description": {
+      "ru": "Флаг страны «Египет» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Egypt with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/eg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/eg/preview.gif"
+    },
+    "attributes": {
+      "country": "Egypt",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sv",
+    "code": "SV",
+    "type": "country",
+    "name": {
+      "ru": "Сальвадор",
+      "en": "El Salvador"
+    },
+    "description": {
+      "ru": "Флаг страны «Сальвадор» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of El Salvador with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sv/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sv/preview.gif"
+    },
+    "attributes": {
+      "country": "El Salvador",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gq",
+    "code": "GQ",
+    "type": "country",
+    "name": {
+      "ru": "Экваториальная Гвинея",
+      "en": "Equatorial Guinea"
+    },
+    "description": {
+      "ru": "Флаг страны «Экваториальная Гвинея» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Equatorial Guinea with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gq/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gq/preview.gif"
+    },
+    "attributes": {
+      "country": "Equatorial Guinea",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-er",
+    "code": "ER",
+    "type": "country",
+    "name": {
+      "ru": "Эритрея",
+      "en": "Eritrea"
+    },
+    "description": {
+      "ru": "Флаг страны «Эритрея» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Eritrea with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/er/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/er/preview.gif"
+    },
+    "attributes": {
+      "country": "Eritrea",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ee",
+    "code": "EE",
+    "type": "country",
+    "name": {
+      "ru": "Эстония",
+      "en": "Estonia"
+    },
+    "description": {
+      "ru": "Флаг страны «Эстония» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Estonia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ee/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ee/preview.gif"
+    },
+    "attributes": {
+      "country": "Estonia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sz",
+    "code": "SZ",
+    "type": "country",
+    "name": {
+      "ru": "Эсватини",
+      "en": "Eswatini"
+    },
+    "description": {
+      "ru": "Флаг страны «Эсватини» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Eswatini with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sz/preview.gif"
+    },
+    "attributes": {
+      "country": "Eswatini",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-et",
+    "code": "ET",
+    "type": "country",
+    "name": {
+      "ru": "Эфиопия",
+      "en": "Ethiopia"
+    },
+    "description": {
+      "ru": "Флаг страны «Эфиопия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ethiopia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/et/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/et/preview.gif"
+    },
+    "attributes": {
+      "country": "Ethiopia",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-fj",
+    "code": "FJ",
+    "type": "country",
+    "name": {
+      "ru": "Фиджи",
+      "en": "Fiji"
+    },
+    "description": {
+      "ru": "Флаг страны «Фиджи» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Fiji with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/fj/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/fj/preview.gif"
+    },
+    "attributes": {
+      "country": "Fiji",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-fi",
+    "code": "FI",
+    "type": "country",
+    "name": {
+      "ru": "Финляндия",
+      "en": "Finland"
+    },
+    "description": {
+      "ru": "Флаг страны «Финляндия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Finland with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/fi/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/fi/preview.gif"
+    },
+    "attributes": {
+      "country": "Finland",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-fr",
+    "code": "FR",
+    "type": "country",
+    "name": {
+      "ru": "Франция",
+      "en": "France"
+    },
+    "description": {
+      "ru": "Флаг страны «Франция» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of France with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/fr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/fr/preview.gif"
+    },
+    "attributes": {
+      "country": "France",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ga",
+    "code": "GA",
+    "type": "country",
+    "name": {
+      "ru": "Габон",
+      "en": "Gabon"
+    },
+    "description": {
+      "ru": "Флаг страны «Габон» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Gabon with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ga/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ga/preview.gif"
+    },
+    "attributes": {
+      "country": "Gabon",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gm",
+    "code": "GM",
+    "type": "country",
+    "name": {
+      "ru": "Гамбия",
+      "en": "Gambia"
+    },
+    "description": {
+      "ru": "Флаг страны «Гамбия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Gambia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gm/preview.gif"
+    },
+    "attributes": {
+      "country": "Gambia",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ge",
+    "code": "GE",
+    "type": "country",
+    "name": {
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "description": {
+      "ru": "Флаг страны «Грузия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Georgia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ge/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ge/preview.gif"
+    },
+    "attributes": {
+      "country": "Georgia",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-de",
+    "code": "DE",
+    "type": "country",
+    "name": {
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "description": {
+      "ru": "Флаг страны «Германия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Germany with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/de/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/de/preview.gif"
+    },
+    "attributes": {
+      "country": "Germany",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gh",
+    "code": "GH",
+    "type": "country",
+    "name": {
+      "ru": "Гана",
+      "en": "Ghana"
+    },
+    "description": {
+      "ru": "Флаг страны «Гана» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ghana with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gh/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gh/preview.gif"
+    },
+    "attributes": {
+      "country": "Ghana",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gr",
+    "code": "GR",
+    "type": "country",
+    "name": {
+      "ru": "Греция",
+      "en": "Greece"
+    },
+    "description": {
+      "ru": "Флаг страны «Греция» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Greece with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gr/preview.gif"
+    },
+    "attributes": {
+      "country": "Greece",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gd",
+    "code": "GD",
+    "type": "country",
+    "name": {
+      "ru": "Гренада",
+      "en": "Grenada"
+    },
+    "description": {
+      "ru": "Флаг страны «Гренада» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Grenada with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gd/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gd/preview.gif"
+    },
+    "attributes": {
+      "country": "Grenada",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gt",
+    "code": "GT",
+    "type": "country",
+    "name": {
+      "ru": "Гватемала",
+      "en": "Guatemala"
+    },
+    "description": {
+      "ru": "Флаг страны «Гватемала» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Guatemala with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gt/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gt/preview.gif"
+    },
+    "attributes": {
+      "country": "Guatemala",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gn",
+    "code": "GN",
+    "type": "country",
+    "name": {
+      "ru": "Гвинея",
+      "en": "Guinea"
+    },
+    "description": {
+      "ru": "Флаг страны «Гвинея» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Guinea with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gn/preview.gif"
+    },
+    "attributes": {
+      "country": "Guinea",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gw",
+    "code": "GW",
+    "type": "country",
+    "name": {
+      "ru": "Гвинея-Бисау",
+      "en": "Guinea-Bissau"
+    },
+    "description": {
+      "ru": "Флаг страны «Гвинея-Бисау» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Guinea-Bissau with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gw/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gw/preview.gif"
+    },
+    "attributes": {
+      "country": "Guinea-Bissau",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gy",
+    "code": "GY",
+    "type": "country",
+    "name": {
+      "ru": "Гайана",
+      "en": "Guyana"
+    },
+    "description": {
+      "ru": "Флаг страны «Гайана» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Guyana with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gy/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gy/preview.gif"
+    },
+    "attributes": {
+      "country": "Guyana",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ht",
+    "code": "HT",
+    "type": "country",
+    "name": {
+      "ru": "Гаити",
+      "en": "Haiti"
+    },
+    "description": {
+      "ru": "Флаг страны «Гаити» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Haiti with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ht/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ht/preview.gif"
+    },
+    "attributes": {
+      "country": "Haiti",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-hn",
+    "code": "HN",
+    "type": "country",
+    "name": {
+      "ru": "Гондурас",
+      "en": "Honduras"
+    },
+    "description": {
+      "ru": "Флаг страны «Гондурас» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Honduras with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/hn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/hn/preview.gif"
+    },
+    "attributes": {
+      "country": "Honduras",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-hu",
+    "code": "HU",
+    "type": "country",
+    "name": {
+      "ru": "Венгрия",
+      "en": "Hungary"
+    },
+    "description": {
+      "ru": "Флаг страны «Венгрия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Hungary with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/hu/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/hu/preview.gif"
+    },
+    "attributes": {
+      "country": "Hungary",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-is",
+    "code": "IS",
+    "type": "country",
+    "name": {
+      "ru": "Исландия",
+      "en": "Iceland"
+    },
+    "description": {
+      "ru": "Флаг страны «Исландия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Iceland with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/is/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/is/preview.gif"
+    },
+    "attributes": {
+      "country": "Iceland",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-in",
+    "code": "IN",
+    "type": "country",
+    "name": {
+      "ru": "Индия",
+      "en": "India"
+    },
+    "description": {
+      "ru": "Флаг страны «Индия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of India with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/in/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/in/preview.gif"
+    },
+    "attributes": {
+      "country": "India",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-id",
+    "code": "ID",
+    "type": "country",
+    "name": {
+      "ru": "Индонезия",
+      "en": "Indonesia"
+    },
+    "description": {
+      "ru": "Флаг страны «Индонезия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Indonesia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/id/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/id/preview.gif"
+    },
+    "attributes": {
+      "country": "Indonesia",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ir",
+    "code": "IR",
+    "type": "country",
+    "name": {
+      "ru": "Иран",
+      "en": "Iran"
+    },
+    "description": {
+      "ru": "Флаг страны «Иран» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Iran with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ir/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ir/preview.gif"
+    },
+    "attributes": {
+      "country": "Iran",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-iq",
+    "code": "IQ",
+    "type": "country",
+    "name": {
+      "ru": "Ирак",
+      "en": "Iraq"
+    },
+    "description": {
+      "ru": "Флаг страны «Ирак» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Iraq with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/iq/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/iq/preview.gif"
+    },
+    "attributes": {
+      "country": "Iraq",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ie",
+    "code": "IE",
+    "type": "country",
+    "name": {
+      "ru": "Ирландия",
+      "en": "Ireland"
+    },
+    "description": {
+      "ru": "Флаг страны «Ирландия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ireland with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ie/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ie/preview.gif"
+    },
+    "attributes": {
+      "country": "Ireland",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-il",
+    "code": "IL",
+    "type": "country",
+    "name": {
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "description": {
+      "ru": "Флаг страны «Израиль» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Israel with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/il/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/il/preview.gif"
+    },
+    "attributes": {
+      "country": "Israel",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-it",
+    "code": "IT",
+    "type": "country",
+    "name": {
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "description": {
+      "ru": "Флаг страны «Италия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Italy with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/it/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/it/preview.gif"
+    },
+    "attributes": {
+      "country": "Italy",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-jm",
+    "code": "JM",
+    "type": "country",
+    "name": {
+      "ru": "Ямайка",
+      "en": "Jamaica"
+    },
+    "description": {
+      "ru": "Флаг страны «Ямайка» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Jamaica with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/jm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/jm/preview.gif"
+    },
+    "attributes": {
+      "country": "Jamaica",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-jp",
+    "code": "JP",
+    "type": "country",
+    "name": {
+      "ru": "Япония",
+      "en": "Japan"
+    },
+    "description": {
+      "ru": "Флаг страны «Япония» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Japan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/jp/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/jp/preview.gif"
+    },
+    "attributes": {
+      "country": "Japan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-jo",
+    "code": "JO",
+    "type": "country",
+    "name": {
+      "ru": "Иордания",
+      "en": "Jordan"
+    },
+    "description": {
+      "ru": "Флаг страны «Иордания» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Jordan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/jo/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/jo/preview.gif"
+    },
+    "attributes": {
+      "country": "Jordan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-kz",
+    "code": "KZ",
+    "type": "country",
+    "name": {
+      "ru": "Казахстан",
+      "en": "Kazakhstan"
+    },
+    "description": {
+      "ru": "Флаг страны «Казахстан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kazakhstan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/kz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/kz/preview.gif"
+    },
+    "attributes": {
+      "country": "Kazakhstan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ke",
+    "code": "KE",
+    "type": "country",
+    "name": {
+      "ru": "Кения",
+      "en": "Kenya"
+    },
+    "description": {
+      "ru": "Флаг страны «Кения» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kenya with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ke/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ke/preview.gif"
+    },
+    "attributes": {
+      "country": "Kenya",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ki",
+    "code": "KI",
+    "type": "country",
+    "name": {
+      "ru": "Кирибати",
+      "en": "Kiribati"
+    },
+    "description": {
+      "ru": "Флаг страны «Кирибати» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kiribati with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ki/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ki/preview.gif"
+    },
+    "attributes": {
+      "country": "Kiribati",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-kp",
+    "code": "KP",
+    "type": "country",
+    "name": {
+      "ru": "КНДР",
+      "en": "North Korea"
+    },
+    "description": {
+      "ru": "Флаг страны «КНДР» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of North Korea with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/kp/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/kp/preview.gif"
+    },
+    "attributes": {
+      "country": "North Korea",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-kr",
+    "code": "KR",
+    "type": "country",
+    "name": {
+      "ru": "Республика Корея",
+      "en": "South Korea"
+    },
+    "description": {
+      "ru": "Флаг страны «Республика Корея» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of South Korea with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/kr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/kr/preview.gif"
+    },
+    "attributes": {
+      "country": "South Korea",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-kw",
+    "code": "KW",
+    "type": "country",
+    "name": {
+      "ru": "Кувейт",
+      "en": "Kuwait"
+    },
+    "description": {
+      "ru": "Флаг страны «Кувейт» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kuwait with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/kw/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/kw/preview.gif"
+    },
+    "attributes": {
+      "country": "Kuwait",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-kg",
+    "code": "KG",
+    "type": "country",
+    "name": {
+      "ru": "Киргизия",
+      "en": "Kyrgyzstan"
+    },
+    "description": {
+      "ru": "Флаг страны «Киргизия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kyrgyzstan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/kg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/kg/preview.gif"
+    },
+    "attributes": {
+      "country": "Kyrgyzstan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-la",
+    "code": "LA",
+    "type": "country",
+    "name": {
+      "ru": "Лаос",
+      "en": "Laos"
+    },
+    "description": {
+      "ru": "Флаг страны «Лаос» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Laos with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/la/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/la/preview.gif"
+    },
+    "attributes": {
+      "country": "Laos",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-lv",
+    "code": "LV",
+    "type": "country",
+    "name": {
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "description": {
+      "ru": "Флаг страны «Латвия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Latvia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/lv/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/lv/preview.gif"
+    },
+    "attributes": {
+      "country": "Latvia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-lb",
+    "code": "LB",
+    "type": "country",
+    "name": {
+      "ru": "Ливан",
+      "en": "Lebanon"
+    },
+    "description": {
+      "ru": "Флаг страны «Ливан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Lebanon with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/lb/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/lb/preview.gif"
+    },
+    "attributes": {
+      "country": "Lebanon",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ls",
+    "code": "LS",
+    "type": "country",
+    "name": {
+      "ru": "Лесото",
+      "en": "Lesotho"
+    },
+    "description": {
+      "ru": "Флаг страны «Лесото» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Lesotho with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ls/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ls/preview.gif"
+    },
+    "attributes": {
+      "country": "Lesotho",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-lr",
+    "code": "LR",
+    "type": "country",
+    "name": {
+      "ru": "Либерия",
+      "en": "Liberia"
+    },
+    "description": {
+      "ru": "Флаг страны «Либерия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Liberia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/lr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/lr/preview.gif"
+    },
+    "attributes": {
+      "country": "Liberia",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ly",
+    "code": "LY",
+    "type": "country",
+    "name": {
+      "ru": "Ливия",
+      "en": "Libya"
+    },
+    "description": {
+      "ru": "Флаг страны «Ливия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Libya with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ly/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ly/preview.gif"
+    },
+    "attributes": {
+      "country": "Libya",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-li",
+    "code": "LI",
+    "type": "country",
+    "name": {
+      "ru": "Лихтенштейн",
+      "en": "Liechtenstein"
+    },
+    "description": {
+      "ru": "Флаг страны «Лихтенштейн» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Liechtenstein with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/li/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/li/preview.gif"
+    },
+    "attributes": {
+      "country": "Liechtenstein",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-lt",
+    "code": "LT",
+    "type": "country",
+    "name": {
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "description": {
+      "ru": "Флаг страны «Литва» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Lithuania with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/lt/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/lt/preview.gif"
+    },
+    "attributes": {
+      "country": "Lithuania",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-lu",
+    "code": "LU",
+    "type": "country",
+    "name": {
+      "ru": "Люксембург",
+      "en": "Luxembourg"
+    },
+    "description": {
+      "ru": "Флаг страны «Люксембург» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Luxembourg with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/lu/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/lu/preview.gif"
+    },
+    "attributes": {
+      "country": "Luxembourg",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mg",
+    "code": "MG",
+    "type": "country",
+    "name": {
+      "ru": "Мадагаскар",
+      "en": "Madagascar"
+    },
+    "description": {
+      "ru": "Флаг страны «Мадагаскар» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Madagascar with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mg/preview.gif"
+    },
+    "attributes": {
+      "country": "Madagascar",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mw",
+    "code": "MW",
+    "type": "country",
+    "name": {
+      "ru": "Малави",
+      "en": "Malawi"
+    },
+    "description": {
+      "ru": "Флаг страны «Малави» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Malawi with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mw/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mw/preview.gif"
+    },
+    "attributes": {
+      "country": "Malawi",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-my",
+    "code": "MY",
+    "type": "country",
+    "name": {
+      "ru": "Малайзия",
+      "en": "Malaysia"
+    },
+    "description": {
+      "ru": "Флаг страны «Малайзия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Malaysia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/my/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/my/preview.gif"
+    },
+    "attributes": {
+      "country": "Malaysia",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mv",
+    "code": "MV",
+    "type": "country",
+    "name": {
+      "ru": "Мальдивы",
+      "en": "Maldives"
+    },
+    "description": {
+      "ru": "Флаг страны «Мальдивы» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Maldives with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mv/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mv/preview.gif"
+    },
+    "attributes": {
+      "country": "Maldives",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ml",
+    "code": "ML",
+    "type": "country",
+    "name": {
+      "ru": "Мали",
+      "en": "Mali"
+    },
+    "description": {
+      "ru": "Флаг страны «Мали» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mali with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ml/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ml/preview.gif"
+    },
+    "attributes": {
+      "country": "Mali",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mt",
+    "code": "MT",
+    "type": "country",
+    "name": {
+      "ru": "Мальта",
+      "en": "Malta"
+    },
+    "description": {
+      "ru": "Флаг страны «Мальта» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Malta with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mt/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mt/preview.gif"
+    },
+    "attributes": {
+      "country": "Malta",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mh",
+    "code": "MH",
+    "type": "country",
+    "name": {
+      "ru": "Маршалловы о-ва",
+      "en": "Marshall Islands"
+    },
+    "description": {
+      "ru": "Флаг страны «Маршалловы о-ва» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Marshall Islands with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mh/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mh/preview.gif"
+    },
+    "attributes": {
+      "country": "Marshall Islands",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mr",
+    "code": "MR",
+    "type": "country",
+    "name": {
+      "ru": "Мавритания",
+      "en": "Mauritania"
+    },
+    "description": {
+      "ru": "Флаг страны «Мавритания» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mauritania with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mr/preview.gif"
+    },
+    "attributes": {
+      "country": "Mauritania",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mu",
+    "code": "MU",
+    "type": "country",
+    "name": {
+      "ru": "Маврикий",
+      "en": "Mauritius"
+    },
+    "description": {
+      "ru": "Флаг страны «Маврикий» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mauritius with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mu/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mu/preview.gif"
+    },
+    "attributes": {
+      "country": "Mauritius",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mx",
+    "code": "MX",
+    "type": "country",
+    "name": {
+      "ru": "Мексика",
+      "en": "Mexico"
+    },
+    "description": {
+      "ru": "Флаг страны «Мексика» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mexico with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mx/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mx/preview.gif"
+    },
+    "attributes": {
+      "country": "Mexico",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-fm",
+    "code": "FM",
+    "type": "country",
+    "name": {
+      "ru": "Федеративные Штаты Микронезии",
+      "en": "Micronesia"
+    },
+    "description": {
+      "ru": "Флаг страны «Федеративные Штаты Микронезии» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Micronesia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/fm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/fm/preview.gif"
+    },
+    "attributes": {
+      "country": "Micronesia",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-md",
+    "code": "MD",
+    "type": "country",
+    "name": {
+      "ru": "Молдова",
+      "en": "Moldova"
+    },
+    "description": {
+      "ru": "Флаг страны «Молдова» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Moldova with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/md/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/md/preview.gif"
+    },
+    "attributes": {
+      "country": "Moldova",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mc",
+    "code": "MC",
+    "type": "country",
+    "name": {
+      "ru": "Монако",
+      "en": "Monaco"
+    },
+    "description": {
+      "ru": "Флаг страны «Монако» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Monaco with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mc/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mc/preview.gif"
+    },
+    "attributes": {
+      "country": "Monaco",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mn",
+    "code": "MN",
+    "type": "country",
+    "name": {
+      "ru": "Монголия",
+      "en": "Mongolia"
+    },
+    "description": {
+      "ru": "Флаг страны «Монголия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mongolia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mn/preview.gif"
+    },
+    "attributes": {
+      "country": "Mongolia",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-me",
+    "code": "ME",
+    "type": "country",
+    "name": {
+      "ru": "Черногория",
+      "en": "Montenegro"
+    },
+    "description": {
+      "ru": "Флаг страны «Черногория» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Montenegro with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/me/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/me/preview.gif"
+    },
+    "attributes": {
+      "country": "Montenegro",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ma",
+    "code": "MA",
+    "type": "country",
+    "name": {
+      "ru": "Марокко",
+      "en": "Morocco"
+    },
+    "description": {
+      "ru": "Флаг страны «Марокко» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Morocco with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ma/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ma/preview.gif"
+    },
+    "attributes": {
+      "country": "Morocco",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mz",
+    "code": "MZ",
+    "type": "country",
+    "name": {
+      "ru": "Мозамбик",
+      "en": "Mozambique"
+    },
+    "description": {
+      "ru": "Флаг страны «Мозамбик» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mozambique with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mz/preview.gif"
+    },
+    "attributes": {
+      "country": "Mozambique",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mm",
+    "code": "MM",
+    "type": "country",
+    "name": {
+      "ru": "Мьянма (Бирма)",
+      "en": "Myanmar (Burma)"
+    },
+    "description": {
+      "ru": "Флаг страны «Мьянма (Бирма)» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Myanmar (Burma) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mm/preview.gif"
+    },
+    "attributes": {
+      "country": "Myanmar (Burma)",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-na",
+    "code": "NA",
+    "type": "country",
+    "name": {
+      "ru": "Намибия",
+      "en": "Namibia"
+    },
+    "description": {
+      "ru": "Флаг страны «Намибия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Namibia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/na/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/na/preview.gif"
+    },
+    "attributes": {
+      "country": "Namibia",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-nr",
+    "code": "NR",
+    "type": "country",
+    "name": {
+      "ru": "Науру",
+      "en": "Nauru"
+    },
+    "description": {
+      "ru": "Флаг страны «Науру» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nauru with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/nr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/nr/preview.gif"
+    },
+    "attributes": {
+      "country": "Nauru",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-np",
+    "code": "NP",
+    "type": "country",
+    "name": {
+      "ru": "Непал",
+      "en": "Nepal"
+    },
+    "description": {
+      "ru": "Флаг страны «Непал» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nepal with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/np/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/np/preview.gif"
+    },
+    "attributes": {
+      "country": "Nepal",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-nl",
+    "code": "NL",
+    "type": "country",
+    "name": {
+      "ru": "Нидерланды",
+      "en": "Netherlands"
+    },
+    "description": {
+      "ru": "Флаг страны «Нидерланды» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Netherlands with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/nl/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/nl/preview.gif"
+    },
+    "attributes": {
+      "country": "Netherlands",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-nz",
+    "code": "NZ",
+    "type": "country",
+    "name": {
+      "ru": "Новая Зеландия",
+      "en": "New Zealand"
+    },
+    "description": {
+      "ru": "Флаг страны «Новая Зеландия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of New Zealand with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/nz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/nz/preview.gif"
+    },
+    "attributes": {
+      "country": "New Zealand",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ni",
+    "code": "NI",
+    "type": "country",
+    "name": {
+      "ru": "Никарагуа",
+      "en": "Nicaragua"
+    },
+    "description": {
+      "ru": "Флаг страны «Никарагуа» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nicaragua with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ni/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ni/preview.gif"
+    },
+    "attributes": {
+      "country": "Nicaragua",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ne",
+    "code": "NE",
+    "type": "country",
+    "name": {
+      "ru": "Нигер",
+      "en": "Niger"
+    },
+    "description": {
+      "ru": "Флаг страны «Нигер» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Niger with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ne/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ne/preview.gif"
+    },
+    "attributes": {
+      "country": "Niger",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ng",
+    "code": "NG",
+    "type": "country",
+    "name": {
+      "ru": "Нигерия",
+      "en": "Nigeria"
+    },
+    "description": {
+      "ru": "Флаг страны «Нигерия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nigeria with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ng/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ng/preview.gif"
+    },
+    "attributes": {
+      "country": "Nigeria",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-mk",
+    "code": "MK",
+    "type": "country",
+    "name": {
+      "ru": "Северная Македония",
+      "en": "North Macedonia"
+    },
+    "description": {
+      "ru": "Флаг страны «Северная Македония» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of North Macedonia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mk/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mk/preview.gif"
+    },
+    "attributes": {
+      "country": "North Macedonia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-no",
+    "code": "NO",
+    "type": "country",
+    "name": {
+      "ru": "Норвегия",
+      "en": "Norway"
+    },
+    "description": {
+      "ru": "Флаг страны «Норвегия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Norway with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/no/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/no/preview.gif"
+    },
+    "attributes": {
+      "country": "Norway",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-om",
+    "code": "OM",
+    "type": "country",
+    "name": {
+      "ru": "Оман",
+      "en": "Oman"
+    },
+    "description": {
+      "ru": "Флаг страны «Оман» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Oman with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/om/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/om/preview.gif"
+    },
+    "attributes": {
+      "country": "Oman",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-pk",
+    "code": "PK",
+    "type": "country",
+    "name": {
+      "ru": "Пакистан",
+      "en": "Pakistan"
+    },
+    "description": {
+      "ru": "Флаг страны «Пакистан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Pakistan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/pk/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/pk/preview.gif"
+    },
+    "attributes": {
+      "country": "Pakistan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-pw",
+    "code": "PW",
+    "type": "country",
+    "name": {
+      "ru": "Палау",
+      "en": "Palau"
+    },
+    "description": {
+      "ru": "Флаг страны «Палау» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Palau with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/pw/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/pw/preview.gif"
+    },
+    "attributes": {
+      "country": "Palau",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-pa",
+    "code": "PA",
+    "type": "country",
+    "name": {
+      "ru": "Панама",
+      "en": "Panama"
+    },
+    "description": {
+      "ru": "Флаг страны «Панама» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Panama with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/pa/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/pa/preview.gif"
+    },
+    "attributes": {
+      "country": "Panama",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-pg",
+    "code": "PG",
+    "type": "country",
+    "name": {
+      "ru": "Папуа — Новая Гвинея",
+      "en": "Papua New Guinea"
+    },
+    "description": {
+      "ru": "Флаг страны «Папуа — Новая Гвинея» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Papua New Guinea with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/pg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/pg/preview.gif"
+    },
+    "attributes": {
+      "country": "Papua New Guinea",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-py",
+    "code": "PY",
+    "type": "country",
+    "name": {
+      "ru": "Парагвай",
+      "en": "Paraguay"
+    },
+    "description": {
+      "ru": "Флаг страны «Парагвай» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Paraguay with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/py/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/py/preview.gif"
+    },
+    "attributes": {
+      "country": "Paraguay",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-pe",
+    "code": "PE",
+    "type": "country",
+    "name": {
+      "ru": "Перу",
+      "en": "Peru"
+    },
+    "description": {
+      "ru": "Флаг страны «Перу» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Peru with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/pe/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/pe/preview.gif"
+    },
+    "attributes": {
+      "country": "Peru",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ph",
+    "code": "PH",
+    "type": "country",
+    "name": {
+      "ru": "Филиппины",
+      "en": "Philippines"
+    },
+    "description": {
+      "ru": "Флаг страны «Филиппины» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Philippines with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ph/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ph/preview.gif"
+    },
+    "attributes": {
+      "country": "Philippines",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-pl",
+    "code": "PL",
+    "type": "country",
+    "name": {
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "description": {
+      "ru": "Флаг страны «Польша» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Poland with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/pl/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/pl/preview.gif"
+    },
+    "attributes": {
+      "country": "Poland",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-pt",
+    "code": "PT",
+    "type": "country",
+    "name": {
+      "ru": "Португалия",
+      "en": "Portugal"
+    },
+    "description": {
+      "ru": "Флаг страны «Португалия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Portugal with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/pt/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/pt/preview.gif"
+    },
+    "attributes": {
+      "country": "Portugal",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-qa",
+    "code": "QA",
+    "type": "country",
+    "name": {
+      "ru": "Катар",
+      "en": "Qatar"
+    },
+    "description": {
+      "ru": "Флаг страны «Катар» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Qatar with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/qa/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/qa/preview.gif"
+    },
+    "attributes": {
+      "country": "Qatar",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ro",
+    "code": "RO",
+    "type": "country",
+    "name": {
+      "ru": "Румыния",
+      "en": "Romania"
+    },
+    "description": {
+      "ru": "Флаг страны «Румыния» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Romania with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ro/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ro/preview.gif"
+    },
+    "attributes": {
+      "country": "Romania",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ru",
+    "code": "RU",
+    "type": "country",
+    "name": {
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "description": {
+      "ru": "Флаг страны «Россия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Russia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ru/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ru/preview.gif"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-rw",
+    "code": "RW",
+    "type": "country",
+    "name": {
+      "ru": "Руанда",
+      "en": "Rwanda"
+    },
+    "description": {
+      "ru": "Флаг страны «Руанда» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Rwanda with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/rw/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/rw/preview.gif"
+    },
+    "attributes": {
+      "country": "Rwanda",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-kn",
+    "code": "KN",
+    "type": "country",
+    "name": {
+      "ru": "Сент-Китс и Невис",
+      "en": "St. Kitts & Nevis"
+    },
+    "description": {
+      "ru": "Флаг страны «Сент-Китс и Невис» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of St. Kitts & Nevis with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/kn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/kn/preview.gif"
+    },
+    "attributes": {
+      "country": "St. Kitts & Nevis",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-lc",
+    "code": "LC",
+    "type": "country",
+    "name": {
+      "ru": "Сент-Люсия",
+      "en": "St. Lucia"
+    },
+    "description": {
+      "ru": "Флаг страны «Сент-Люсия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of St. Lucia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/lc/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/lc/preview.gif"
+    },
+    "attributes": {
+      "country": "St. Lucia",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-vc",
+    "code": "VC",
+    "type": "country",
+    "name": {
+      "ru": "Сент-Винсент и Гренадины",
+      "en": "St. Vincent & Grenadines"
+    },
+    "description": {
+      "ru": "Флаг страны «Сент-Винсент и Гренадины» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of St. Vincent & Grenadines with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/vc/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/vc/preview.gif"
+    },
+    "attributes": {
+      "country": "St. Vincent & Grenadines",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ws",
+    "code": "WS",
+    "type": "country",
+    "name": {
+      "ru": "Самоа",
+      "en": "Samoa"
+    },
+    "description": {
+      "ru": "Флаг страны «Самоа» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Samoa with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ws/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ws/preview.gif"
+    },
+    "attributes": {
+      "country": "Samoa",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sm",
+    "code": "SM",
+    "type": "country",
+    "name": {
+      "ru": "Сан-Марино",
+      "en": "San Marino"
+    },
+    "description": {
+      "ru": "Флаг страны «Сан-Марино» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of San Marino with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sm/preview.gif"
+    },
+    "attributes": {
+      "country": "San Marino",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-st",
+    "code": "ST",
+    "type": "country",
+    "name": {
+      "ru": "Сан-Томе и Принсипи",
+      "en": "São Tomé & Príncipe"
+    },
+    "description": {
+      "ru": "Флаг страны «Сан-Томе и Принсипи» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of São Tomé & Príncipe with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/st/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/st/preview.gif"
+    },
+    "attributes": {
+      "country": "São Tomé & Príncipe",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sa",
+    "code": "SA",
+    "type": "country",
+    "name": {
+      "ru": "Саудовская Аравия",
+      "en": "Saudi Arabia"
+    },
+    "description": {
+      "ru": "Флаг страны «Саудовская Аравия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Saudi Arabia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sa/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sa/preview.gif"
+    },
+    "attributes": {
+      "country": "Saudi Arabia",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sn",
+    "code": "SN",
+    "type": "country",
+    "name": {
+      "ru": "Сенегал",
+      "en": "Senegal"
+    },
+    "description": {
+      "ru": "Флаг страны «Сенегал» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Senegal with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sn/preview.gif"
+    },
+    "attributes": {
+      "country": "Senegal",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-rs",
+    "code": "RS",
+    "type": "country",
+    "name": {
+      "ru": "Сербия",
+      "en": "Serbia"
+    },
+    "description": {
+      "ru": "Флаг страны «Сербия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Serbia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/rs/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/rs/preview.gif"
+    },
+    "attributes": {
+      "country": "Serbia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sc",
+    "code": "SC",
+    "type": "country",
+    "name": {
+      "ru": "Сейшельские о-ва",
+      "en": "Seychelles"
+    },
+    "description": {
+      "ru": "Флаг страны «Сейшельские о-ва» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Seychelles with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sc/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sc/preview.gif"
+    },
+    "attributes": {
+      "country": "Seychelles",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sl",
+    "code": "SL",
+    "type": "country",
+    "name": {
+      "ru": "Сьерра-Леоне",
+      "en": "Sierra Leone"
+    },
+    "description": {
+      "ru": "Флаг страны «Сьерра-Леоне» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sierra Leone with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sl/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sl/preview.gif"
+    },
+    "attributes": {
+      "country": "Sierra Leone",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sg",
+    "code": "SG",
+    "type": "country",
+    "name": {
+      "ru": "Сингапур",
+      "en": "Singapore"
+    },
+    "description": {
+      "ru": "Флаг страны «Сингапур» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Singapore with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sg/preview.gif"
+    },
+    "attributes": {
+      "country": "Singapore",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sk",
+    "code": "SK",
+    "type": "country",
+    "name": {
+      "ru": "Словакия",
+      "en": "Slovakia"
+    },
+    "description": {
+      "ru": "Флаг страны «Словакия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Slovakia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sk/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sk/preview.gif"
+    },
+    "attributes": {
+      "country": "Slovakia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-si",
+    "code": "SI",
+    "type": "country",
+    "name": {
+      "ru": "Словения",
+      "en": "Slovenia"
+    },
+    "description": {
+      "ru": "Флаг страны «Словения» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Slovenia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/si/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/si/preview.gif"
+    },
+    "attributes": {
+      "country": "Slovenia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sb",
+    "code": "SB",
+    "type": "country",
+    "name": {
+      "ru": "Соломоновы о-ва",
+      "en": "Solomon Islands"
+    },
+    "description": {
+      "ru": "Флаг страны «Соломоновы о-ва» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Solomon Islands with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sb/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sb/preview.gif"
+    },
+    "attributes": {
+      "country": "Solomon Islands",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-so",
+    "code": "SO",
+    "type": "country",
+    "name": {
+      "ru": "Сомали",
+      "en": "Somalia"
+    },
+    "description": {
+      "ru": "Флаг страны «Сомали» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Somalia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/so/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/so/preview.gif"
+    },
+    "attributes": {
+      "country": "Somalia",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-za",
+    "code": "ZA",
+    "type": "country",
+    "name": {
+      "ru": "Южно-Африканская Республика",
+      "en": "South Africa"
+    },
+    "description": {
+      "ru": "Флаг страны «Южно-Африканская Республика» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of South Africa with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/za/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/za/preview.gif"
+    },
+    "attributes": {
+      "country": "South Africa",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ss",
+    "code": "SS",
+    "type": "country",
+    "name": {
+      "ru": "Южный Судан",
+      "en": "South Sudan"
+    },
+    "description": {
+      "ru": "Флаг страны «Южный Судан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of South Sudan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ss/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ss/preview.gif"
+    },
+    "attributes": {
+      "country": "South Sudan",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-es",
+    "code": "ES",
+    "type": "country",
+    "name": {
+      "ru": "Испания",
+      "en": "Spain"
+    },
+    "description": {
+      "ru": "Флаг страны «Испания» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Spain with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/es/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/es/preview.gif"
+    },
+    "attributes": {
+      "country": "Spain",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-lk",
+    "code": "LK",
+    "type": "country",
+    "name": {
+      "ru": "Шри-Ланка",
+      "en": "Sri Lanka"
+    },
+    "description": {
+      "ru": "Флаг страны «Шри-Ланка» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sri Lanka with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/lk/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/lk/preview.gif"
+    },
+    "attributes": {
+      "country": "Sri Lanka",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sd",
+    "code": "SD",
+    "type": "country",
+    "name": {
+      "ru": "Судан",
+      "en": "Sudan"
+    },
+    "description": {
+      "ru": "Флаг страны «Судан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sudan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sd/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sd/preview.gif"
+    },
+    "attributes": {
+      "country": "Sudan",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sr",
+    "code": "SR",
+    "type": "country",
+    "name": {
+      "ru": "Суринам",
+      "en": "Suriname"
+    },
+    "description": {
+      "ru": "Флаг страны «Суринам» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Suriname with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sr/preview.gif"
+    },
+    "attributes": {
+      "country": "Suriname",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-se",
+    "code": "SE",
+    "type": "country",
+    "name": {
+      "ru": "Швеция",
+      "en": "Sweden"
+    },
+    "description": {
+      "ru": "Флаг страны «Швеция» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sweden with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/se/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/se/preview.gif"
+    },
+    "attributes": {
+      "country": "Sweden",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ch",
+    "code": "CH",
+    "type": "country",
+    "name": {
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "description": {
+      "ru": "Флаг страны «Швейцария» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Switzerland with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ch/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ch/preview.gif"
+    },
+    "attributes": {
+      "country": "Switzerland",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-sy",
+    "code": "SY",
+    "type": "country",
+    "name": {
+      "ru": "Сирия",
+      "en": "Syria"
+    },
+    "description": {
+      "ru": "Флаг страны «Сирия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Syria with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sy/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sy/preview.gif"
+    },
+    "attributes": {
+      "country": "Syria",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tj",
+    "code": "TJ",
+    "type": "country",
+    "name": {
+      "ru": "Таджикистан",
+      "en": "Tajikistan"
+    },
+    "description": {
+      "ru": "Флаг страны «Таджикистан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tajikistan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tj/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tj/preview.gif"
+    },
+    "attributes": {
+      "country": "Tajikistan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tz",
+    "code": "TZ",
+    "type": "country",
+    "name": {
+      "ru": "Танзания",
+      "en": "Tanzania"
+    },
+    "description": {
+      "ru": "Флаг страны «Танзания» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tanzania with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tz/preview.gif"
+    },
+    "attributes": {
+      "country": "Tanzania",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-th",
+    "code": "TH",
+    "type": "country",
+    "name": {
+      "ru": "Таиланд",
+      "en": "Thailand"
+    },
+    "description": {
+      "ru": "Флаг страны «Таиланд» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Thailand with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/th/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/th/preview.gif"
+    },
+    "attributes": {
+      "country": "Thailand",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tl",
+    "code": "TL",
+    "type": "country",
+    "name": {
+      "ru": "Восточный Тимор",
+      "en": "Timor-Leste"
+    },
+    "description": {
+      "ru": "Флаг страны «Восточный Тимор» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Timor-Leste with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tl/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tl/preview.gif"
+    },
+    "attributes": {
+      "country": "Timor-Leste",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tg",
+    "code": "TG",
+    "type": "country",
+    "name": {
+      "ru": "Того",
+      "en": "Togo"
+    },
+    "description": {
+      "ru": "Флаг страны «Того» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Togo with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tg/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tg/preview.gif"
+    },
+    "attributes": {
+      "country": "Togo",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-to",
+    "code": "TO",
+    "type": "country",
+    "name": {
+      "ru": "Тонга",
+      "en": "Tonga"
+    },
+    "description": {
+      "ru": "Флаг страны «Тонга» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tonga with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/to/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/to/preview.gif"
+    },
+    "attributes": {
+      "country": "Tonga",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tt",
+    "code": "TT",
+    "type": "country",
+    "name": {
+      "ru": "Тринидад и Тобаго",
+      "en": "Trinidad & Tobago"
+    },
+    "description": {
+      "ru": "Флаг страны «Тринидад и Тобаго» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Trinidad & Tobago with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tt/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tt/preview.gif"
+    },
+    "attributes": {
+      "country": "Trinidad & Tobago",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tn",
+    "code": "TN",
+    "type": "country",
+    "name": {
+      "ru": "Тунис",
+      "en": "Tunisia"
+    },
+    "description": {
+      "ru": "Флаг страны «Тунис» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tunisia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tn/preview.gif"
+    },
+    "attributes": {
+      "country": "Tunisia",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tr",
+    "code": "TR",
+    "type": "country",
+    "name": {
+      "ru": "Турция",
+      "en": "Türkiye"
+    },
+    "description": {
+      "ru": "Флаг страны «Турция» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Türkiye with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tr/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tr/preview.gif"
+    },
+    "attributes": {
+      "country": "Türkiye",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tm",
+    "code": "TM",
+    "type": "country",
+    "name": {
+      "ru": "Туркменистан",
+      "en": "Turkmenistan"
+    },
+    "description": {
+      "ru": "Флаг страны «Туркменистан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Turkmenistan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tm/preview.gif"
+    },
+    "attributes": {
+      "country": "Turkmenistan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-tv",
+    "code": "TV",
+    "type": "country",
+    "name": {
+      "ru": "Тувалу",
+      "en": "Tuvalu"
+    },
+    "description": {
+      "ru": "Флаг страны «Тувалу» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tuvalu with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/tv/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/tv/preview.gif"
+    },
+    "attributes": {
+      "country": "Tuvalu",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ug",
+    "code": "UG",
+    "type": "country",
+    "name": {
+      "ru": "Уганда",
+      "en": "Uganda"
+    },
+    "description": {
+      "ru": "Флаг страны «Уганда» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Uganda with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ug/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ug/preview.gif"
+    },
+    "attributes": {
+      "country": "Uganda",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ua",
+    "code": "UA",
+    "type": "country",
+    "name": {
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "description": {
+      "ru": "Флаг страны «Украина» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ukraine with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ua/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ua/preview.gif"
+    },
+    "attributes": {
+      "country": "Ukraine",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ae",
+    "code": "AE",
+    "type": "country",
+    "name": {
+      "ru": "ОАЭ",
+      "en": "United Arab Emirates"
+    },
+    "description": {
+      "ru": "Флаг страны «ОАЭ» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of United Arab Emirates with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ae/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ae/preview.gif"
+    },
+    "attributes": {
+      "country": "United Arab Emirates",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-gb",
+    "code": "GB",
+    "type": "country",
+    "name": {
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "description": {
+      "ru": "Флаг страны «Великобритания» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of United Kingdom with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/gb/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/gb/preview.gif"
+    },
+    "attributes": {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-us",
+    "code": "US",
+    "type": "country",
+    "name": {
+      "ru": "Соединенные Штаты",
+      "en": "United States"
+    },
+    "description": {
+      "ru": "Флаг страны «Соединенные Штаты» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of United States with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/us/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/us/preview.gif"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-uy",
+    "code": "UY",
+    "type": "country",
+    "name": {
+      "ru": "Уругвай",
+      "en": "Uruguay"
+    },
+    "description": {
+      "ru": "Флаг страны «Уругвай» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Uruguay with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/uy/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/uy/preview.gif"
+    },
+    "attributes": {
+      "country": "Uruguay",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-uz",
+    "code": "UZ",
+    "type": "country",
+    "name": {
+      "ru": "Узбекистан",
+      "en": "Uzbekistan"
+    },
+    "description": {
+      "ru": "Флаг страны «Узбекистан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Uzbekistan with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/uz/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/uz/preview.gif"
+    },
+    "attributes": {
+      "country": "Uzbekistan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-vu",
+    "code": "VU",
+    "type": "country",
+    "name": {
+      "ru": "Вануату",
+      "en": "Vanuatu"
+    },
+    "description": {
+      "ru": "Флаг страны «Вануату» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Vanuatu with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/vu/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/vu/preview.gif"
+    },
+    "attributes": {
+      "country": "Vanuatu",
+      "region": "Oceania",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-va",
+    "code": "VA",
+    "type": "country",
+    "name": {
+      "ru": "Ватикан",
+      "en": "Vatican City"
+    },
+    "description": {
+      "ru": "Флаг страны «Ватикан» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Vatican City with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/va/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/va/preview.gif"
+    },
+    "attributes": {
+      "country": "Vatican City",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ve",
+    "code": "VE",
+    "type": "country",
+    "name": {
+      "ru": "Венесуэла",
+      "en": "Venezuela"
+    },
+    "description": {
+      "ru": "Флаг страны «Венесуэла» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Venezuela with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ve/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ve/preview.gif"
+    },
+    "attributes": {
+      "country": "Venezuela",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-vn",
+    "code": "VN",
+    "type": "country",
+    "name": {
+      "ru": "Вьетнам",
+      "en": "Vietnam"
+    },
+    "description": {
+      "ru": "Флаг страны «Вьетнам» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Vietnam with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/vn/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/vn/preview.gif"
+    },
+    "attributes": {
+      "country": "Vietnam",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-ye",
+    "code": "YE",
+    "type": "country",
+    "name": {
+      "ru": "Йемен",
+      "en": "Yemen"
+    },
+    "description": {
+      "ru": "Флаг страны «Йемен» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Yemen with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ye/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ye/preview.gif"
+    },
+    "attributes": {
+      "country": "Yemen",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-zm",
+    "code": "ZM",
+    "type": "country",
+    "name": {
+      "ru": "Замбия",
+      "en": "Zambia"
+    },
+    "description": {
+      "ru": "Флаг страны «Замбия» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Zambia with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/zm/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/zm/preview.gif"
+    },
+    "attributes": {
+      "country": "Zambia",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-zw",
+    "code": "ZW",
+    "type": "country",
+    "name": {
+      "ru": "Зимбабве",
+      "en": "Zimbabwe"
+    },
+    "description": {
+      "ru": "Флаг страны «Зимбабве» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Zimbabwe with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/zw/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/zw/preview.gif"
+    },
+    "attributes": {
+      "country": "Zimbabwe",
+      "region": "Africa",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "region-eu",
+    "code": "EU",
+    "type": "region",
+    "name": {
+      "ru": "Европейский союз",
+      "en": "European Union"
+    },
+    "description": {
+      "ru": "Флаг региона «Европейский союз» с зацикленной анимацией развевания.",
+      "en": "Flag of European Union with a looping waving animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/eu/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/eu/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-hk",
+    "code": "HK",
+    "type": "region",
+    "name": {
+      "ru": "Гонконг",
+      "en": "Hong Kong"
+    },
+    "description": {
+      "ru": "Флаг региона «Гонконг» с зацикленной анимацией развевания.",
+      "en": "Flag of Hong Kong with a looping waving animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/hk/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/hk/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-mo",
+    "code": "MO",
+    "type": "region",
+    "name": {
+      "ru": "Макао",
+      "en": "Macau"
+    },
+    "description": {
+      "ru": "Флаг региона «Макао» с зацикленной анимацией развевания.",
+      "en": "Flag of Macau with a looping waving animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/mo/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/mo/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-sct",
+    "code": "SCT",
+    "type": "region",
+    "name": {
+      "ru": "Шотландия",
+      "en": "Scotland"
+    },
+    "description": {
+      "ru": "Флаг региона «Шотландия» с зацикленной анимацией развевания.",
+      "en": "Flag of Scotland with a looping waving animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/sct/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/sct/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-wls",
+    "code": "WLS",
+    "type": "region",
+    "name": {
+      "ru": "Уэльс",
+      "en": "Wales"
+    },
+    "description": {
+      "ru": "Флаг региона «Уэльс» с зацикленной анимацией развевания.",
+      "en": "Flag of Wales with a looping waving animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/wls/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/wls/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-cat",
+    "code": "CAT",
+    "type": "region",
+    "name": {
+      "ru": "Каталония",
+      "en": "Catalonia"
+    },
+    "description": {
+      "ru": "Флаг региона «Каталония» с зацикленной анимацией развевания.",
+      "en": "Flag of Catalonia with a looping waving animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/cat/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/cat/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-un",
+    "code": "UN",
+    "type": "region",
+    "name": {
+      "ru": "Организация Объединённых Наций",
+      "en": "United Nations"
+    },
+    "description": {
+      "ru": "Флаг региона «Организация Объединённых Наций» с зацикленной анимацией развевания.",
+      "en": "Flag of United Nations with a looping waving animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/un/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/un/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "World",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  }
+]
