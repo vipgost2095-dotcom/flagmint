@@ -1,1 +1,7 @@
-
+{
+  "url": "https://your-domain.example.com",
+  "name": "NFT Flags",
+  "iconUrl": "https://your-domain.example.com/icon-192.png",
+  "termsOfUseUrl": "https://your-domain.example.com/terms",
+  "privacyPolicyUrl": "https://your-domain.example.com/privacy"
+}
