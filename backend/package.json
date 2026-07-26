@@ -1,1 +1,23 @@
-
+{
+  "name": "nft-flags-backend",
+  "version": "1.0.0",
+  "description": "API для Telegram Mini App минта NFT-флагов (каталог, минт, статусы)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "generate-flags": "node scripts/generate-flags.mjs"
+  },
+  "dependencies": {
+    "@ton/core": "^0.56.3",
+    "@ton/ton": "^13.11.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
