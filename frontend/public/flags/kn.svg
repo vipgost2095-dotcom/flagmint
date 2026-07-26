@@ -1,0 +1,36 @@
+<svg viewBox="-30 -24 660 456" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="wave-KN" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="turbulence" numOctaves="2" seed="153" result="turb">
+        <animate attributeName="baseFrequency" dur="4.5s" repeatCount="indefinite"
+          values="0.010 0.045;0.016 0.055;0.010 0.045"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="shine-KN" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pole-KN" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a8f98"/>
+      <stop offset="50%" stop-color="#e5e8ec"/>
+      <stop offset="100%" stop-color="#8a8f98"/>
+    </linearGradient>
+    <clipPath id="clip-KN"><rect x="0" y="0" width="600" height="400"/></clipPath>
+  </defs>
+
+  <rect x="-14" y="-24" width="14" height="456" fill="url(#pole-KN)"/>
+  <circle cx="-7" cy="-24" r="11" fill="#d9b64a"/>
+
+  <g filter="url(#wave-KN)">
+    <g clip-path="url(#clip-KN)">
+      <polygon points="0,0 600,0 0,400" fill="#009739"/><polygon points="600,0 600,400 0,400" fill="#CE1126"/><line x1="0" y1="400" x2="600" y2="0" stroke="#000000" stroke-width="88.0"/><polygon points="192.0,228.0 196.7,241.5 211.0,241.8 199.6,250.5 203.8,264.2 192.0,256.0 180.2,264.2 184.4,250.5 173.0,241.8 187.3,241.5" fill="#fff"/><polygon points="264.0,180.0 268.7,193.5 283.0,193.8 271.6,202.5 275.8,216.2 264.0,208.0 252.2,216.2 256.4,202.5 245.0,193.8 259.3,193.5" fill="#fff"/>
+      <rect x="-600" y="0" width="1800" height="400" fill="url(#shine-KN)">
+        <animateTransform attributeName="transform" type="translate" dur="5.5s" repeatCount="indefinite"
+          values="-600 0; 600 0; -600 0"/>
+      </rect>
+    </g>
+  </g>
+</svg>
