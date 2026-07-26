@@ -1,7 +1,5 @@
 {
-  "url": "https://your-domain.example.com",
-  "name": "NFT Flags",
-  "iconUrl": "https://your-domain.example.com/icon-192.png",
-  "termsOfUseUrl": "https://your-domain.example.com/terms",
-  "privacyPolicyUrl": "https://your-domain.example.com/privacy"
+  "url": "https://satisfied-simplicity-production-20fb.up.railway.app",
+  "name": "FlagMint",
+  "iconUrl": "https://satisfied-simplicity-production-20fb.up.railway.app/icon-192.png"
 }
