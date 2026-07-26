@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import StatusBadge from "../components/StatusBadge";
+import WalletMenu from "../components/WalletMenu";
 import { api } from "../lib/api";
 
 export default function ProfileScreen() {
@@ -23,6 +24,8 @@ export default function ProfileScreen() {
   return (
     <div className="screen">
       <h1>{t("profile.title")}</h1>
+
+      <WalletMenu />
 
       {error && <p className="error-text">{t("errors.network")}</p>}
 
