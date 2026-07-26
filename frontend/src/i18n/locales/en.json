@@ -42,6 +42,10 @@
     },
     "viewOnGetgems": "View on Getgems"
   },
+  "wallet": {
+    "connected": "Wallet connected",
+    "notConnected": "Wallet not connected"
+  },
   "nav": {
     "catalog": "Catalog",
     "profile": "Profile"

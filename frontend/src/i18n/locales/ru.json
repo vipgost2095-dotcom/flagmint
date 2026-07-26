@@ -42,6 +42,10 @@
     },
     "viewOnGetgems": "Смотреть на Getgems"
   },
+  "wallet": {
+    "connected": "Кошелёк подключён",
+    "notConnected": "Кошелёк не подключён"
+  },
   "nav": {
     "catalog": "Каталог",
     "profile": "Профиль"
