@@ -1,1 +1,350 @@
+/**
+ * Все цвета берутся из CSS-переменных, которые прокидывает Telegram WebApp
+ * (см. src/lib/telegram.js -> applyTelegramThemeVars). Так интерфейс
+ * автоматически подстраивается под светлую/тёмную тему клиента.
+ */
+:root {
+  --tg-bg: #ffffff;
+  --tg-text: #1c1c1e;
+  --tg-hint: #8e8e93;
+  --tg-link: #2481cc;
+  --tg-button: #2481cc;
+  --tg-button-text: #ffffff;
+  --tg-secondary-bg: #f2f2f7;
 
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+
+  --color-success: #34c759;
+  --color-error: #ff3b30;
+  --color-pending: #ff9500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--tg-bg);
+  color: var(--tg-text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 72px; /* место под нижнюю навигацию */
+}
+
+.screen {
+  flex: 1;
+  padding: var(--space-4);
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 16px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--tg-button);
+  color: var(--tg-button-text);
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid var(--tg-secondary-bg);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--tg-text);
+  cursor: pointer;
+}
+
+.card {
+  background: var(--tg-secondary-bg);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  border: none;
+  background: var(--tg-secondary-bg);
+  color: var(--tg-text);
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: var(--tg-hint);
+}
+
+.filter-tabs {
+  display: flex;
+  gap: var(--space-2);
+  margin: var(--space-3) 0;
+}
+
+.filter-tab {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: none;
+  background: var(--tg-secondary-bg);
+  color: var(--tg-hint);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filter-tab.active {
+  background: var(--tg-button);
+  color: var(--tg-button-text);
+}
+
+.flag-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.flag-card {
+  background: var(--tg-secondary-bg);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.flag-card__preview {
+  aspect-ratio: 4 / 3;
+  background: #d9d9df22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-card__preview img,
+.flag-card__preview svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flag-card__body {
+  padding: var(--space-3);
+}
+
+.flag-card__title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+.flag-card__subtitle {
+  font-size: 13px;
+  color: var(--tg-hint);
+  margin: 0;
+}
+
+.detail-preview {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--tg-secondary-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attributes-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: var(--space-4) 0;
+}
+
+.attribute-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.attribute-row__label {
+  color: var(--tg-hint);
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-2) 0;
+  font-size: 15px;
+}
+
+.price-row--total {
+  font-weight: 700;
+  font-size: 17px;
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  padding-top: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge--pending {
+  background: color-mix(in srgb, var(--color-pending) 18%, transparent);
+  color: var(--color-pending);
+}
+
+.status-badge--success {
+  background: color-mix(in srgb, var(--color-success) 18%, transparent);
+  color: var(--color-success);
+}
+
+.status-badge--error {
+  background: color-mix(in srgb, var(--color-error) 18%, transparent);
+  color: var(--color-error);
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background: var(--tg-bg);
+  border-top: 1px solid rgba(128, 128, 128, 0.15);
+  padding: 8px 0 max(8px, env(safe-area-inset-bottom));
+}
+
+.bottom-nav__item {
+  flex: 1;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  font-size: 11px;
+  color: var(--tg-hint);
+  cursor: pointer;
+}
+
+.bottom-nav__item.active {
+  color: var(--tg-button);
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--tg-hint);
+  padding: var(--space-5) var(--space-4);
+}
+
+.nft-list-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  background: var(--tg-secondary-bg);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-2);
+}
+
+.nft-list-item__thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #00000011;
+}
+
+.nft-list-item__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nft-list-item__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.nft-list-item__title {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 0 2px;
+}
+
+.nft-list-item__link {
+  font-size: 13px;
+  color: var(--tg-link);
+  text-decoration: none;
+}
+
+.error-text {
+  color: var(--color-error);
+  font-size: 14px;
+  margin-top: var(--space-2);
+}
+
+.lang-switch {
+  display: flex;
+  gap: var(--space-2);
+  justify-content: flex-end;
+  margin-bottom: var(--space-2);
+}
+
+.lang-switch button {
+  border: none;
+  background: none;
+  color: var(--tg-hint);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.lang-switch button.active {
+  color: var(--tg-text);
+}
