@@ -1,1 +1,134 @@
-
+[
+  {
+    "id": "country-ru",
+    "code": "RU",
+    "type": "country",
+    "name": { "ru": "Россия", "en": "Russia" },
+    "description": {
+      "ru": "Триколор России с плавной анимацией развевания на ветру.",
+      "en": "Russia's tricolor with a smooth waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/ru/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/ru/preview.gif"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe/Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-us",
+    "code": "US",
+    "type": "country",
+    "name": { "ru": "США", "en": "United States" },
+    "description": {
+      "ru": "Флаг США — звёзды и полосы в анимации лёгкого ветра.",
+      "en": "The US flag — stars and stripes in a gentle wind animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/us/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/us/preview.gif"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "country-jp",
+    "code": "JP",
+    "type": "country",
+    "name": { "ru": "Япония", "en": "Japan" },
+    "description": {
+      "ru": "Минималистичный флаг Японии с мягкой волновой анимацией.",
+      "en": "Japan's minimalist flag with a soft wave animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/jp/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/jp/preview.gif"
+    },
+    "attributes": {
+      "country": "Japan",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  },
+  {
+    "id": "region-eu",
+    "code": "EU",
+    "type": "region",
+    "name": { "ru": "Европейский союз", "en": "European Union" },
+    "description": {
+      "ru": "Флаг Евросоюза — звёздный круг на синем фоне.",
+      "en": "The EU flag — a circle of stars on a blue field."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/eu/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/eu/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-hk",
+    "code": "HK",
+    "type": "region",
+    "name": { "ru": "Гонконг", "en": "Hong Kong" },
+    "description": {
+      "ru": "Флаг специального административного региона Гонконг.",
+      "en": "Flag of the Hong Kong Special Administrative Region."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/hk/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/hk/preview.gif"
+    },
+    "attributes": {
+      "country": null,
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 500
+    },
+    "priceTon": 1.8
+  },
+  {
+    "id": "country-br",
+    "code": "BR",
+    "type": "country",
+    "name": { "ru": "Бразилия", "en": "Brazil" },
+    "description": {
+      "ru": "Флаг Бразилии с зелёно-жёлтой анимацией волны.",
+      "en": "Brazil's flag with a green-and-yellow wave animation."
+    },
+    "animation": {
+      "type": "lottie",
+      "previewUrl": "https://cdn.example.com/flags/br/preview.json",
+      "fallbackGifUrl": "https://cdn.example.com/flags/br/preview.gif"
+    },
+    "attributes": {
+      "country": "Brazil",
+      "region": "South America",
+      "animation_type": "wave-loop",
+      "edition": 1000
+    },
+    "priceTon": 1.5
+  }
+]
