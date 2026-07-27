@@ -108,7 +108,7 @@ mintRouter.post("/:id/submitted", async (req, res) => {
         { trait_type: "country", value: flag.attributes.country ?? "—" },
         { trait_type: "region", value: flag.attributes.region },
         { trait_type: "animation_type", value: flag.attributes.animation_type },
-        { trait_type: "edition", value: flag.attributes.edition },
+        { trait_type: "edition", value: String(flag.attributes.edition) },
       ],
     });
 
