@@ -30,6 +30,7 @@
     "error": "Не удалось выполнить минт",
     "viewOnGetgems": "Открыть на Getgems",
     "backToCatalog": "Вернуться в каталог",
+    "goToProfile": "Перейти в профиль",
     "tryAgain": "Попробовать снова"
   },
   "profile": {

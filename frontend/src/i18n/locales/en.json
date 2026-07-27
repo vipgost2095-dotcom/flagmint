@@ -30,6 +30,7 @@
     "error": "Mint failed",
     "viewOnGetgems": "View on Getgems",
     "backToCatalog": "Back to catalog",
+    "goToProfile": "Go to profile",
     "tryAgain": "Try again"
   },
   "profile": {
