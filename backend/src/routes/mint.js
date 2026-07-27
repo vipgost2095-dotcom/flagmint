@@ -7,6 +7,7 @@ import {
   normalizeStatusResponse,
 } from "../services/getgemsMintingApi.js";
 import { buildGetgemsNftUrl } from "../services/getgemsService.js";
+import { notifyGroupMint } from "../services/telegramNotify.js";
 import { createMint, getMint, updateMint } from "../db/memoryDb.js";
 import { idempotency } from "../middleware/idempotency.js";
 
@@ -137,9 +138,6 @@ mintRouter.get("/:id", async (req, res) => {
   if (mint.status === "pending") {
     try {
       const statusData = await getGetgemsMintStatus({ requestId: mint.id });
-      // ВРЕМЕННО: печатаем сырой ответ Getgems, чтобы увидеть реальную структуру
-      // и точно подогнать normalizeStatusResponse (а не гадать по названиям полей).
-      console.error("[mint status poll] RAW Getgems response:", JSON.stringify(statusData));
       const { done, failed, nftAddress, getgemsUrl } = normalizeStatusResponse(statusData);
 
       if (failed) {
@@ -158,6 +156,21 @@ mintRouter.get("/:id", async (req, res) => {
           nftAddress,
           getgemsUrl: finalGetgemsUrl,
         });
+
+        if (!mint.groupNotified) {
+          const flag = getFlagById(mint.flagId);
+          if (flag) {
+            const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+            notifyGroupMint({
+              flagNameRu: flag.name.ru,
+              flagNameEn: flag.name.en,
+              animationUrl: `${frontendUrl}${flag.animation.previewUrl}`,
+              getgemsUrl: finalGetgemsUrl,
+            }).catch((err) => console.error("[mint status poll] notifyGroupMint failed:", err.message));
+          }
+          updateMint(mint.id, { groupNotified: true });
+        }
+
         return res.json(updated);
       }
     } catch (err) {

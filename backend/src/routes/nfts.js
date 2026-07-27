@@ -3,6 +3,7 @@ import { listMintsByUser, updateMint } from "../db/memoryDb.js";
 import { getFlagById } from "./flags.js";
 import { getGetgemsMintStatus, normalizeStatusResponse } from "../services/getgemsMintingApi.js";
 import { buildGetgemsNftUrl } from "../services/getgemsService.js";
+import { notifyGroupMint } from "../services/telegramNotify.js";
 
 export const nftsRouter = Router();
 
@@ -33,6 +34,20 @@ nftsRouter.get("/", async (req, res) => {
             const network = process.env.TON_NETWORK ?? "testnet";
             const finalUrl = getgemsUrl ?? buildGetgemsNftUrl({ network, nftAddress });
             current = updateMint(current.id, { status: "success", nftAddress, getgemsUrl: finalUrl });
+
+            if (!current.groupNotified) {
+              const flag = getFlagById(current.flagId);
+              if (flag) {
+                const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+                notifyGroupMint({
+                  flagNameRu: flag.name.ru,
+                  flagNameEn: flag.name.en,
+                  animationUrl: `${frontendUrl}${flag.animation.previewUrl}`,
+                  getgemsUrl: finalUrl,
+                }).catch((err) => console.error("[nfts list] notifyGroupMint failed:", err.message));
+              }
+              current = updateMint(current.id, { groupNotified: true });
+            }
           } else if (failed) {
             current = updateMint(current.id, {
               status: "error",
