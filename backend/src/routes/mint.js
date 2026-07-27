@@ -1,6 +1,11 @@
 import { Router } from "express";
 import { getFlagById } from "./flags.js";
-import { buildMintTransaction, checkMintTransactionStatus } from "../services/tonService.js";
+import { buildPaymentTransaction } from "../services/tonService.js";
+import {
+  createNftViaGetgems,
+  getGetgemsMintStatus,
+  normalizeStatusResponse,
+} from "../services/getgemsMintingApi.js";
 import { buildGetgemsNftUrl } from "../services/getgemsService.js";
 import { createMint, getMint, updateMint } from "../db/memoryDb.js";
 import { idempotency } from "../middleware/idempotency.js";
@@ -10,13 +15,10 @@ export const mintRouter = Router();
 /**
  * POST /api/mint/prepare
  * body: { flagId, walletAddress }
- * Требует Idempotency-Key в заголовках (см. middleware/idempotency.js) —
- * защищает от повторного создания записи о минте при двойном тапе/ретрае.
  *
- * Возвращает:
- *  - mintId — id записи в нашей БД, по которому потом отслеживается статус
- *  - transaction — объект для передачи в tonConnectUI.sendTransaction() на фронтенде
- *  - priceBreakdown — цена/комиссия/итог для экрана подтверждения
+ * Готовит ПРОСТОЙ перевод оплаты на наш кошелёк — сам NFT минтит Getgems
+ * отдельно через свой Minting API (см. /:id/submitted ниже), а не эта
+ * транзакция.
  */
 mintRouter.post("/prepare", idempotency(), async (req, res) => {
   const { flagId, walletAddress } = req.body ?? {};
@@ -36,13 +38,10 @@ mintRouter.post("/prepare", idempotency(), async (req, res) => {
   }
 
   try {
-    const transaction = buildMintTransaction({
-      flagId: flag.id,
-      userWalletAddress: walletAddress,
-      priceTon: flag.priceTon,
-    });
+    const transaction = buildPaymentTransaction({ flagId: flag.id, priceTon: flag.priceTon });
 
     const mint = createMint({ userId, flagId: flag.id, priceTon: flag.priceTon });
+    updateMint(mint.id, { walletAddress });
 
     const responseBody = {
       mintId: mint.id,
@@ -65,10 +64,17 @@ mintRouter.post("/prepare", idempotency(), async (req, res) => {
 
 /**
  * POST /api/mint/:id/submitted
- * body: { walletAddress }
- * Клиент вызывает сразу после того, как кошелёк (Tonkeeper/MyTonWallet)
- * подтвердил отправку транзакции. Здесь мы не считаем минт завершённым —
- * только фиксируем факт отправки и начинаем проверять статус в сети.
+ *
+ * Клиент вызывает сразу после того, как кошелёк подтвердил отправку
+ * оплаты. Здесь мы ЗАПУСКАЕМ реальный минт через Getgems Minting API —
+ * само создание NFT происходит у них в фоне (6 секунд — несколько минут).
+ *
+ * ⚠️ Упрощение для MVP: мы не проверяем, что платёж пользователя реально
+ * подтвердился в сети TON, прежде чем запускать платный вызов Getgems API
+ * (~0.023 TON списывается с вашего служебного кошелька на каждый вызов).
+ * Для продакшена стоит сначала убедиться, что оплата дошла (например,
+ * проверкой входящих транзакций на PAYMENT_RECEIVER_ADDRESS), и только
+ * затем вызывать createNftViaGetgems.
  */
 mintRouter.post("/:id/submitted", async (req, res) => {
   const mint = getMint(req.params.id);
@@ -77,37 +83,46 @@ mintRouter.post("/:id/submitted", async (req, res) => {
   }
 
   const { walletAddress } = req.body ?? {};
-  if (!walletAddress) {
+  const ownerAddress = walletAddress || mint.walletAddress;
+  if (!ownerAddress) {
     return res.status(400).json({ error: "BAD_REQUEST", message: "walletAddress обязателен" });
   }
 
-  updateMint(mint.id, { status: "pending" });
-
-  // В реальной системе тут стоит поставить задачу в очередь (BullMQ/Cron)
-  // вместо синхронного ожидания — оставляем простую немедленную проверку,
-  // а полный опрос статуса делает GET /api/mint/:id (см. ниже).
-  const check = await checkMintTransactionStatus({ userWalletAddress: walletAddress });
-
-  if (check.confirmed) {
-    const network = process.env.TON_NETWORK ?? "testnet";
-    const getgemsUrl = buildGetgemsNftUrl({ network, nftAddress: check.nftAddress });
-    const updated = updateMint(mint.id, {
-      status: "success",
-      txHash: check.txHash,
-      nftAddress: check.nftAddress,
-      getgemsUrl,
-    });
-    return res.json(updated);
+  const flag = getFlagById(mint.flagId);
+  if (!flag) {
+    return res.status(404).json({ error: "FLAG_NOT_FOUND" });
   }
 
-  return res.status(202).json({ ...mint, status: "pending" });
+  updateMint(mint.id, { status: "pending", walletAddress: ownerAddress });
+
+  try {
+    const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+    await createNftViaGetgems({
+      requestId: mint.id,
+      ownerAddress,
+      name: `${flag.name.en} Flag`,
+      description: flag.description.en,
+      image: `${frontendUrl}${flag.animation.fallbackGifUrl}`,
+      attributes: [
+        { trait_type: "country", value: flag.attributes.country ?? "—" },
+        { trait_type: "region", value: flag.attributes.region },
+        { trait_type: "animation_type", value: flag.attributes.animation_type },
+        { trait_type: "edition", value: flag.attributes.edition },
+      ],
+    });
+
+    const updated = updateMint(mint.id, { status: "pending" });
+    return res.status(202).json(updated);
+  } catch (err) {
+    const updated = updateMint(mint.id, { status: "error", errorMessage: err.message });
+    return res.status(502).json(updated);
+  }
 });
 
 /**
  * GET /api/mint/:id
- * Фронтенд опрашивает этот эндпоинт (poll) на экране подтверждения, пока
- * не получит status !== 'pending', либо подписывается на пуш-уведомление
- * (см. notifications в боте).
+ * Фронтенд опрашивает этот эндпоинт (poll), пока не получит status !== 'pending'.
+ * Здесь спрашиваем статус создания NFT у самого Getgems.
  */
 mintRouter.get("/:id", async (req, res) => {
   const mint = getMint(req.params.id);
@@ -116,18 +131,25 @@ mintRouter.get("/:id", async (req, res) => {
   }
 
   if (mint.status === "pending") {
-    // Повторно проверяем сеть на каждый poll — простое, но рабочее решение
-    // для MVP. Для масштабирования вынесите в фоновый воркер + вебхуки.
     try {
-      const check = await checkMintTransactionStatus({ userWalletAddress: req.query.walletAddress });
-      if (check.confirmed) {
+      const statusData = await getGetgemsMintStatus({ requestId: mint.id });
+      const { done, failed, nftAddress, getgemsUrl } = normalizeStatusResponse(statusData);
+
+      if (failed) {
+        const updated = updateMint(mint.id, {
+          status: "error",
+          errorMessage: "Getgems сообщил об ошибке создания NFT",
+        });
+        return res.json(updated);
+      }
+
+      if (done) {
         const network = process.env.TON_NETWORK ?? "testnet";
-        const getgemsUrl = buildGetgemsNftUrl({ network, nftAddress: check.nftAddress });
+        const finalGetgemsUrl = getgemsUrl ?? buildGetgemsNftUrl({ network, nftAddress });
         const updated = updateMint(mint.id, {
           status: "success",
-          txHash: check.txHash,
-          nftAddress: check.nftAddress,
-          getgemsUrl,
+          nftAddress,
+          getgemsUrl: finalGetgemsUrl,
         });
         return res.json(updated);
       }
