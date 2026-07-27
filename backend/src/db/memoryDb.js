@@ -90,3 +90,13 @@ export function listMintsByUser(userId) {
     .filter((m) => String(m.userId) === String(userId))
     .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 }
+
+/**
+ * Считает "зарезервированные" минты по ВСЕЙ коллекции (не только текущего
+ * пользователя) — pending и success вместе, чтобы не допустить превышения
+ * общего лимита тиража даже при нескольких одновременных попытках минта.
+ * Ошибочные (error) попытки не учитываются — они не отняли место в тираже.
+ */
+export function countReservedMints() {
+  return [...mints.values()].filter((m) => m.status === "pending" || m.status === "success").length;
+}
