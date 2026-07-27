@@ -103,7 +103,7 @@ mintRouter.post("/:id/submitted", async (req, res) => {
       ownerAddress,
       name: `${flag.name.en} Flag`,
       description: flag.description.en,
-      image: `${frontendUrl}${flag.animation.fallbackGifUrl}`,
+      image: `${frontendUrl}${flag.animation.previewUrl}`,
       attributes: [
         { trait_type: "country", value: flag.attributes.country ?? "—" },
         { trait_type: "region", value: flag.attributes.region },
@@ -137,6 +137,9 @@ mintRouter.get("/:id", async (req, res) => {
   if (mint.status === "pending") {
     try {
       const statusData = await getGetgemsMintStatus({ requestId: mint.id });
+      // ВРЕМЕННО: печатаем сырой ответ Getgems, чтобы увидеть реальную структуру
+      // и точно подогнать normalizeStatusResponse (а не гадать по названиям полей).
+      console.error("[mint status poll] RAW Getgems response:", JSON.stringify(statusData));
       const { done, failed, nftAddress, getgemsUrl } = normalizeStatusResponse(statusData);
 
       if (failed) {
