@@ -12,8 +12,8 @@
       "en": "Flag of Afghanistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/af.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/af.gif",
       "fallbackGifUrl": "/flags/af.png"
     },
     "attributes": {
@@ -37,8 +37,8 @@
       "en": "Flag of Albania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/al.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/al.gif",
       "fallbackGifUrl": "/flags/al.png"
     },
     "attributes": {
@@ -62,8 +62,8 @@
       "en": "Flag of Algeria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/dz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/dz.gif",
       "fallbackGifUrl": "/flags/dz.png"
     },
     "attributes": {
@@ -87,8 +87,8 @@
       "en": "Flag of Andorra with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ad.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ad.gif",
       "fallbackGifUrl": "/flags/ad.png"
     },
     "attributes": {
@@ -112,8 +112,8 @@
       "en": "Flag of Angola with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ao.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ao.gif",
       "fallbackGifUrl": "/flags/ao.png"
     },
     "attributes": {
@@ -137,8 +137,8 @@
       "en": "Flag of Antigua & Barbuda with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ag.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ag.gif",
       "fallbackGifUrl": "/flags/ag.png"
     },
     "attributes": {
@@ -162,8 +162,8 @@
       "en": "Flag of Argentina with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ar.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ar.gif",
       "fallbackGifUrl": "/flags/ar.png"
     },
     "attributes": {
@@ -187,8 +187,8 @@
       "en": "Flag of Armenia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/am.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/am.gif",
       "fallbackGifUrl": "/flags/am.png"
     },
     "attributes": {
@@ -212,8 +212,8 @@
       "en": "Flag of Australia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/au.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/au.gif",
       "fallbackGifUrl": "/flags/au.png"
     },
     "attributes": {
@@ -237,8 +237,8 @@
       "en": "Flag of Austria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/at.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/at.gif",
       "fallbackGifUrl": "/flags/at.png"
     },
     "attributes": {
@@ -262,8 +262,8 @@
       "en": "Flag of Azerbaijan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/az.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/az.gif",
       "fallbackGifUrl": "/flags/az.png"
     },
     "attributes": {
@@ -287,8 +287,8 @@
       "en": "Flag of Bahamas with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bs.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bs.gif",
       "fallbackGifUrl": "/flags/bs.png"
     },
     "attributes": {
@@ -312,8 +312,8 @@
       "en": "Flag of Bahrain with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bh.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bh.gif",
       "fallbackGifUrl": "/flags/bh.png"
     },
     "attributes": {
@@ -337,8 +337,8 @@
       "en": "Flag of Bangladesh with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bd.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bd.gif",
       "fallbackGifUrl": "/flags/bd.png"
     },
     "attributes": {
@@ -362,8 +362,8 @@
       "en": "Flag of Barbados with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bb.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bb.gif",
       "fallbackGifUrl": "/flags/bb.png"
     },
     "attributes": {
@@ -387,8 +387,8 @@
       "en": "Flag of Belarus with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/by.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/by.gif",
       "fallbackGifUrl": "/flags/by.png"
     },
     "attributes": {
@@ -412,8 +412,8 @@
       "en": "Flag of Belgium with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/be.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/be.gif",
       "fallbackGifUrl": "/flags/be.png"
     },
     "attributes": {
@@ -437,8 +437,8 @@
       "en": "Flag of Belize with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bz.gif",
       "fallbackGifUrl": "/flags/bz.png"
     },
     "attributes": {
@@ -462,8 +462,8 @@
       "en": "Flag of Benin with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bj.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bj.gif",
       "fallbackGifUrl": "/flags/bj.png"
     },
     "attributes": {
@@ -487,8 +487,8 @@
       "en": "Flag of Bhutan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bt.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bt.gif",
       "fallbackGifUrl": "/flags/bt.png"
     },
     "attributes": {
@@ -512,8 +512,8 @@
       "en": "Flag of Bolivia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bo.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bo.gif",
       "fallbackGifUrl": "/flags/bo.png"
     },
     "attributes": {
@@ -537,8 +537,8 @@
       "en": "Flag of Bosnia & Herzegovina with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ba.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ba.gif",
       "fallbackGifUrl": "/flags/ba.png"
     },
     "attributes": {
@@ -562,8 +562,8 @@
       "en": "Flag of Botswana with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bw.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bw.gif",
       "fallbackGifUrl": "/flags/bw.png"
     },
     "attributes": {
@@ -587,8 +587,8 @@
       "en": "Flag of Brazil with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/br.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/br.gif",
       "fallbackGifUrl": "/flags/br.png"
     },
     "attributes": {
@@ -612,8 +612,8 @@
       "en": "Flag of Brunei with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bn.gif",
       "fallbackGifUrl": "/flags/bn.png"
     },
     "attributes": {
@@ -637,8 +637,8 @@
       "en": "Flag of Bulgaria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bg.gif",
       "fallbackGifUrl": "/flags/bg.png"
     },
     "attributes": {
@@ -662,8 +662,8 @@
       "en": "Flag of Burkina Faso with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bf.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bf.gif",
       "fallbackGifUrl": "/flags/bf.png"
     },
     "attributes": {
@@ -687,8 +687,8 @@
       "en": "Flag of Burundi with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/bi.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/bi.gif",
       "fallbackGifUrl": "/flags/bi.png"
     },
     "attributes": {
@@ -712,8 +712,8 @@
       "en": "Flag of Cape Verde with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cv.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cv.gif",
       "fallbackGifUrl": "/flags/cv.png"
     },
     "attributes": {
@@ -737,8 +737,8 @@
       "en": "Flag of Cambodia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/kh.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/kh.gif",
       "fallbackGifUrl": "/flags/kh.png"
     },
     "attributes": {
@@ -762,8 +762,8 @@
       "en": "Flag of Cameroon with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cm.gif",
       "fallbackGifUrl": "/flags/cm.png"
     },
     "attributes": {
@@ -787,8 +787,8 @@
       "en": "Flag of Canada with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ca.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ca.gif",
       "fallbackGifUrl": "/flags/ca.png"
     },
     "attributes": {
@@ -812,8 +812,8 @@
       "en": "Flag of Central African Republic with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cf.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cf.gif",
       "fallbackGifUrl": "/flags/cf.png"
     },
     "attributes": {
@@ -837,8 +837,8 @@
       "en": "Flag of Chad with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/td.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/td.gif",
       "fallbackGifUrl": "/flags/td.png"
     },
     "attributes": {
@@ -862,8 +862,8 @@
       "en": "Flag of Chile with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cl.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cl.gif",
       "fallbackGifUrl": "/flags/cl.png"
     },
     "attributes": {
@@ -887,8 +887,8 @@
       "en": "Flag of China with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cn.gif",
       "fallbackGifUrl": "/flags/cn.png"
     },
     "attributes": {
@@ -912,8 +912,8 @@
       "en": "Flag of Colombia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/co.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/co.gif",
       "fallbackGifUrl": "/flags/co.png"
     },
     "attributes": {
@@ -937,8 +937,8 @@
       "en": "Flag of Comoros with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/km.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/km.gif",
       "fallbackGifUrl": "/flags/km.png"
     },
     "attributes": {
@@ -962,8 +962,8 @@
       "en": "Flag of Congo - Brazzaville with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cg.gif",
       "fallbackGifUrl": "/flags/cg.png"
     },
     "attributes": {
@@ -987,8 +987,8 @@
       "en": "Flag of Congo - Kinshasa with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cd.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cd.gif",
       "fallbackGifUrl": "/flags/cd.png"
     },
     "attributes": {
@@ -1012,8 +1012,8 @@
       "en": "Flag of Costa Rica with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cr.gif",
       "fallbackGifUrl": "/flags/cr.png"
     },
     "attributes": {
@@ -1037,8 +1037,8 @@
       "en": "Flag of Côte d’Ivoire with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ci.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ci.gif",
       "fallbackGifUrl": "/flags/ci.png"
     },
     "attributes": {
@@ -1062,8 +1062,8 @@
       "en": "Flag of Croatia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/hr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/hr.gif",
       "fallbackGifUrl": "/flags/hr.png"
     },
     "attributes": {
@@ -1087,8 +1087,8 @@
       "en": "Flag of Cuba with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cu.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cu.gif",
       "fallbackGifUrl": "/flags/cu.png"
     },
     "attributes": {
@@ -1112,8 +1112,8 @@
       "en": "Flag of Cyprus with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cy.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cy.gif",
       "fallbackGifUrl": "/flags/cy.png"
     },
     "attributes": {
@@ -1137,8 +1137,8 @@
       "en": "Flag of Czechia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cz.gif",
       "fallbackGifUrl": "/flags/cz.png"
     },
     "attributes": {
@@ -1162,8 +1162,8 @@
       "en": "Flag of Denmark with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/dk.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/dk.gif",
       "fallbackGifUrl": "/flags/dk.png"
     },
     "attributes": {
@@ -1187,8 +1187,8 @@
       "en": "Flag of Djibouti with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/dj.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/dj.gif",
       "fallbackGifUrl": "/flags/dj.png"
     },
     "attributes": {
@@ -1212,8 +1212,8 @@
       "en": "Flag of Dominica with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/dm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/dm.gif",
       "fallbackGifUrl": "/flags/dm.png"
     },
     "attributes": {
@@ -1237,8 +1237,8 @@
       "en": "Flag of Dominican Republic with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/do.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/do.gif",
       "fallbackGifUrl": "/flags/do.png"
     },
     "attributes": {
@@ -1262,8 +1262,8 @@
       "en": "Flag of Ecuador with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ec.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ec.gif",
       "fallbackGifUrl": "/flags/ec.png"
     },
     "attributes": {
@@ -1287,8 +1287,8 @@
       "en": "Flag of Egypt with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/eg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/eg.gif",
       "fallbackGifUrl": "/flags/eg.png"
     },
     "attributes": {
@@ -1312,8 +1312,8 @@
       "en": "Flag of El Salvador with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sv.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sv.gif",
       "fallbackGifUrl": "/flags/sv.png"
     },
     "attributes": {
@@ -1337,8 +1337,8 @@
       "en": "Flag of Equatorial Guinea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gq.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gq.gif",
       "fallbackGifUrl": "/flags/gq.png"
     },
     "attributes": {
@@ -1362,8 +1362,8 @@
       "en": "Flag of Eritrea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/er.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/er.gif",
       "fallbackGifUrl": "/flags/er.png"
     },
     "attributes": {
@@ -1387,8 +1387,8 @@
       "en": "Flag of Estonia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ee.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ee.gif",
       "fallbackGifUrl": "/flags/ee.png"
     },
     "attributes": {
@@ -1412,8 +1412,8 @@
       "en": "Flag of Eswatini with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sz.gif",
       "fallbackGifUrl": "/flags/sz.png"
     },
     "attributes": {
@@ -1437,8 +1437,8 @@
       "en": "Flag of Ethiopia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/et.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/et.gif",
       "fallbackGifUrl": "/flags/et.png"
     },
     "attributes": {
@@ -1462,8 +1462,8 @@
       "en": "Flag of Fiji with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/fj.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/fj.gif",
       "fallbackGifUrl": "/flags/fj.png"
     },
     "attributes": {
@@ -1487,8 +1487,8 @@
       "en": "Flag of Finland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/fi.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/fi.gif",
       "fallbackGifUrl": "/flags/fi.png"
     },
     "attributes": {
@@ -1512,8 +1512,8 @@
       "en": "Flag of France with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/fr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/fr.gif",
       "fallbackGifUrl": "/flags/fr.png"
     },
     "attributes": {
@@ -1537,8 +1537,8 @@
       "en": "Flag of Gabon with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ga.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ga.gif",
       "fallbackGifUrl": "/flags/ga.png"
     },
     "attributes": {
@@ -1562,8 +1562,8 @@
       "en": "Flag of Gambia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gm.gif",
       "fallbackGifUrl": "/flags/gm.png"
     },
     "attributes": {
@@ -1587,8 +1587,8 @@
       "en": "Flag of Georgia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ge.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ge.gif",
       "fallbackGifUrl": "/flags/ge.png"
     },
     "attributes": {
@@ -1612,8 +1612,8 @@
       "en": "Flag of Germany with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/de.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/de.gif",
       "fallbackGifUrl": "/flags/de.png"
     },
     "attributes": {
@@ -1637,8 +1637,8 @@
       "en": "Flag of Ghana with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gh.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gh.gif",
       "fallbackGifUrl": "/flags/gh.png"
     },
     "attributes": {
@@ -1662,8 +1662,8 @@
       "en": "Flag of Greece with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gr.gif",
       "fallbackGifUrl": "/flags/gr.png"
     },
     "attributes": {
@@ -1687,8 +1687,8 @@
       "en": "Flag of Grenada with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gd.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gd.gif",
       "fallbackGifUrl": "/flags/gd.png"
     },
     "attributes": {
@@ -1712,8 +1712,8 @@
       "en": "Flag of Guatemala with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gt.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gt.gif",
       "fallbackGifUrl": "/flags/gt.png"
     },
     "attributes": {
@@ -1737,8 +1737,8 @@
       "en": "Flag of Guinea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gn.gif",
       "fallbackGifUrl": "/flags/gn.png"
     },
     "attributes": {
@@ -1762,8 +1762,8 @@
       "en": "Flag of Guinea-Bissau with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gw.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gw.gif",
       "fallbackGifUrl": "/flags/gw.png"
     },
     "attributes": {
@@ -1787,8 +1787,8 @@
       "en": "Flag of Guyana with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gy.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gy.gif",
       "fallbackGifUrl": "/flags/gy.png"
     },
     "attributes": {
@@ -1812,8 +1812,8 @@
       "en": "Flag of Haiti with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ht.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ht.gif",
       "fallbackGifUrl": "/flags/ht.png"
     },
     "attributes": {
@@ -1837,8 +1837,8 @@
       "en": "Flag of Honduras with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/hn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/hn.gif",
       "fallbackGifUrl": "/flags/hn.png"
     },
     "attributes": {
@@ -1862,8 +1862,8 @@
       "en": "Flag of Hungary with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/hu.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/hu.gif",
       "fallbackGifUrl": "/flags/hu.png"
     },
     "attributes": {
@@ -1887,8 +1887,8 @@
       "en": "Flag of Iceland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/is.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/is.gif",
       "fallbackGifUrl": "/flags/is.png"
     },
     "attributes": {
@@ -1912,8 +1912,8 @@
       "en": "Flag of India with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/in.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/in.gif",
       "fallbackGifUrl": "/flags/in.png"
     },
     "attributes": {
@@ -1937,8 +1937,8 @@
       "en": "Flag of Indonesia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/id.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/id.gif",
       "fallbackGifUrl": "/flags/id.png"
     },
     "attributes": {
@@ -1962,8 +1962,8 @@
       "en": "Flag of Iran with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ir.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ir.gif",
       "fallbackGifUrl": "/flags/ir.png"
     },
     "attributes": {
@@ -1987,8 +1987,8 @@
       "en": "Flag of Iraq with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/iq.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/iq.gif",
       "fallbackGifUrl": "/flags/iq.png"
     },
     "attributes": {
@@ -2012,8 +2012,8 @@
       "en": "Flag of Ireland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ie.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ie.gif",
       "fallbackGifUrl": "/flags/ie.png"
     },
     "attributes": {
@@ -2037,8 +2037,8 @@
       "en": "Flag of Israel with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/il.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/il.gif",
       "fallbackGifUrl": "/flags/il.png"
     },
     "attributes": {
@@ -2062,8 +2062,8 @@
       "en": "Flag of Italy with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/it.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/it.gif",
       "fallbackGifUrl": "/flags/it.png"
     },
     "attributes": {
@@ -2087,8 +2087,8 @@
       "en": "Flag of Jamaica with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/jm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/jm.gif",
       "fallbackGifUrl": "/flags/jm.png"
     },
     "attributes": {
@@ -2112,8 +2112,8 @@
       "en": "Flag of Japan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/jp.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/jp.gif",
       "fallbackGifUrl": "/flags/jp.png"
     },
     "attributes": {
@@ -2137,8 +2137,8 @@
       "en": "Flag of Jordan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/jo.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/jo.gif",
       "fallbackGifUrl": "/flags/jo.png"
     },
     "attributes": {
@@ -2162,8 +2162,8 @@
       "en": "Flag of Kazakhstan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/kz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/kz.gif",
       "fallbackGifUrl": "/flags/kz.png"
     },
     "attributes": {
@@ -2187,8 +2187,8 @@
       "en": "Flag of Kenya with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ke.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ke.gif",
       "fallbackGifUrl": "/flags/ke.png"
     },
     "attributes": {
@@ -2212,8 +2212,8 @@
       "en": "Flag of Kiribati with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ki.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ki.gif",
       "fallbackGifUrl": "/flags/ki.png"
     },
     "attributes": {
@@ -2237,8 +2237,8 @@
       "en": "Flag of North Korea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/kp.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/kp.gif",
       "fallbackGifUrl": "/flags/kp.png"
     },
     "attributes": {
@@ -2262,8 +2262,8 @@
       "en": "Flag of South Korea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/kr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/kr.gif",
       "fallbackGifUrl": "/flags/kr.png"
     },
     "attributes": {
@@ -2287,8 +2287,8 @@
       "en": "Flag of Kuwait with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/kw.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/kw.gif",
       "fallbackGifUrl": "/flags/kw.png"
     },
     "attributes": {
@@ -2312,8 +2312,8 @@
       "en": "Flag of Kyrgyzstan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/kg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/kg.gif",
       "fallbackGifUrl": "/flags/kg.png"
     },
     "attributes": {
@@ -2337,8 +2337,8 @@
       "en": "Flag of Laos with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/la.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/la.gif",
       "fallbackGifUrl": "/flags/la.png"
     },
     "attributes": {
@@ -2362,8 +2362,8 @@
       "en": "Flag of Latvia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/lv.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/lv.gif",
       "fallbackGifUrl": "/flags/lv.png"
     },
     "attributes": {
@@ -2387,8 +2387,8 @@
       "en": "Flag of Lebanon with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/lb.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/lb.gif",
       "fallbackGifUrl": "/flags/lb.png"
     },
     "attributes": {
@@ -2412,8 +2412,8 @@
       "en": "Flag of Lesotho with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ls.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ls.gif",
       "fallbackGifUrl": "/flags/ls.png"
     },
     "attributes": {
@@ -2437,8 +2437,8 @@
       "en": "Flag of Liberia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/lr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/lr.gif",
       "fallbackGifUrl": "/flags/lr.png"
     },
     "attributes": {
@@ -2462,8 +2462,8 @@
       "en": "Flag of Libya with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ly.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ly.gif",
       "fallbackGifUrl": "/flags/ly.png"
     },
     "attributes": {
@@ -2487,8 +2487,8 @@
       "en": "Flag of Liechtenstein with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/li.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/li.gif",
       "fallbackGifUrl": "/flags/li.png"
     },
     "attributes": {
@@ -2512,8 +2512,8 @@
       "en": "Flag of Lithuania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/lt.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/lt.gif",
       "fallbackGifUrl": "/flags/lt.png"
     },
     "attributes": {
@@ -2537,8 +2537,8 @@
       "en": "Flag of Luxembourg with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/lu.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/lu.gif",
       "fallbackGifUrl": "/flags/lu.png"
     },
     "attributes": {
@@ -2562,8 +2562,8 @@
       "en": "Flag of Madagascar with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mg.gif",
       "fallbackGifUrl": "/flags/mg.png"
     },
     "attributes": {
@@ -2587,8 +2587,8 @@
       "en": "Flag of Malawi with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mw.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mw.gif",
       "fallbackGifUrl": "/flags/mw.png"
     },
     "attributes": {
@@ -2612,8 +2612,8 @@
       "en": "Flag of Malaysia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/my.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/my.gif",
       "fallbackGifUrl": "/flags/my.png"
     },
     "attributes": {
@@ -2637,8 +2637,8 @@
       "en": "Flag of Maldives with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mv.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mv.gif",
       "fallbackGifUrl": "/flags/mv.png"
     },
     "attributes": {
@@ -2662,8 +2662,8 @@
       "en": "Flag of Mali with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ml.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ml.gif",
       "fallbackGifUrl": "/flags/ml.png"
     },
     "attributes": {
@@ -2687,8 +2687,8 @@
       "en": "Flag of Malta with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mt.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mt.gif",
       "fallbackGifUrl": "/flags/mt.png"
     },
     "attributes": {
@@ -2712,8 +2712,8 @@
       "en": "Flag of Marshall Islands with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mh.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mh.gif",
       "fallbackGifUrl": "/flags/mh.png"
     },
     "attributes": {
@@ -2737,8 +2737,8 @@
       "en": "Flag of Mauritania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mr.gif",
       "fallbackGifUrl": "/flags/mr.png"
     },
     "attributes": {
@@ -2762,8 +2762,8 @@
       "en": "Flag of Mauritius with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mu.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mu.gif",
       "fallbackGifUrl": "/flags/mu.png"
     },
     "attributes": {
@@ -2787,8 +2787,8 @@
       "en": "Flag of Mexico with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mx.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mx.gif",
       "fallbackGifUrl": "/flags/mx.png"
     },
     "attributes": {
@@ -2812,8 +2812,8 @@
       "en": "Flag of Micronesia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/fm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/fm.gif",
       "fallbackGifUrl": "/flags/fm.png"
     },
     "attributes": {
@@ -2837,8 +2837,8 @@
       "en": "Flag of Moldova with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/md.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/md.gif",
       "fallbackGifUrl": "/flags/md.png"
     },
     "attributes": {
@@ -2862,8 +2862,8 @@
       "en": "Flag of Monaco with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mc.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mc.gif",
       "fallbackGifUrl": "/flags/mc.png"
     },
     "attributes": {
@@ -2887,8 +2887,8 @@
       "en": "Flag of Mongolia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mn.gif",
       "fallbackGifUrl": "/flags/mn.png"
     },
     "attributes": {
@@ -2912,8 +2912,8 @@
       "en": "Flag of Montenegro with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/me.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/me.gif",
       "fallbackGifUrl": "/flags/me.png"
     },
     "attributes": {
@@ -2937,8 +2937,8 @@
       "en": "Flag of Morocco with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ma.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ma.gif",
       "fallbackGifUrl": "/flags/ma.png"
     },
     "attributes": {
@@ -2962,8 +2962,8 @@
       "en": "Flag of Mozambique with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mz.gif",
       "fallbackGifUrl": "/flags/mz.png"
     },
     "attributes": {
@@ -2987,8 +2987,8 @@
       "en": "Flag of Myanmar (Burma) with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mm.gif",
       "fallbackGifUrl": "/flags/mm.png"
     },
     "attributes": {
@@ -3012,8 +3012,8 @@
       "en": "Flag of Namibia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/na.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/na.gif",
       "fallbackGifUrl": "/flags/na.png"
     },
     "attributes": {
@@ -3037,8 +3037,8 @@
       "en": "Flag of Nauru with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/nr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/nr.gif",
       "fallbackGifUrl": "/flags/nr.png"
     },
     "attributes": {
@@ -3062,8 +3062,8 @@
       "en": "Flag of Nepal with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/np.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/np.gif",
       "fallbackGifUrl": "/flags/np.png"
     },
     "attributes": {
@@ -3087,8 +3087,8 @@
       "en": "Flag of Netherlands with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/nl.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/nl.gif",
       "fallbackGifUrl": "/flags/nl.png"
     },
     "attributes": {
@@ -3112,8 +3112,8 @@
       "en": "Flag of New Zealand with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/nz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/nz.gif",
       "fallbackGifUrl": "/flags/nz.png"
     },
     "attributes": {
@@ -3137,8 +3137,8 @@
       "en": "Flag of Nicaragua with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ni.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ni.gif",
       "fallbackGifUrl": "/flags/ni.png"
     },
     "attributes": {
@@ -3162,8 +3162,8 @@
       "en": "Flag of Niger with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ne.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ne.gif",
       "fallbackGifUrl": "/flags/ne.png"
     },
     "attributes": {
@@ -3187,8 +3187,8 @@
       "en": "Flag of Nigeria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ng.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ng.gif",
       "fallbackGifUrl": "/flags/ng.png"
     },
     "attributes": {
@@ -3212,8 +3212,8 @@
       "en": "Flag of North Macedonia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mk.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mk.gif",
       "fallbackGifUrl": "/flags/mk.png"
     },
     "attributes": {
@@ -3237,8 +3237,8 @@
       "en": "Flag of Norway with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/no.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/no.gif",
       "fallbackGifUrl": "/flags/no.png"
     },
     "attributes": {
@@ -3262,8 +3262,8 @@
       "en": "Flag of Oman with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/om.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/om.gif",
       "fallbackGifUrl": "/flags/om.png"
     },
     "attributes": {
@@ -3287,8 +3287,8 @@
       "en": "Flag of Pakistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/pk.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/pk.gif",
       "fallbackGifUrl": "/flags/pk.png"
     },
     "attributes": {
@@ -3312,8 +3312,8 @@
       "en": "Flag of Palau with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/pw.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/pw.gif",
       "fallbackGifUrl": "/flags/pw.png"
     },
     "attributes": {
@@ -3337,8 +3337,8 @@
       "en": "Flag of Panama with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/pa.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/pa.gif",
       "fallbackGifUrl": "/flags/pa.png"
     },
     "attributes": {
@@ -3362,8 +3362,8 @@
       "en": "Flag of Papua New Guinea with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/pg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/pg.gif",
       "fallbackGifUrl": "/flags/pg.png"
     },
     "attributes": {
@@ -3387,8 +3387,8 @@
       "en": "Flag of Paraguay with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/py.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/py.gif",
       "fallbackGifUrl": "/flags/py.png"
     },
     "attributes": {
@@ -3412,8 +3412,8 @@
       "en": "Flag of Peru with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/pe.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/pe.gif",
       "fallbackGifUrl": "/flags/pe.png"
     },
     "attributes": {
@@ -3437,8 +3437,8 @@
       "en": "Flag of Philippines with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ph.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ph.gif",
       "fallbackGifUrl": "/flags/ph.png"
     },
     "attributes": {
@@ -3462,8 +3462,8 @@
       "en": "Flag of Poland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/pl.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/pl.gif",
       "fallbackGifUrl": "/flags/pl.png"
     },
     "attributes": {
@@ -3487,8 +3487,8 @@
       "en": "Flag of Portugal with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/pt.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/pt.gif",
       "fallbackGifUrl": "/flags/pt.png"
     },
     "attributes": {
@@ -3512,8 +3512,8 @@
       "en": "Flag of Qatar with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/qa.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/qa.gif",
       "fallbackGifUrl": "/flags/qa.png"
     },
     "attributes": {
@@ -3537,8 +3537,8 @@
       "en": "Flag of Romania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ro.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ro.gif",
       "fallbackGifUrl": "/flags/ro.png"
     },
     "attributes": {
@@ -3562,8 +3562,8 @@
       "en": "Flag of Russia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ru.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru.gif",
       "fallbackGifUrl": "/flags/ru.png"
     },
     "attributes": {
@@ -3587,8 +3587,8 @@
       "en": "Flag of Rwanda with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/rw.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/rw.gif",
       "fallbackGifUrl": "/flags/rw.png"
     },
     "attributes": {
@@ -3612,8 +3612,8 @@
       "en": "Flag of St. Kitts & Nevis with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/kn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/kn.gif",
       "fallbackGifUrl": "/flags/kn.png"
     },
     "attributes": {
@@ -3637,8 +3637,8 @@
       "en": "Flag of St. Lucia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/lc.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/lc.gif",
       "fallbackGifUrl": "/flags/lc.png"
     },
     "attributes": {
@@ -3662,8 +3662,8 @@
       "en": "Flag of St. Vincent & Grenadines with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/vc.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/vc.gif",
       "fallbackGifUrl": "/flags/vc.png"
     },
     "attributes": {
@@ -3687,8 +3687,8 @@
       "en": "Flag of Samoa with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ws.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ws.gif",
       "fallbackGifUrl": "/flags/ws.png"
     },
     "attributes": {
@@ -3712,8 +3712,8 @@
       "en": "Flag of San Marino with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sm.gif",
       "fallbackGifUrl": "/flags/sm.png"
     },
     "attributes": {
@@ -3737,8 +3737,8 @@
       "en": "Flag of São Tomé & Príncipe with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/st.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/st.gif",
       "fallbackGifUrl": "/flags/st.png"
     },
     "attributes": {
@@ -3762,8 +3762,8 @@
       "en": "Flag of Saudi Arabia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sa.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sa.gif",
       "fallbackGifUrl": "/flags/sa.png"
     },
     "attributes": {
@@ -3787,8 +3787,8 @@
       "en": "Flag of Senegal with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sn.gif",
       "fallbackGifUrl": "/flags/sn.png"
     },
     "attributes": {
@@ -3812,8 +3812,8 @@
       "en": "Flag of Serbia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/rs.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/rs.gif",
       "fallbackGifUrl": "/flags/rs.png"
     },
     "attributes": {
@@ -3837,8 +3837,8 @@
       "en": "Flag of Seychelles with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sc.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sc.gif",
       "fallbackGifUrl": "/flags/sc.png"
     },
     "attributes": {
@@ -3862,8 +3862,8 @@
       "en": "Flag of Sierra Leone with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sl.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sl.gif",
       "fallbackGifUrl": "/flags/sl.png"
     },
     "attributes": {
@@ -3887,8 +3887,8 @@
       "en": "Flag of Singapore with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sg.gif",
       "fallbackGifUrl": "/flags/sg.png"
     },
     "attributes": {
@@ -3912,8 +3912,8 @@
       "en": "Flag of Slovakia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sk.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sk.gif",
       "fallbackGifUrl": "/flags/sk.png"
     },
     "attributes": {
@@ -3937,8 +3937,8 @@
       "en": "Flag of Slovenia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/si.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/si.gif",
       "fallbackGifUrl": "/flags/si.png"
     },
     "attributes": {
@@ -3962,8 +3962,8 @@
       "en": "Flag of Solomon Islands with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sb.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sb.gif",
       "fallbackGifUrl": "/flags/sb.png"
     },
     "attributes": {
@@ -3987,8 +3987,8 @@
       "en": "Flag of Somalia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/so.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/so.gif",
       "fallbackGifUrl": "/flags/so.png"
     },
     "attributes": {
@@ -4012,8 +4012,8 @@
       "en": "Flag of South Africa with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/za.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/za.gif",
       "fallbackGifUrl": "/flags/za.png"
     },
     "attributes": {
@@ -4037,8 +4037,8 @@
       "en": "Flag of South Sudan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ss.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ss.gif",
       "fallbackGifUrl": "/flags/ss.png"
     },
     "attributes": {
@@ -4062,8 +4062,8 @@
       "en": "Flag of Spain with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/es.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/es.gif",
       "fallbackGifUrl": "/flags/es.png"
     },
     "attributes": {
@@ -4087,8 +4087,8 @@
       "en": "Flag of Sri Lanka with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/lk.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/lk.gif",
       "fallbackGifUrl": "/flags/lk.png"
     },
     "attributes": {
@@ -4112,8 +4112,8 @@
       "en": "Flag of Sudan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sd.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sd.gif",
       "fallbackGifUrl": "/flags/sd.png"
     },
     "attributes": {
@@ -4137,8 +4137,8 @@
       "en": "Flag of Suriname with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sr.gif",
       "fallbackGifUrl": "/flags/sr.png"
     },
     "attributes": {
@@ -4162,8 +4162,8 @@
       "en": "Flag of Sweden with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/se.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/se.gif",
       "fallbackGifUrl": "/flags/se.png"
     },
     "attributes": {
@@ -4187,8 +4187,8 @@
       "en": "Flag of Switzerland with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ch.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ch.gif",
       "fallbackGifUrl": "/flags/ch.png"
     },
     "attributes": {
@@ -4212,8 +4212,8 @@
       "en": "Flag of Syria with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sy.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sy.gif",
       "fallbackGifUrl": "/flags/sy.png"
     },
     "attributes": {
@@ -4237,8 +4237,8 @@
       "en": "Flag of Tajikistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tj.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tj.gif",
       "fallbackGifUrl": "/flags/tj.png"
     },
     "attributes": {
@@ -4262,8 +4262,8 @@
       "en": "Flag of Tanzania with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tz.gif",
       "fallbackGifUrl": "/flags/tz.png"
     },
     "attributes": {
@@ -4287,8 +4287,8 @@
       "en": "Flag of Thailand with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/th.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/th.gif",
       "fallbackGifUrl": "/flags/th.png"
     },
     "attributes": {
@@ -4312,8 +4312,8 @@
       "en": "Flag of Timor-Leste with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tl.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tl.gif",
       "fallbackGifUrl": "/flags/tl.png"
     },
     "attributes": {
@@ -4337,8 +4337,8 @@
       "en": "Flag of Togo with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tg.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tg.gif",
       "fallbackGifUrl": "/flags/tg.png"
     },
     "attributes": {
@@ -4362,8 +4362,8 @@
       "en": "Flag of Tonga with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/to.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/to.gif",
       "fallbackGifUrl": "/flags/to.png"
     },
     "attributes": {
@@ -4387,8 +4387,8 @@
       "en": "Flag of Trinidad & Tobago with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tt.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tt.gif",
       "fallbackGifUrl": "/flags/tt.png"
     },
     "attributes": {
@@ -4412,8 +4412,8 @@
       "en": "Flag of Tunisia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tn.gif",
       "fallbackGifUrl": "/flags/tn.png"
     },
     "attributes": {
@@ -4437,8 +4437,8 @@
       "en": "Flag of Türkiye with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tr.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tr.gif",
       "fallbackGifUrl": "/flags/tr.png"
     },
     "attributes": {
@@ -4462,8 +4462,8 @@
       "en": "Flag of Turkmenistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tm.gif",
       "fallbackGifUrl": "/flags/tm.png"
     },
     "attributes": {
@@ -4487,8 +4487,8 @@
       "en": "Flag of Tuvalu with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/tv.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/tv.gif",
       "fallbackGifUrl": "/flags/tv.png"
     },
     "attributes": {
@@ -4512,8 +4512,8 @@
       "en": "Flag of Uganda with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ug.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ug.gif",
       "fallbackGifUrl": "/flags/ug.png"
     },
     "attributes": {
@@ -4537,8 +4537,8 @@
       "en": "Flag of Ukraine with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ua.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ua.gif",
       "fallbackGifUrl": "/flags/ua.png"
     },
     "attributes": {
@@ -4562,8 +4562,8 @@
       "en": "Flag of United Arab Emirates with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ae.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ae.gif",
       "fallbackGifUrl": "/flags/ae.png"
     },
     "attributes": {
@@ -4587,8 +4587,8 @@
       "en": "Flag of United Kingdom with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/gb.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/gb.gif",
       "fallbackGifUrl": "/flags/gb.png"
     },
     "attributes": {
@@ -4612,8 +4612,8 @@
       "en": "Flag of United States with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/us.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/us.gif",
       "fallbackGifUrl": "/flags/us.png"
     },
     "attributes": {
@@ -4637,8 +4637,8 @@
       "en": "Flag of Uruguay with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/uy.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/uy.gif",
       "fallbackGifUrl": "/flags/uy.png"
     },
     "attributes": {
@@ -4662,8 +4662,8 @@
       "en": "Flag of Uzbekistan with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/uz.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/uz.gif",
       "fallbackGifUrl": "/flags/uz.png"
     },
     "attributes": {
@@ -4687,8 +4687,8 @@
       "en": "Flag of Vanuatu with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/vu.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/vu.gif",
       "fallbackGifUrl": "/flags/vu.png"
     },
     "attributes": {
@@ -4712,8 +4712,8 @@
       "en": "Flag of Vatican City with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/va.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/va.gif",
       "fallbackGifUrl": "/flags/va.png"
     },
     "attributes": {
@@ -4737,8 +4737,8 @@
       "en": "Flag of Venezuela with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ve.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ve.gif",
       "fallbackGifUrl": "/flags/ve.png"
     },
     "attributes": {
@@ -4762,8 +4762,8 @@
       "en": "Flag of Vietnam with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/vn.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/vn.gif",
       "fallbackGifUrl": "/flags/vn.png"
     },
     "attributes": {
@@ -4787,8 +4787,8 @@
       "en": "Flag of Yemen with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/ye.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/ye.gif",
       "fallbackGifUrl": "/flags/ye.png"
     },
     "attributes": {
@@ -4812,8 +4812,8 @@
       "en": "Flag of Zambia with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/zm.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/zm.gif",
       "fallbackGifUrl": "/flags/zm.png"
     },
     "attributes": {
@@ -4837,8 +4837,8 @@
       "en": "Flag of Zimbabwe with a looping waving-in-the-wind animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/zw.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/zw.gif",
       "fallbackGifUrl": "/flags/zw.png"
     },
     "attributes": {
@@ -4862,8 +4862,8 @@
       "en": "Flag of European Union with a looping waving animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/eu.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/eu.gif",
       "fallbackGifUrl": "/flags/eu.png"
     },
     "attributes": {
@@ -4887,8 +4887,8 @@
       "en": "Flag of Hong Kong with a looping waving animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/hk.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/hk.gif",
       "fallbackGifUrl": "/flags/hk.png"
     },
     "attributes": {
@@ -4912,8 +4912,8 @@
       "en": "Flag of Macau with a looping waving animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/mo.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/mo.gif",
       "fallbackGifUrl": "/flags/mo.png"
     },
     "attributes": {
@@ -4937,8 +4937,8 @@
       "en": "Flag of Scotland with a looping waving animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/sct.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/sct.gif",
       "fallbackGifUrl": "/flags/sct.png"
     },
     "attributes": {
@@ -4962,8 +4962,8 @@
       "en": "Flag of Wales with a looping waving animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/wls.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/wls.gif",
       "fallbackGifUrl": "/flags/wls.png"
     },
     "attributes": {
@@ -4987,8 +4987,8 @@
       "en": "Flag of Catalonia with a looping waving animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/cat.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/cat.gif",
       "fallbackGifUrl": "/flags/cat.png"
     },
     "attributes": {
@@ -5012,8 +5012,8 @@
       "en": "Flag of United Nations with a looping waving animation."
     },
     "animation": {
-      "type": "svg-wave",
-      "previewUrl": "/flags/un.svg",
+      "type": "gif-wave",
+      "previewUrl": "/flags/un.gif",
       "fallbackGifUrl": "/flags/un.png"
     },
     "attributes": {
