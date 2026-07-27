@@ -99,7 +99,9 @@ export function useMint(flag) {
       pollStatus(prepared.mintId);
     } catch (err) {
       hapticError();
-      if (err?.message?.toLowerCase?.().includes("reject")) {
+      if (err?.body?.error === "MINT_LIMIT_REACHED") {
+        setErrorMessage("errors.mintLimitReached");
+      } else if (err?.message?.toLowerCase?.().includes("reject")) {
         setErrorMessage("errors.walletRejected");
       } else if (err instanceof ApiError) {
         setErrorMessage("errors.generic");
