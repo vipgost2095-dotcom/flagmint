@@ -10,6 +10,12 @@ import { nftsRouter } from "./routes/nfts.js";
 
 const app = express();
 
+// Railway (как и большинство PaaS) работает через собственный reverse-proxy,
+// который добавляет заголовок X-Forwarded-For. Без этой настройки
+// express-rate-limit не может корректно определить IP клиента и выбрасывает
+// ValidationError на каждый запрос — именно это ломало API целиком.
+app.set("trust proxy", 1);
+
 app.use(express.json());
 
 const allowedOrigins = (process.env.CORS_ORIGIN ?? "").split(",").map((s) => s.trim()).filter(Boolean);
