@@ -15,12 +15,10 @@
  *  - оплату цены флага (5 TON) пользователь делает ОТДЕЛЬНЫМ простым
  *    переводом на наш собственный кошелёк — см. tonService.js.
  *
- * ⚠️ Точная структура ОТВЕТА статус-эндпоинта (какие поля содержат адрес
- * NFT, ссылку на Getgems, статус) не была явно видна в присланных
- * скриншотах — код ниже читает несколько вероятных вариантов названий
- * полей. Если в реальном ответе окажутся другие названия — понадобится
- * скорректировать `normalizeStatusResponse` под реальный JSON (проще
- * всего — залогировать один реальный ответ и прислать мне).
+ * Структура ответа статус-эндпоинта ПОДТВЕРЖДЕНА реальными логами:
+ *   { "success": true, "response": { "status": "ready", "address": "EQ...",
+ *     "ownerAddress": "EQ...", "url": "https://testnet.getgems.io/..." } }
+ * (см. normalizeStatusResponse ниже).
  */
 
 function getConfig() {
@@ -97,24 +95,27 @@ export async function getGetgemsMintStatus({ requestId }) {
 
 /**
  * Приводит ответ статус-эндпоинта к единому виду { done, failed, nftAddress, getgemsUrl, raw }.
- * См. предупреждение в шапке файла про неподтверждённые названия полей.
+ *
+ * Реальная структура ответа Getgems (подтверждено логами продакшена):
+ *   { "success": true, "response": { "status": "ready", "index": ...,
+ *     "address": "EQ...", "ownerAddress": "EQ...", "url": "https://..." } }
+ * Готовый статус называется "ready" (не "success"/"done"), а все поля
+ * лежат внутри вложенного объекта "response".
  */
 export function normalizeStatusResponse(data) {
   if (!data) return { done: false, failed: false, nftAddress: null, getgemsUrl: null, raw: data };
 
-  const statusText = String(data.status ?? data.state ?? "").toLowerCase();
-  const failed = statusText.includes("fail") || statusText.includes("error") || Boolean(data.error);
-  const done =
-    !failed &&
-    (statusText.includes("success") ||
-      statusText.includes("done") ||
-      statusText.includes("mint") ||
-      Boolean(data.address) ||
-      Boolean(data.nftAddress) ||
-      Boolean(data.nft?.address));
+  if (data.success === false) {
+    return { done: false, failed: true, nftAddress: null, getgemsUrl: null, raw: data };
+  }
 
-  const nftAddress = data.nftAddress ?? data.address ?? data.nft?.address ?? null;
-  const getgemsUrl = data.getgemsUrl ?? data.link ?? data.url ?? data.nft?.getgemsUrl ?? null;
+  const response = data.response ?? data;
+  const statusText = String(response.status ?? "").toLowerCase();
+  const failed = statusText.includes("fail") || statusText.includes("error");
+  const done = !failed && (statusText === "ready" || statusText.includes("ready") || statusText.includes("success") || statusText.includes("done"));
+
+  const nftAddress = response.address ?? response.nftAddress ?? null;
+  const getgemsUrl = response.url ?? response.getgemsUrl ?? response.link ?? null;
 
   return { done, failed, nftAddress, getgemsUrl, raw: data };
 }
