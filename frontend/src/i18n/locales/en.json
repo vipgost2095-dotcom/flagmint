@@ -54,6 +54,7 @@
   "errors": {
     "network": "Network issue. Check your connection and try again.",
     "walletRejected": "Transaction was rejected in the wallet.",
+    "mintLimitReached": "Collection supply is sold out — minting is no longer available.",
     "generic": "Something went wrong. Please try again."
   }
 }
