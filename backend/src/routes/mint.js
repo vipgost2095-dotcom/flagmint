@@ -8,7 +8,7 @@ import {
 } from "../services/getgemsMintingApi.js";
 import { buildGetgemsNftUrl } from "../services/getgemsService.js";
 import { notifyGroupMint } from "../services/telegramNotify.js";
-import { createMint, getMint, updateMint } from "../db/memoryDb.js";
+import { createMint, getMint, updateMint, countReservedMints } from "../db/memoryDb.js";
 import { idempotency } from "../middleware/idempotency.js";
 
 export const mintRouter = Router();
@@ -38,11 +38,27 @@ mintRouter.post("/prepare", idempotency(), async (req, res) => {
     return res.status(404).json(errorBody);
   }
 
+  // Порядковый номер этого минта в коллекции (1, 2, 3, ... до MINT_SUPPLY_CAP) —
+  // считаем pending+success, чтобы номер не "перескакивал" при нескольких
+  // одновременных попытках минта.
+  const reserved = countReservedMints();
+  const serialNumber = reserved + 1;
+
+  const supplyCap = Number(process.env.MINT_SUPPLY_CAP || 0);
+  if (supplyCap > 0 && reserved >= supplyCap) {
+    const errorBody = {
+      error: "MINT_LIMIT_REACHED",
+      message: `Достигнут общий лимит коллекции в ${supplyCap} NFT`,
+    };
+    req.saveIdempotentResult(errorBody);
+    return res.status(409).json(errorBody);
+  }
+
   try {
     const transaction = buildPaymentTransaction({ flagId: flag.id, priceTon: flag.priceTon });
 
     const mint = createMint({ userId, flagId: flag.id, priceTon: flag.priceTon });
-    updateMint(mint.id, { walletAddress });
+    updateMint(mint.id, { walletAddress, serialNumber });
 
     const responseBody = {
       mintId: mint.id,
@@ -109,7 +125,7 @@ mintRouter.post("/:id/submitted", async (req, res) => {
         { trait_type: "country", value: flag.attributes.country ?? "—" },
         { trait_type: "region", value: flag.attributes.region },
         { trait_type: "animation_type", value: flag.attributes.animation_type },
-        { trait_type: "edition", value: String(flag.attributes.edition) },
+        { trait_type: "edition", value: String(mint.serialNumber ?? "—") },
       ],
     });
 
