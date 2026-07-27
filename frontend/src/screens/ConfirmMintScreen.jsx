@@ -86,6 +86,12 @@ export default function ConfirmMintScreen() {
             {t("confirm.backToCatalog")}
           </button>
         )}
+
+        {state === "pending" && (
+          <button className="btn-secondary" onClick={() => navigate("/profile")}>
+            {t("confirm.goToProfile")}
+          </button>
+        )}
       </div>
     </div>
   );
