@@ -56,6 +56,7 @@ mintRouter.post("/prepare", idempotency(), async (req, res) => {
     req.saveIdempotentResult(responseBody);
     return res.status(201).json(responseBody);
   } catch (err) {
+    console.error("[mint prepare] error:", err.message);
     const errorBody = { error: "PREPARE_FAILED", message: err.message };
     req.saveIdempotentResult(errorBody);
     return res.status(500).json(errorBody);
@@ -114,8 +115,11 @@ mintRouter.post("/:id/submitted", async (req, res) => {
     const updated = updateMint(mint.id, { status: "pending" });
     return res.status(202).json(updated);
   } catch (err) {
+    // Раньше эта ошибка нигде не печаталась — в логах Railway было пусто,
+    // хотя минт падал. Теперь реальный текст ошибки Getgems виден в консоли.
+    console.error("[mint submitted] Getgems API error:", err.message);
     const updated = updateMint(mint.id, { status: "error", errorMessage: err.message });
-    return res.status(502).json(updated);
+    return res.status(502).json({ error: "GETGEMS_MINT_FAILED", message: err.message, ...updated });
   }
 });
 
@@ -155,7 +159,9 @@ mintRouter.get("/:id", async (req, res) => {
       }
     } catch (err) {
       // Ошибка проверки статуса — не считаем это ошибкой минта, просто
-      // сообщаем что статус пока pending, поллинг продолжится.
+      // сообщаем что статус пока pending, поллинг продолжится. Но теперь
+      // хотя бы печатаем её, чтобы не гадать по пустым логам.
+      console.error("[mint status poll] error:", err.message);
     }
   }
 
