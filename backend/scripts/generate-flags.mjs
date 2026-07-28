@@ -1,6 +1,22 @@
 /**
  * generate-flags.mjs
  * -------------------
+ * ⚠️⚠️⚠️ УСТАРЕЛ И ОПАСЕН — НЕ ЗАПУСКАЙТЕ БЕЗ КРАЙНЕЙ НЕОБХОДИМОСТИ ⚠️⚠️⚠️
+ *
+ * Это самая первая, черновая версия генератора каталога — ещё до того, как
+ * появились точные дизайны флагов и настоящие анимации (см. отдельный
+ * Python-инструментарий flags-gen/: generate_flags.py, generate_flat.py,
+ * animate_realistic.py — именно они сейчас формируют реальный
+ * backend/src/data/flags.json со всеми 201 флагами, ценой, лимитом тиража
+ * и путями к GIF/PNG).
+ *
+ * Если запустить ЭТОТ скрипт — он молча ПЕРЕЗАПИШЕТ актуальный flags.json
+ * упрощённой версией без правильных путей к анимациям, без согласованной
+ * цены/лимита — то есть фактически сотрёт всю проделанную работу.
+ *
+ * Оставлен в репозитории только для истории. Требует явного подтверждения
+ * через переменную окружения, чтобы случайный запуск не наделал беды.
+ *
  * Генерирует полный каталог flags.json для всех стран (и добавляет
  * несколько отдельных регионов вручную) на основе списка кодов ISO 3166-1
  * alpha-2. Названия на русском/английском берутся из встроенного в Node.js
@@ -11,13 +27,22 @@
  * его с актуальным официальным реестром ISO 3166-1, т.к. список стран
  * периодически меняется (появляются/переименовываются государства).
  *
- * Запуск: node scripts/generate-flags.mjs
+ * Запуск (только осознанно): CONFIRM_OVERWRITE=yes node scripts/generate-flags.mjs
  * Результат: src/data/flags.json
  */
 
 import { writeFileSync } from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
+
+if (process.env.CONFIRM_OVERWRITE !== "yes") {
+  console.error(
+    "⚠️  Этот скрипт устарел и перезапишет актуальный flags.json упрощённой " +
+      "версией без реальных анимаций/цены/лимита. Если вы точно понимаете " +
+      "последствия — запустите с CONFIRM_OVERWRITE=yes node scripts/generate-flags.mjs"
+  );
+  process.exit(1);
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -98,9 +123,9 @@ for (const code of COUNTRY_CODES) {
       country: nameEn,
       region: guessContinent(code),
       animation_type: "wave-loop",
-      edition: 1000,
+      edition: 20000,
     },
-    priceTon: 1.5,
+    priceTon: 5,
   });
 }
 
@@ -119,9 +144,9 @@ for (const r of REGIONS) {
       country: null,
       region: r.region,
       animation_type: "wave-loop",
-      edition: 500,
+      edition: 20000,
     },
-    priceTon: 2,
+    priceTon: 5,
   });
 }
 
