@@ -1,54 +1,67 @@
-# NFT Flags — Telegram Mini App
+# FlagMint — Telegram Mini App
 
-Минт анимированных NFT-флагов стран и регионов прямо в Telegram, с оплатой в TON
-через TonConnect и публикацией в коллекции на Getgems.
+Минт анимированных NFT-флагов всех стран и регионов прямо в Telegram — оплата
+простым переводом в TON, сам NFT создаётся и передаётся пользователю через
+официальный **Getgems Minting API** и сразу появляется в коллекции на Getgems.
 
 ## Состав репозитория
 
 ```
 nft-flags-miniapp/
 ├── bot/            Telegram-бот (Telegraf), который открывает Mini App
-├── frontend/        React + Vite приложение (Telegram WebApp SDK, TonConnect)
-├── backend/          Node.js/Express API: каталог, минт, валидация initData
+│                   и постит анонс в группу при успешном минте
+├── frontend/       React + Vite приложение (Telegram WebApp SDK, TonConnect)
+│                   + готовые анимации флагов (frontend/public/flags/*.gif, *.png)
+├── backend/        Node.js/Express API: каталог, минт, валидация initData
 └── README.md
 ```
 
 ## Как это работает (поток пользователя)
 
-1. Пользователь пишет боту `/start` → бот присылает кнопку **«Открыть каталог флагов»**
-   (`web_app` button), которая открывает Mini App внутри Telegram.
-2. Каталог → карточка флага → **Mint** → экран подтверждения (цена/комиссия/итого)
-   → подпись транзакции в Tonkeeper/MyTonWallet через TonConnect.
-3. Backend принимает запрос на минт, валидирует `initData`, ставит запись в статус
-   `pending`, следит за транзакцией в TON и по завершении помечает NFT как `success`
-   со ссылкой на карточку в Getgems (или `error` с понятным текстом).
-4. Личный кабинет показывает список заминченных NFT и их статусы.
+1. Пользователь пишет боту `/start` → бот присылает кнопку **«Открыть каталог
+   флагов»** (`web_app` button), которая открывает Mini App внутри Telegram.
+2. Каталог → карточка флага → **Mint** → экран подтверждения (цена/комиссия/
+   итого) → подпись **простого TON-перевода** в Tonkeeper/MyTonWallet на
+   собственный кошелёк проекта (`PAYMENT_RECEIVER_ADDRESS`).
+3. После отправки оплаты backend вызывает **Getgems Minting API**
+   (`POST /public-api/minting/{collectionAddress}`), передавая адрес
+   кошелька пользователя, метаданные флага и его порядковый номер в
+   коллекции. Сам NFT создаёт и присылает пользователю Getgems — это не
+   ончейн-вызов контракта с нашей стороны.
+4. Backend опрашивает статус создания у Getgems (обычно 6 секунд — пара
+   минут) и помечает минт как `success` со ссылкой на карточку NFT, или
+   `error` с понятным текстом.
+5. Личный кабинет («Мои NFT») показывает список всех попыток минта и их
+   статусы — при каждом открытии backend сам перепроверяет зависшие
+   `pending`-записи у Getgems.
+6. При успешном минте backend дополнительно постит анонс (анимация + кнопка
+   «Смотреть на Getgems») в Telegram-группу — см. `MINT_ANNOUNCE_CHAT_ID`.
 
-## ⚠️ Что нужно донастроить перед продакшеном (важно)
+## ⚠️ Что нужно донастроить перед запуском
 
-Это рабочий, модульный каркас со всей бизнес-логикой, UI и API. Но три вещи
-физически невозможно "захардкодить" за вас — они требуют ваших собственных
-аккаунтов/ключей/деплоя:
-
-1. **Смарт-контракт коллекции на Getgems.** Коллекцию нужно создать через
-   [Getgems Studio](https://getgems.io/) (или задеплоить NFT-коллекцию TON
-   стандартом NFT-1.2 самостоятельно) — вы получите `collectionAddress` и
-   зададите роялти/адрес получателя прямо в контракте. Впишите адрес в
-   `backend/.env` (`NFT_COLLECTION_ADDRESS`).
-2. **Пины в IPFS.** Метаданные (`metadata.json`) и превью-анимации нужно
-   закрепить в IPFS (например через [nft.storage](https://nft.storage/) или
-   [Pinata](https://www.pinata.cloud/)) и подставить `ipfs://...` ссылки в
-   `flags.json`. В `backend/src/services/getgemsService.js` есть готовая
-   функция `pinToIpfs()` — donастройте под выбранный пиннинг-сервис.
-3. **Ончейн-деплой NFT item / вызов mint-сообщения.** В `tonService.js`
-   помечены места `// TODO: реальный вызов`, где нужно собрать и отправить
-   сообщение минта в соответствии с ABI вашего конкретного контракта
-   коллекции (Getgems использует свой NFT-1.2 совместимый формат — точный
-   набор полей `mint`-сообщения смотрите в документации вашей коллекции
-   после её создания в Getgems Studio).
-
-Всё остальное — валидация initData, идемпотентность запросов, вебхуки
-статусов, UI, локализация, TonConnect-подпись — реализовано и готово к работе.
+1. **Коллекция на Getgems.** Создайте коллекцию через Getgems Studio
+   (testnet: `testnet.getgems.io`, мейннет: `getgems.io`) с включённым
+   переключателем **«Создать API ключ»**. После создания придёт сообщение
+   от служебного бота Getgems с `host`, `collectionAddress` и
+   `authorization`-токеном — впишите их в `GETGEMS_API_HOST`,
+   `NFT_COLLECTION_ADDRESS`, `GETGEMS_API_KEY`.
+2. **Служебный кошелёк Getgems.** В том же сообщении будет адрес кошелька,
+   который нужно пополнить TON (~0.023 TON списывается на каждый созданный
+   Getgems NFT) — это ИХ внутренний расход на газ, отдельно от цены,
+   которую платит пользователь.
+3. **Собственный кошелёк для приёма оплаты.** `PAYMENT_RECEIVER_ADDRESS` —
+   ваш кошелёк, куда идёт цена флага от пользователя (это НЕ то же самое,
+   что кошелёк Getgems из пункта 2).
+4. **Постоянное хранилище истории минтов.** История минтов сохраняется в
+   JSON-файл на диске (`backend/src/db/memoryDb.js`, путь `DATA_DIR`).
+   Чтобы это переживало передеплой на Railway — подключите **Volume**,
+   смонтированный в `DATA_DIR` (по умолчанию `/data`), в настройках
+   backend-сервиса.
+5. **Каталог и анимации флагов уже готовы** (`backend/src/data/flags.json`,
+   `frontend/public/flags/*.gif` + `*.png`) — сгенерированы отдельным
+   Python-инструментарием (не входит в этот репозиторий как рабочий код,
+   только результат). Если понадобится перегенерировать или добавить
+   недостающие флаги — потребуется этот инструментарий отдельно.
 
 ## Быстрый старт (dev)
 
@@ -64,7 +77,7 @@ npm start
 ```bash
 cd backend
 npm install
-cp .env.example .env   # впишите BOT_TOKEN, NFT_COLLECTION_ADDRESS, TON_API_KEY и т.д.
+cp .env.example .env   # см. список переменных ниже
 npm run dev             # http://localhost:4000
 ```
 
@@ -76,25 +89,47 @@ cp .env.example .env    # VITE_API_URL, VITE_TONCONNECT_MANIFEST_URL
 npm run dev              # http://localhost:5173
 ```
 
-Для теста внутри настоящего Telegram нужно поднять frontend+backend на
-публичном HTTPS (например через `ngrok` или деплой на Vercel/Render) и
-указать этот URL в `web_app` кнопке бота и в `tonconnect-manifest.json`.
+Для теста внутри настоящего Telegram frontend+backend должны быть на
+публичном HTTPS (например, через деплой на Railway) — этот URL указывается
+в `web_app`-кнопке бота и в `tonconnect-manifest.json`.
+
+## Переменные окружения backend (см. `.env.example`)
+
+| Переменная | Назначение |
+|---|---|
+| `BOT_TOKEN` | токен бота — для проверки `initData` и отправки анонсов в группу |
+| `GETGEMS_API_HOST` | `https://api.testnet.getgems.io` или `https://api.getgems.io` |
+| `GETGEMS_API_KEY` | `authorization`-токен из сообщения бота Getgems |
+| `NFT_COLLECTION_ADDRESS` | адрес коллекции из того же сообщения |
+| `PAYMENT_RECEIVER_ADDRESS` | ваш кошелёк для приёма оплаты от пользователей |
+| `FRONTEND_PUBLIC_URL` | публичный адрес фронтенда (оттуда берутся картинки NFT) |
+| `MINT_ANNOUNCE_CHAT_ID` | `@username` группы для анонсов об успешном минте |
+| `MINT_SUPPLY_CAP` | общий лимит NFT на всю коллекцию (0 = без лимита) |
+| `DATA_DIR` | путь для сохранения истории минтов (смонтируйте сюда Volume) |
+| `TON_NETWORK` | `testnet` или `mainnet` |
+| `CORS_ORIGIN` | адрес фронтенда, разрешённый для CORS |
 
 ## Технологии
 
 - **Frontend:** React 18, Vite, `@twa-dev/sdk` (Telegram WebApp SDK),
-  `@tonconnect/ui-react`, react-i18next (RU/EN), lottie-web для анимаций.
-- **Backend:** Node.js, Express, проверка `initData` по HMAC-SHA256
-  (официальный алгоритм Telegram), идемпотентность через `Idempotency-Key`.
-- **Блокчейн:** TON, TonConnect для подписи, коллекция NFT на Getgems.
-- **Данные:** `flags.json` (JSON-каталог всех стран/регионов с атрибутами),
-  превью — CDN/IPFS.
+  `@tonconnect/ui-react`, react-i18next (RU/EN).
+- **Backend:** Node.js, Express, проверка `initData` по HMAC-SHA256,
+  идемпотентность через `Idempotency-Key`, интеграция с Getgems Minting API.
+- **Блокчейн:** TON, TonConnect — только для простого перевода оплаты;
+  сам минт NFT делает Getgems через свой API.
+- **Данные:** `flags.json` (201 флаг: 194 страны + 7 регионов), анимации —
+  GIF (физическая симуляция волны ткани через OpenCV), статичные постеры —
+  PNG, всё раздаётся самим frontend-сервисом.
 
 ## Безопасность
 
 - Каждый запрос из Mini App на backend несёт заголовок `X-Telegram-Init-Data`;
   middleware `validateInitData` проверяет подпись и свежесть (`auth_date`).
 - Повторные запросы на минт блокируются идемпотентным ключом
-  (userId + flagId + окно времени) — см. `backend/src/middleware/idempotency.js`.
+  (`Idempotency-Key`) — см. `backend/src/middleware/idempotency.js`.
 - Секреты (`BOT_TOKEN`, кошелёк, API-ключи) — только в `.env`, никогда в
   коде фронтенда.
+- `backend/scripts/generate-flags.mjs` — устаревший черновой генератор
+  каталога, оставлен только для истории и заблокирован от случайного
+  запуска (см. комментарий в файле). Актуальный `flags.json` создан другим
+  инструментарием и содержать реальные анимации/цену/лимит тиража.
