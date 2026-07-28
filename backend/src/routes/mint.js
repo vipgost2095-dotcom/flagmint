@@ -115,12 +115,19 @@ mintRouter.post("/:id/submitted", async (req, res) => {
 
   try {
     const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+    // "Разбиваем" кеш: URL самого файла флага никогда не меняется
+    // (/flags/ru.gif), поэтому маркетплейсы, которые кешируют картинку по
+    // ссылке при первом обращении, могут годами отдавать самую первую
+    // версию, даже если мы потом заменим содержимое файла на сервере.
+    // Добавляя уникальный ?v=<timestamp> на каждый минт, гарантируем, что
+    // Getgems всегда получает СВЕЖИЙ файл, а не старую закешированную копию.
+    const cacheBuster = Date.now();
     await createNftViaGetgems({
       requestId: mint.id,
       ownerAddress,
       name: `${flag.name.en} Flag`,
       description: flag.description.en,
-      image: `${frontendUrl}${flag.animation.previewUrl}`,
+      image: `${frontendUrl}${flag.animation.previewUrl}?v=${cacheBuster}`,
       attributes: [
         { trait_type: "country", value: flag.attributes.country ?? "—" },
         { trait_type: "region", value: flag.attributes.region },
