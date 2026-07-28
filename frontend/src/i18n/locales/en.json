@@ -6,7 +6,7 @@
     "filterCountries": "Countries",
     "filterRegions": "Regions",
     "empty": "Nothing found. Try a different search.",
-    "edition": "Edition: {{count}}"
+    "edition": "Collection-wide cap: {{count}}"
   },
   "detail": {
     "mintButton": "Mint for {{price}} TON",
@@ -14,7 +14,7 @@
       "country": "Country",
       "region": "Region",
       "animation_type": "Animation type",
-      "edition": "Edition"
+      "edition": "Collection cap"
     }
   },
   "confirm": {

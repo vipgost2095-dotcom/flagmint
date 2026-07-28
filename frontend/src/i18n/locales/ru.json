@@ -6,7 +6,7 @@
     "filterCountries": "Страны",
     "filterRegions": "Регионы",
     "empty": "Ничего не найдено. Попробуйте другой запрос.",
-    "edition": "Тираж: {{count}}"
+    "edition": "Общий лимит коллекции: {{count}}"
   },
   "detail": {
     "mintButton": "Заминтить за {{price}} TON",
@@ -14,7 +14,7 @@
       "country": "Страна",
       "region": "Регион",
       "animation_type": "Тип анимации",
-      "edition": "Тираж"
+      "edition": "Лимит коллекции"
     }
   },
   "confirm": {
