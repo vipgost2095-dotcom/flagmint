@@ -70,6 +70,12 @@ export const api = {
     }),
 
   getMyNfts: () => request("/api/nfts", { auth: true }),
+
+  hideMint: (mintId) =>
+    request(`/api/nfts/${mintId}`, {
+      method: "DELETE",
+      auth: true,
+    }),
 };
 
 export { ApiError };
