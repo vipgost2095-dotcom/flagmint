@@ -184,10 +184,17 @@ mintRouter.get("/:id", async (req, res) => {
           const flag = getFlagById(mint.flagId);
           if (flag) {
             const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+            // Та же причина, что и при вызове Getgems выше: без анти-кеш
+            // параметра Telegram один раз запоминает файл по этому URL и
+            // потом годами показывает ту самую первую версию в анонсах в
+            // канале, даже если gif на сервере давно перегенерирован и
+            // правильный. Добавляем ?v=<timestamp>, чтобы каждый анонс
+            // гарантированно тянул актуальный файл.
+            const cacheBuster = Date.now();
             notifyGroupMint({
               flagNameRu: flag.name.ru,
               flagNameEn: flag.name.en,
-              animationUrl: `${frontendUrl}${flag.animation.previewUrl}`,
+              animationUrl: `${frontendUrl}${flag.animation.previewUrl}?v=${cacheBuster}`,
               getgemsUrl: finalGetgemsUrl,
             }).catch((err) => console.error("[mint status poll] notifyGroupMint failed:", err.message));
           }
