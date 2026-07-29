@@ -41,7 +41,9 @@
       "success": "Minted",
       "error": "Error"
     },
-    "viewOnGetgems": "View on Getgems"
+    "viewOnGetgems": "View on Getgems",
+    "remove": "Remove",
+    "removeConfirm": "Remove this entry from the list? The NFT itself (if already minted) is unaffected — this only hides the entry from your profile."
   },
   "wallet": {
     "connected": "Wallet connected",
