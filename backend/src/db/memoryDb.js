@@ -71,6 +71,7 @@ if (mints.size === 0) {
 
 export function createMint({ userId, flagId, priceTon }) {
   const id = `mint_${Date.now()}_${counter++}`;
+  const network = process.env.TON_NETWORK ?? "testnet";
   const record = {
     id,
     userId,
@@ -80,6 +81,7 @@ export function createMint({ userId, flagId, priceTon }) {
     nftAddress: null,
     getgemsUrl: null,
     priceTon,
+    network,
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     errorMessage: null,
@@ -87,7 +89,7 @@ export function createMint({ userId, flagId, priceTon }) {
   };
   mints.set(id, record);
   saveMints(mints);
-  console.log(`[memoryDb] createMint: ${id} (userId=${userId}, flagId=${flagId}) — всего в памяти: ${mints.size}`);
+  console.log(`[memoryDb] createMint: ${id} (userId=${userId}, flagId=${flagId}, network=${network}) — всего в памяти: ${mints.size}`);
   return record;
 }
 
@@ -112,11 +114,18 @@ export function listMintsByUser(userId) {
 }
 
 /**
- * Считает "зарезервированные" минты по ВСЕЙ коллекции (не только текущего
- * пользователя) — pending и success вместе, чтобы не допустить превышения
- * общего лимита тиража даже при нескольких одновременных попытках минта.
+ * Считает "зарезервированные" минты (pending и success) ТОЛЬКО в рамках
+ * текущей сети (TON_NETWORK) — так номер издания (serialNumber) считается
+ * отдельно для testnet и для mainnet. Записи без поля network (созданные
+ * до этого изменения) считаются как testnet, чтобы не задвоить нумерацию
+ * уже существующих тестовых минтов.
  * Ошибочные (error) попытки не учитываются — они не отняли место в тираже.
  */
 export function countReservedMints() {
-  return [...mints.values()].filter((m) => m.status === "pending" || m.status === "success").length;
+  const currentNetwork = process.env.TON_NETWORK ?? "testnet";
+  return [...mints.values()].filter(
+    (m) =>
+      (m.status === "pending" || m.status === "success") &&
+      (m.network ?? "testnet") === currentNetwork
+  ).length;
 }
