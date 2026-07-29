@@ -87,6 +87,7 @@ export function createMint({ userId, flagId, priceTon }) {
   };
   mints.set(id, record);
   saveMints(mints);
+  console.log(`[memoryDb] createMint: ${id} (userId=${userId}, flagId=${flagId}) — всего в памяти: ${mints.size}`);
   return record;
 }
 
@@ -96,6 +97,7 @@ export function updateMint(id, patch) {
   const updated = { ...existing, ...patch, updatedAt: new Date().toISOString() };
   mints.set(id, updated);
   saveMints(mints);
+  console.log(`[memoryDb] updateMint: ${id} -> status=${updated.status}`);
   return updated;
 }
 
