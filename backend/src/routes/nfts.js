@@ -39,11 +39,10 @@ nftsRouter.get("/", async (req, res) => {
               const flag = getFlagById(current.flagId);
               if (flag) {
                 const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
-                const cacheBuster = Date.now();
                 notifyGroupMint({
                   flagNameRu: flag.name.ru,
                   flagNameEn: flag.name.en,
-                  animationUrl: `${frontendUrl}${flag.animation.previewUrl}?v=${cacheBuster}`,
+                  animationUrl: `${frontendUrl}${flag.animation.previewUrl}`,
                   getgemsUrl: finalUrl,
                 }).catch((err) => console.error("[nfts list] notifyGroupMint failed:", err.message));
               }
