@@ -21,6 +21,14 @@ export default function ProfileScreen() {
       .finally(() => setLoading(false));
   }, []);
 
+  const handleRemove = (mintId) => {
+    if (!window.confirm(t("profile.removeConfirm"))) return;
+    api
+      .hideMint(mintId)
+      .then(() => setItems((prev) => prev.filter((item) => item.id !== mintId)))
+      .catch((err) => setError(err));
+  };
+
   return (
     <div className="screen">
       <h1>{t("profile.title")}</h1>
@@ -50,6 +58,13 @@ export default function ProfileScreen() {
                 </a>
               </div>
             )}
+            <button
+              type="button"
+              className="nft-list-item__remove"
+              onClick={() => handleRemove(item.id)}
+            >
+              {t("profile.remove")}
+            </button>
           </div>
         </div>
       ))}
