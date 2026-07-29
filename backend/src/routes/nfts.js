@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { listMintsByUser, updateMint } from "../db/memoryDb.js";
+import { listMintsByUser, updateMint, getMint } from "../db/memoryDb.js";
 import { getFlagById } from "./flags.js";
 import { getGetgemsMintStatus, normalizeStatusResponse } from "../services/getgemsMintingApi.js";
 import { buildGetgemsNftUrl } from "../services/getgemsService.js";
@@ -39,10 +39,11 @@ nftsRouter.get("/", async (req, res) => {
               const flag = getFlagById(current.flagId);
               if (flag) {
                 const frontendUrl = process.env.FRONTEND_PUBLIC_URL;
+                const cacheBuster = Date.now();
                 notifyGroupMint({
                   flagNameRu: flag.name.ru,
                   flagNameEn: flag.name.en,
-                  animationUrl: `${frontendUrl}${flag.animation.previewUrl}`,
+                  animationUrl: `${frontendUrl}${flag.animation.previewUrl}?v=${cacheBuster}`,
                   getgemsUrl: finalUrl,
                 }).catch((err) => console.error("[nfts list] notifyGroupMint failed:", err.message));
               }
@@ -75,4 +76,29 @@ nftsRouter.get("/", async (req, res) => {
   });
 
   res.json({ items: withFlags, total: withFlags.length });
+});
+
+/**
+ * DELETE /api/nfts/:mintId
+ * Скрывает запись минта из личного кабинета пользователя ("Убрать").
+ * Это НЕ физическое удаление и НЕ отзыв самого NFT (сам NFT, если он
+ * уже создан на Getgems, никуда не девается) — просто помечаем запись
+ * hidden:true, чтобы она пропала из списка "Мои NFT". История и нумерация
+ * изданий (serialNumber/countReservedMints) при этом не затрагиваются,
+ * так как считают все записи независимо от hidden.
+ */
+nftsRouter.delete("/:mintId", (req, res) => {
+  const userId = req.telegramUser.id;
+  const { mintId } = req.params;
+
+  const mint = getMint(mintId);
+  if (!mint) {
+    return res.status(404).json({ error: "MINT_NOT_FOUND" });
+  }
+  if (String(mint.userId) !== String(userId)) {
+    return res.status(403).json({ error: "FORBIDDEN" });
+  }
+
+  updateMint(mintId, { hidden: true });
+  res.status(204).end();
 });
