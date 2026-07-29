@@ -323,6 +323,21 @@ button {
   text-decoration: none;
 }
 
+.nft-list-item__remove {
+  margin-top: var(--space-2);
+  font-size: 13px;
+  color: var(--tg-hint, #999);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nft-list-item__remove:active {
+  opacity: 0.6;
+}
+
 .wallet-menu {
   display: flex;
   align-items: center;
