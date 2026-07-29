@@ -42,7 +42,13 @@ function loadMints() {
 function saveMints(mintsMap) {
   try {
     fs.mkdirSync(DATA_DIR, { recursive: true });
-    fs.writeFileSync(DATA_FILE, JSON.stringify([...mintsMap.values()], null, 2), "utf-8");
+    // Пишем во временный файл и переименовываем поверх основного — rename на
+    // одной файловой системе атомарен, поэтому если Railway убьёт процесс
+    // ровно в момент записи (например, из-за редеплоя), mints.json никогда
+    // не окажется наполовину записанным / битым JSON-ом.
+    const tmpFile = `${DATA_FILE}.tmp`;
+    fs.writeFileSync(tmpFile, JSON.stringify([...mintsMap.values()], null, 2), "utf-8");
+    fs.renameSync(tmpFile, DATA_FILE);
   } catch (err) {
     console.error("[memoryDb] Не удалось сохранить минты на диск:", err.message);
   }
@@ -50,6 +56,18 @@ function saveMints(mintsMap) {
 
 const mints = loadMints();
 let counter = mints.size + 1;
+
+// Явная диагностика при старте: если DATA_DIR не примонтирован как
+// постоянный Railway Volume, история будет обнуляться при каждом
+// редеплое — печатаем это прямо в лог, чтобы не искать причину вслепую.
+if (mints.size === 0) {
+  console.warn(
+    `[memoryDb] ⚠️ История минтов пуста при старте. Если это НЕ первый ` +
+      `запуск проекта — скорее всего к сервису backend не подключён Volume, ` +
+      `смонтированный ровно в DATA_DIR (сейчас: "${DATA_DIR}"). Проверьте ` +
+      `Railway → сервис backend → Settings → Volumes.`
+  );
+}
 
 export function createMint({ userId, flagId, priceTon }) {
   const id = `mint_${Date.now()}_${counter++}`;
