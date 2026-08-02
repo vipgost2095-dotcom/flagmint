@@ -83,3 +83,24 @@ export function showMainButton({ text, onClick }) {
 export function closeApp() {
   getWebApp()?.close();
 }
+
+/**
+ * Открывает нативный диалог "поделиться" в Telegram с готовым текстом и
+ * реферальной ссылкой (пользователь выбирает, в какой чат переслать).
+ * Вне Telegram (например, если открыли Mini App в обычном браузере для
+ * теста) — просто открывает t.me/share в новой вкладке как запасной вариант.
+ */
+export function shareReferralLink(link, text) {
+  const shareUrl = `https://t.me/share/url?url=${encodeURIComponent(link)}&text=${encodeURIComponent(text)}`;
+  openExternalTelegramLink(shareUrl);
+}
+
+/** Открывает произвольную t.me-ссылку (чат поддержки, канал и т.п.) нативно в Telegram. */
+export function openExternalTelegramLink(url) {
+  const webApp = getWebApp();
+  if (webApp?.openTelegramLink) {
+    webApp.openTelegramLink(url);
+  } else {
+    window.open(url, "_blank", "noopener,noreferrer");
+  }
+}
