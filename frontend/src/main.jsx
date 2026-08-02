@@ -7,19 +7,22 @@ import "./i18n/i18n"; // важно инициализировать до рен
 import { initTelegramApp } from "./lib/telegram";
 import { TONCONNECT_MANIFEST_URL, WALLETS_LIST_CONFIGURATION } from "./lib/tonconnect";
 import App from "./App";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 // Инициализация Telegram WebApp SDK: тема, полноэкранный режим, готовность
 initTelegramApp();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <TonConnectUIProvider
-      manifestUrl={TONCONNECT_MANIFEST_URL}
-      walletsListConfiguration={WALLETS_LIST_CONFIGURATION}
-    >
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </TonConnectUIProvider>
+    <ErrorBoundary>
+      <TonConnectUIProvider
+        manifestUrl={TONCONNECT_MANIFEST_URL}
+        walletsListConfiguration={WALLETS_LIST_CONFIGURATION}
+      >
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </TonConnectUIProvider>
+    </ErrorBoundary>
   </React.StrictMode>
 );
