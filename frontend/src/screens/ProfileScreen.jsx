@@ -8,7 +8,7 @@ import { api } from "../lib/api";
 import { getTelegramUser, shareReferralLink, openExternalTelegramLink } from "../lib/telegram";
 import { SUPPORT_CONTACT } from "../content/legal";
 
-const BOT_USERNAME = import.meta.env.VITE_BOT_USERNAME ?? "FlagMintBot";
+const BOT_USERNAME = import.meta.env.VITE_BOT_USERNAME ?? "flag_mint_bot";
 
 export default function ProfileScreen() {
   const { t, i18n } = useTranslation();
