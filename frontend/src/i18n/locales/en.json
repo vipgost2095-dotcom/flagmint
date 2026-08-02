@@ -1,4 +1,7 @@
 {
+  "common": {
+    "back": "Back"
+  },
   "catalog": {
     "title": "Flags",
     "searchPlaceholder": "Search country or region",
@@ -43,7 +46,14 @@
     },
     "viewOnGetgems": "View on Getgems",
     "remove": "Remove",
-    "removeConfirm": "Remove this entry from the list? The NFT itself (if already minted) is unaffected — this only hides the entry from your profile."
+    "removeConfirm": "Remove this entry from the list? The NFT itself (if already minted) is unaffected — this only hides the entry from your profile.",
+    "inviteFriends": "Invite friends",
+    "inviteShareText": "Mint animated country flag NFTs on TON with me on FlagMint!",
+    "linkCopied": "Link copied",
+    "referralCount_one": "You've invited {{count}} friend",
+    "referralCount_other": "You've invited {{count}} friends",
+    "termsOfUse": "Terms of Use",
+    "support": "Support"
   },
   "wallet": {
     "connected": "Wallet connected",
