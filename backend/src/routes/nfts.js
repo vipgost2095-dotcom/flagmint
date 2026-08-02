@@ -56,9 +56,25 @@ nftsRouter.get("/", async (req, res) => {
             });
           }
         } catch (err) {
-          // Не удалось проверить сейчас — просто оставляем как есть,
-          // попробуем ещё раз при следующем открытии профиля.
-          console.error("[nfts list] status recheck error:", err.message);
+          // "unknown request id" — это не временный сбой, а окончательный
+          // отказ: Getgems больше не знает про этот requestId (например,
+          // запрос был отправлен ещё до смены коллекции/сети или устарел
+          // на их стороне) и никогда не ответит по-другому. Если оставить
+          // как pending, каждое открытие профиля будет бить по API и
+          // спамить логи одной и той же ошибкой бесконечно — фиксируем
+          // как error один раз, дальше recheck для неё уже не запускается.
+          const isUnknownRequestId = err.message.includes("400") && err.message.toLowerCase().includes("unknown request id");
+          if (isUnknownRequestId) {
+            current = updateMint(current.id, {
+              status: "error",
+              errorMessage: "Getgems не распознал запрос на минт (устаревший requestId)",
+            });
+            console.warn(`[nfts list] mint ${current.id} помечен как error — Getgems не знает про этот requestId`);
+          } else {
+            // Настоящий временный сбой (сеть, 5xx и т.п.) — оставляем pending,
+            // попробуем ещё раз при следующем открытии профиля.
+            console.error("[nfts list] status recheck error:", err.message);
+          }
         }
       }
       return current;
