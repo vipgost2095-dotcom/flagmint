@@ -4,6 +4,7 @@ import CatalogScreen from "./screens/CatalogScreen";
 import FlagDetailScreen from "./screens/FlagDetailScreen";
 import ConfirmMintScreen from "./screens/ConfirmMintScreen";
 import ProfileScreen from "./screens/ProfileScreen";
+import TermsScreen from "./screens/TermsScreen";
 import BottomNav from "./components/BottomNav";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/flag/:id" element={<FlagDetailScreen />} />
         <Route path="/mint/:flagId" element={<ConfirmMintScreen />} />
         <Route path="/profile" element={<ProfileScreen />} />
+        <Route path="/terms" element={<TermsScreen />} />
       </Routes>
       {!hideNav && <BottomNav />}
     </div>
