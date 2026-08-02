@@ -5,6 +5,7 @@ import SearchBar from "../components/SearchBar";
 import FilterTabs from "../components/FilterTabs";
 import FlagCard from "../components/FlagCard";
 import LangSwitch from "../components/LangSwitch";
+import WalletMenu from "../components/WalletMenu";
 import { useFlags } from "../hooks/useFlags";
 
 export default function CatalogScreen() {
@@ -18,6 +19,8 @@ export default function CatalogScreen() {
     <div className="screen">
       <LangSwitch />
       <h1>{t("catalog.title")}</h1>
+
+      <WalletMenu />
 
       <SearchBar value={search} onChange={setSearch} />
       <FilterTabs value={type} onChange={setType} />
