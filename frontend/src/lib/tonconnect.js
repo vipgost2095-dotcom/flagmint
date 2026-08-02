@@ -7,6 +7,27 @@ export const TONCONNECT_MANIFEST_URL =
   import.meta.env.VITE_TONCONNECT_MANIFEST_URL ?? `${window.location.origin}/tonconnect-manifest.json`;
 
 /**
+ * Без этого поля кошелёк Telegram Wallet технически подключается (сама
+ * транзакция handshake проходит), но TonConnect не может правильно
+ * восстановить состояние подключения именно ВНУТРИ Mini App при возврате
+ * из чата с @wallet — приложение показывает "не подключено" и кнопку
+ * подключить заново, хотя кошелёк уже подтвердил связь на своей стороне.
+ *
+ * ⚠️ VITE_MINI_APP_SHORT_NAME — это короткое имя Web App, которое ты
+ * указывал в BotFather при регистрации Mini App (/newapp или /myapps →
+ * Bot Settings → Menu Button / Web App). Не имя бота, а именно short name
+ * приложения — то, что идёт после юзернейма бота в ссылке вида
+ * t.me/FlagMintBot/appname. Если не задать переменную, используется
+ * дефолт "app" — проверьте, что он совпадает с реальным short name.
+ */
+const BOT_USERNAME = import.meta.env.VITE_BOT_USERNAME ?? "FlagMintBot";
+const MINI_APP_SHORT_NAME = import.meta.env.VITE_MINI_APP_SHORT_NAME ?? "app";
+
+export const ACTIONS_CONFIGURATION = {
+  twaReturnUrl: `https://t.me/${BOT_USERNAME}/${MINI_APP_SHORT_NAME}`,
+};
+
+/**
  * TonConnect по умолчанию и так подтягивает стандартный список кошельков
  * (Tonkeeper, MyTonWallet, Tonhub и т.д.) из общего реестра TON. Поле
  * includeWallets НЕ заменяет этот список, а лишь ДОБАВЛЯЕТ к нему — здесь
