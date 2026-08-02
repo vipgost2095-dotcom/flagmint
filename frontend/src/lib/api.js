@@ -76,6 +76,8 @@ export const api = {
       method: "DELETE",
       auth: true,
     }),
+
+  getReferralStats: () => request("/api/referrals/me", { auth: true }),
 };
 
 export { ApiError };
