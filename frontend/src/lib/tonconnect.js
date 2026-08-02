@@ -21,7 +21,7 @@ export const WALLETS_LIST_CONFIGURATION = {
       imageUrl: "https://wallet.tg/images/logo-288.png",
       aboutUrl: "https://wallet.tg/",
       universalLink: "https://t.me/wallet/start",
-      bridgeUrl: "https://bridge.tonapi.io/bridge",
+      bridgeUrl: "https://bridge.ton.space/bridge",
       platforms: ["ios", "android", "macos", "windows", "linux"],
     },
     {
