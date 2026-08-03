@@ -13,15 +13,16 @@ export const TONCONNECT_MANIFEST_URL =
  * из чата с @wallet — приложение показывает "не подключено" и кнопку
  * подключить заново, хотя кошелёк уже подтвердил связь на своей стороне.
  *
- * У FlagMintBot нет отдельного зарегистрированного через /newapp короткого
- * имени приложения (t.me/bot/appname) — Mini App открывается обычной
- * webApp-кнопкой бота (см. bot/bot.js). Поэтому возврат указываем прямо
- * на сам бот — этого достаточно, чтобы TonConnect восстановил сессию.
+ * Mini App зарегистрирован в BotFather через /newapp с коротким именем
+ * "flagmint" → t.me/flag_mint_bot/flagmint. Оба значения читаются из
+ * переменных окружения (VITE_BOT_USERNAME, VITE_MINI_APP_SHORT_NAME),
+ * заданных на Railway.
  */
 const BOT_USERNAME = import.meta.env.VITE_BOT_USERNAME ?? "flag_mint_bot";
+const MINI_APP_SHORT_NAME = import.meta.env.VITE_MINI_APP_SHORT_NAME ?? "flagmint";
 
 export const ACTIONS_CONFIGURATION = {
-  twaReturnUrl: `https://t.me/${BOT_USERNAME}`,
+  twaReturnUrl: `https://t.me/${BOT_USERNAME}/${MINI_APP_SHORT_NAME}`,
 };
 
 /**
