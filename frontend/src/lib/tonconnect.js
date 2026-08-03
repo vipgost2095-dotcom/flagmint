@@ -27,22 +27,20 @@ export const ACTIONS_CONFIGURATION = {
 
 /**
  * TonConnect по умолчанию и так подтягивает стандартный список кошельков
- * (Tonkeeper, MyTonWallet, Tonhub и т.д.) из общего реестра TON. Поле
- * includeWallets НЕ заменяет этот список, а лишь ДОБАВЛЯЕТ к нему — здесь
- * явно добавлены ещё 4 кошелька (данные — из официальной документации
- * TonConnect/Bitget, а не "на глаз", чтобы bridge/ссылки точно были рабочими).
+ * из общего реестра TON (Tonkeeper, MyTonWallet, Tonhub, и в том числе
+ * сам Telegram Wallet — он там тоже официально зарегистрирован).
+ *
+ * ВАЖНО: раньше здесь был захардкожен свой конфиг для "Wallet" (Telegram)
+ * с вручную вписанным bridgeUrl. Это оказалось источником бага: кошелёк
+ * подтверждал подключение на своей стороне, но наше приложение слушало
+ * не тот bridge (наш захардкоженный адрес разошёлся с тем, что реально
+ * использует @wallet сейчас) — подключение технически происходило, но
+ * никогда не долетало обратно в Mini App. Официальный реестр обновляется
+ * централизованно, поэтому доверяем ему, а не переписываем его вручную.
+ * Остальные кошельки (не входящие в реестр по умолчанию) оставляем.
  */
 export const WALLETS_LIST_CONFIGURATION = {
   includeWallets: [
-    {
-      appName: "telegram-wallet",
-      name: "Wallet",
-      imageUrl: "https://wallet.tg/images/logo-288.png",
-      aboutUrl: "https://wallet.tg/",
-      universalLink: "https://t.me/wallet/start",
-      bridgeUrl: "https://bridge.ton.space/bridge",
-      platforms: ["ios", "android", "macos", "windows", "linux"],
-    },
     {
       appName: "tonwallet",
       name: "TON Wallet",
