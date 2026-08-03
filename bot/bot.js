@@ -7,10 +7,24 @@ import "dotenv/config";
 import { Telegraf, Markup } from "telegraf";
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const MINI_APP_URL = process.env.MINI_APP_URL; // публичный HTTPS-адрес фронтенда
+const MINI_APP_URL = process.env.MINI_APP_URL; // публичный HTTPS-адрес фронтенда — используется как fallback
+const BACKEND_URL = process.env.BACKEND_URL; // публичный HTTPS-адрес backend, напр. https://miraculous-gratitude-production-a2be.up.railway.app
+const INTERNAL_API_SECRET = process.env.INTERNAL_API_SECRET; // тот же секрет, что и в backend Variables
+
+/**
+ * Ссылка вида t.me/flag_mint_bot/flagmint — Mini App, зарегистрированный
+ * в BotFather через /newapp. Открывать нужно именно через неё (а не через
+ * сырой MINI_APP_URL), иначе TonConnect не может корректно восстановить
+ * подключение кошелька Telegram Wallet при возврате из чата с @wallet
+ * (см. frontend/src/lib/tonconnect.js — ACTIONS_CONFIGURATION.twaReturnUrl
+ * указывает именно на эту ссылку, так что открывать приложение нужно тем
+ * же путём, иначе Telegram не свяжет сессии).
+ */
+const MINI_APP_DIRECT_LINK = process.env.MINI_APP_DIRECT_LINK; // напр. https://t.me/flag_mint_bot/flagmint
 
 if (!BOT_TOKEN) throw new Error("BOT_TOKEN не задан в bot/.env");
 if (!MINI_APP_URL) throw new Error("MINI_APP_URL не задан в bot/.env");
+if (!MINI_APP_DIRECT_LINK) throw new Error("MINI_APP_DIRECT_LINK не задан в bot/.env (напр. https://t.me/flag_mint_bot/flagmint)");
 
 const bot = new Telegraf(BOT_TOKEN);
 
@@ -32,18 +46,49 @@ function textFor(ctx) {
   return locales[lang];
 }
 
-bot.start((ctx) => {
+/**
+ * Если человек пришёл по реферальной ссылке вида t.me/FlagMintBot?start=ref_12345,
+ * Telegraf кладёт "ref_12345" в ctx.startPayload. Сообщаем об этом backend'у —
+ * он сам решит, засчитывать реферала или нет (самореферал / уже был засчитан
+ * раньше и т.п.). Это одностороннее уведомление, ошибки тут не критичны —
+ * не блокируем пользователя от открытия приложения, если backend недоступен.
+ */
+async function reportReferralIfAny(ctx) {
+  const payload = ctx.startPayload; // например "ref_123456789"
+  if (!payload || !payload.startsWith("ref_")) return;
+  if (!BACKEND_URL || !INTERNAL_API_SECRET) {
+    console.warn("[referral] BACKEND_URL/INTERNAL_API_SECRET не заданы — пропускаем учёт реферала");
+    return;
+  }
+
+  const referrerId = payload.slice("ref_".length);
+  try {
+    await fetch(`${BACKEND_URL}/api/referrals/register`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Internal-Secret": INTERNAL_API_SECRET,
+      },
+      body: JSON.stringify({ newUserId: ctx.from.id, referrerId }),
+    });
+  } catch (err) {
+    console.error("[referral] Не удалось сообщить backend о реферале:", err.message);
+  }
+}
+
+bot.start(async (ctx) => {
+  await reportReferralIfAny(ctx);
   const t = textFor(ctx);
   return ctx.reply(
     t.welcome,
-    Markup.inlineKeyboard([Markup.button.webApp(t.openApp, MINI_APP_URL)])
+    Markup.inlineKeyboard([Markup.button.url(t.openApp, MINI_APP_DIRECT_LINK)])
   );
 });
 
 // Позволяет открыть приложение и из обычного сообщения/команды /app
 bot.command("app", (ctx) => {
   const t = textFor(ctx);
-  return ctx.reply(t.openApp, Markup.inlineKeyboard([Markup.button.webApp(t.openApp, MINI_APP_URL)]));
+  return ctx.reply(t.openApp, Markup.inlineKeyboard([Markup.button.url(t.openApp, MINI_APP_DIRECT_LINK)]));
 });
 
 /**
