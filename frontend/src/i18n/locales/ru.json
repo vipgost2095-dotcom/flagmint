@@ -8,6 +8,8 @@
     "filterAll": "Все",
     "filterCountries": "Страны",
     "filterRegions": "Регионы",
+    "filterStates": "Штаты",
+    "filterRussiaRegions": "Регионы РФ",
     "empty": "Ничего не найдено. Попробуйте другой запрос.",
     "edition": "Общий лимит коллекции: {{count}}"
   },

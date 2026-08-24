@@ -8,6 +8,8 @@
     "filterAll": "All",
     "filterCountries": "Countries",
     "filterRegions": "Regions",
+    "filterStates": "States",
+    "filterRussiaRegions": "Russia regions",
     "empty": "Nothing found. Try a different search.",
     "edition": "Collection-wide cap: {{count}}"
   },
