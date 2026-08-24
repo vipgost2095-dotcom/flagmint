@@ -14,7 +14,7 @@ const flags = JSON.parse(readFileSync(flagsPath, "utf-8"));
 export const flagsRouter = Router();
 
 /**
- * GET /api/flags?search=&type=country|region&region=
+ * GET /api/flags?search=&type=country|region|state&region=
  * Каталог с поиском по названию и фильтром по типу/региону.
  */
 flagsRouter.get("/", (req, res) => {
@@ -23,7 +23,7 @@ flagsRouter.get("/", (req, res) => {
 
   let result = flags;
 
-  if (type === "country" || type === "region") {
+  if (type === "country" || type === "region" || type === "state" || type === "region_ru") {
     result = result.filter((f) => f.type === type);
   }
 
