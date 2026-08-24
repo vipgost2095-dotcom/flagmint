@@ -5,6 +5,8 @@ const OPTIONS = [
   { value: "all", labelKey: "catalog.filterAll" },
   { value: "country", labelKey: "catalog.filterCountries" },
   { value: "region", labelKey: "catalog.filterRegions" },
+  { value: "state", labelKey: "catalog.filterStates" },
+  { value: "region_ru", labelKey: "catalog.filterRussiaRegions" },
 ];
 
 export default function FilterTabs({ value, onChange }) {
