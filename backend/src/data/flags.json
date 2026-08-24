@@ -5023,5 +5023,3380 @@
       "edition": 20000
     },
     "priceTon": 2
+  },
+  {
+    "id": "state-us-al",
+    "code": "US-AL",
+    "type": "state",
+    "name": {
+      "ru": "Алабама",
+      "en": "Alabama"
+    },
+    "description": {
+      "ru": "Флаг штата «Алабама» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Alabama (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-al.gif",
+      "fallbackGifUrl": "/flags/us-al.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ak",
+    "code": "US-AK",
+    "type": "state",
+    "name": {
+      "ru": "Аляска",
+      "en": "Alaska"
+    },
+    "description": {
+      "ru": "Флаг штата «Аляска» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Alaska (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ak.gif",
+      "fallbackGifUrl": "/flags/us-ak.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-az",
+    "code": "US-AZ",
+    "type": "state",
+    "name": {
+      "ru": "Аризона",
+      "en": "Arizona"
+    },
+    "description": {
+      "ru": "Флаг штата «Аризона» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Arizona (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-az.gif",
+      "fallbackGifUrl": "/flags/us-az.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ar",
+    "code": "US-AR",
+    "type": "state",
+    "name": {
+      "ru": "Арканзас",
+      "en": "Arkansas"
+    },
+    "description": {
+      "ru": "Флаг штата «Арканзас» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Arkansas (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ar.gif",
+      "fallbackGifUrl": "/flags/us-ar.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ca",
+    "code": "US-CA",
+    "type": "state",
+    "name": {
+      "ru": "Калифорния",
+      "en": "California"
+    },
+    "description": {
+      "ru": "Флаг штата «Калифорния» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of California (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ca.gif",
+      "fallbackGifUrl": "/flags/us-ca.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-co",
+    "code": "US-CO",
+    "type": "state",
+    "name": {
+      "ru": "Колорадо",
+      "en": "Colorado"
+    },
+    "description": {
+      "ru": "Флаг штата «Колорадо» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Colorado (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-co.gif",
+      "fallbackGifUrl": "/flags/us-co.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ct",
+    "code": "US-CT",
+    "type": "state",
+    "name": {
+      "ru": "Коннектикут",
+      "en": "Connecticut"
+    },
+    "description": {
+      "ru": "Флаг штата «Коннектикут» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Connecticut (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ct.gif",
+      "fallbackGifUrl": "/flags/us-ct.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-de",
+    "code": "US-DE",
+    "type": "state",
+    "name": {
+      "ru": "Делавэр",
+      "en": "Delaware"
+    },
+    "description": {
+      "ru": "Флаг штата «Делавэр» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Delaware (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-de.gif",
+      "fallbackGifUrl": "/flags/us-de.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-fl",
+    "code": "US-FL",
+    "type": "state",
+    "name": {
+      "ru": "Флорида",
+      "en": "Florida"
+    },
+    "description": {
+      "ru": "Флаг штата «Флорида» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Florida (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-fl.gif",
+      "fallbackGifUrl": "/flags/us-fl.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ga",
+    "code": "US-GA",
+    "type": "state",
+    "name": {
+      "ru": "Джорджия",
+      "en": "Georgia"
+    },
+    "description": {
+      "ru": "Флаг штата «Джорджия» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Georgia (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ga.gif",
+      "fallbackGifUrl": "/flags/us-ga.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-hi",
+    "code": "US-HI",
+    "type": "state",
+    "name": {
+      "ru": "Гавайи",
+      "en": "Hawaii"
+    },
+    "description": {
+      "ru": "Флаг штата «Гавайи» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Hawaii (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-hi.gif",
+      "fallbackGifUrl": "/flags/us-hi.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-id",
+    "code": "US-ID",
+    "type": "state",
+    "name": {
+      "ru": "Айдахо",
+      "en": "Idaho"
+    },
+    "description": {
+      "ru": "Флаг штата «Айдахо» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Idaho (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-id.gif",
+      "fallbackGifUrl": "/flags/us-id.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-il",
+    "code": "US-IL",
+    "type": "state",
+    "name": {
+      "ru": "Иллинойс",
+      "en": "Illinois"
+    },
+    "description": {
+      "ru": "Флаг штата «Иллинойс» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Illinois (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-il.gif",
+      "fallbackGifUrl": "/flags/us-il.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-in",
+    "code": "US-IN",
+    "type": "state",
+    "name": {
+      "ru": "Индиана",
+      "en": "Indiana"
+    },
+    "description": {
+      "ru": "Флаг штата «Индиана» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Indiana (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-in.gif",
+      "fallbackGifUrl": "/flags/us-in.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ia",
+    "code": "US-IA",
+    "type": "state",
+    "name": {
+      "ru": "Айова",
+      "en": "Iowa"
+    },
+    "description": {
+      "ru": "Флаг штата «Айова» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Iowa (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ia.gif",
+      "fallbackGifUrl": "/flags/us-ia.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ks",
+    "code": "US-KS",
+    "type": "state",
+    "name": {
+      "ru": "Канзас",
+      "en": "Kansas"
+    },
+    "description": {
+      "ru": "Флаг штата «Канзас» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kansas (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ks.gif",
+      "fallbackGifUrl": "/flags/us-ks.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ky",
+    "code": "US-KY",
+    "type": "state",
+    "name": {
+      "ru": "Кентукки",
+      "en": "Kentucky"
+    },
+    "description": {
+      "ru": "Флаг штата «Кентукки» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kentucky (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ky.gif",
+      "fallbackGifUrl": "/flags/us-ky.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-la",
+    "code": "US-LA",
+    "type": "state",
+    "name": {
+      "ru": "Луизиана",
+      "en": "Louisiana"
+    },
+    "description": {
+      "ru": "Флаг штата «Луизиана» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Louisiana (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-la.gif",
+      "fallbackGifUrl": "/flags/us-la.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-me",
+    "code": "US-ME",
+    "type": "state",
+    "name": {
+      "ru": "Мэн",
+      "en": "Maine"
+    },
+    "description": {
+      "ru": "Флаг штата «Мэн» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Maine (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-me.gif",
+      "fallbackGifUrl": "/flags/us-me.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-md",
+    "code": "US-MD",
+    "type": "state",
+    "name": {
+      "ru": "Мэриленд",
+      "en": "Maryland"
+    },
+    "description": {
+      "ru": "Флаг штата «Мэриленд» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Maryland (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-md.gif",
+      "fallbackGifUrl": "/flags/us-md.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ma",
+    "code": "US-MA",
+    "type": "state",
+    "name": {
+      "ru": "Массачусетс",
+      "en": "Massachusetts"
+    },
+    "description": {
+      "ru": "Флаг штата «Массачусетс» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Massachusetts (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ma.gif",
+      "fallbackGifUrl": "/flags/us-ma.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-mi",
+    "code": "US-MI",
+    "type": "state",
+    "name": {
+      "ru": "Мичиган",
+      "en": "Michigan"
+    },
+    "description": {
+      "ru": "Флаг штата «Мичиган» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Michigan (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-mi.gif",
+      "fallbackGifUrl": "/flags/us-mi.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-mn",
+    "code": "US-MN",
+    "type": "state",
+    "name": {
+      "ru": "Миннесота",
+      "en": "Minnesota"
+    },
+    "description": {
+      "ru": "Флаг штата «Миннесота» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Minnesota (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-mn.gif",
+      "fallbackGifUrl": "/flags/us-mn.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ms",
+    "code": "US-MS",
+    "type": "state",
+    "name": {
+      "ru": "Миссисипи",
+      "en": "Mississippi"
+    },
+    "description": {
+      "ru": "Флаг штата «Миссисипи» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mississippi (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ms.gif",
+      "fallbackGifUrl": "/flags/us-ms.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-mo",
+    "code": "US-MO",
+    "type": "state",
+    "name": {
+      "ru": "Миссури",
+      "en": "Missouri"
+    },
+    "description": {
+      "ru": "Флаг штата «Миссури» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Missouri (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-mo.gif",
+      "fallbackGifUrl": "/flags/us-mo.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-mt",
+    "code": "US-MT",
+    "type": "state",
+    "name": {
+      "ru": "Монтана",
+      "en": "Montana"
+    },
+    "description": {
+      "ru": "Флаг штата «Монтана» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Montana (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-mt.gif",
+      "fallbackGifUrl": "/flags/us-mt.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ne",
+    "code": "US-NE",
+    "type": "state",
+    "name": {
+      "ru": "Небраска",
+      "en": "Nebraska"
+    },
+    "description": {
+      "ru": "Флаг штата «Небраска» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nebraska (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ne.gif",
+      "fallbackGifUrl": "/flags/us-ne.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-nv",
+    "code": "US-NV",
+    "type": "state",
+    "name": {
+      "ru": "Невада",
+      "en": "Nevada"
+    },
+    "description": {
+      "ru": "Флаг штата «Невада» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nevada (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-nv.gif",
+      "fallbackGifUrl": "/flags/us-nv.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-nh",
+    "code": "US-NH",
+    "type": "state",
+    "name": {
+      "ru": "Нью-Гэмпшир",
+      "en": "New Hampshire"
+    },
+    "description": {
+      "ru": "Флаг штата «Нью-Гэмпшир» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of New Hampshire (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-nh.gif",
+      "fallbackGifUrl": "/flags/us-nh.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-nj",
+    "code": "US-NJ",
+    "type": "state",
+    "name": {
+      "ru": "Нью-Джерси",
+      "en": "New Jersey"
+    },
+    "description": {
+      "ru": "Флаг штата «Нью-Джерси» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of New Jersey (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-nj.gif",
+      "fallbackGifUrl": "/flags/us-nj.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-nm",
+    "code": "US-NM",
+    "type": "state",
+    "name": {
+      "ru": "Нью-Мексико",
+      "en": "New Mexico"
+    },
+    "description": {
+      "ru": "Флаг штата «Нью-Мексико» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of New Mexico (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-nm.gif",
+      "fallbackGifUrl": "/flags/us-nm.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ny",
+    "code": "US-NY",
+    "type": "state",
+    "name": {
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "description": {
+      "ru": "Флаг штата «Нью-Йорк» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of New York (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ny.gif",
+      "fallbackGifUrl": "/flags/us-ny.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-nc",
+    "code": "US-NC",
+    "type": "state",
+    "name": {
+      "ru": "Северная Каролина",
+      "en": "North Carolina"
+    },
+    "description": {
+      "ru": "Флаг штата «Северная Каролина» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of North Carolina (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-nc.gif",
+      "fallbackGifUrl": "/flags/us-nc.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-nd",
+    "code": "US-ND",
+    "type": "state",
+    "name": {
+      "ru": "Северная Дакота",
+      "en": "North Dakota"
+    },
+    "description": {
+      "ru": "Флаг штата «Северная Дакота» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of North Dakota (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-nd.gif",
+      "fallbackGifUrl": "/flags/us-nd.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-oh",
+    "code": "US-OH",
+    "type": "state",
+    "name": {
+      "ru": "Огайо",
+      "en": "Ohio"
+    },
+    "description": {
+      "ru": "Флаг штата «Огайо» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ohio (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-oh.gif",
+      "fallbackGifUrl": "/flags/us-oh.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ok",
+    "code": "US-OK",
+    "type": "state",
+    "name": {
+      "ru": "Оклахома",
+      "en": "Oklahoma"
+    },
+    "description": {
+      "ru": "Флаг штата «Оклахома» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Oklahoma (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ok.gif",
+      "fallbackGifUrl": "/flags/us-ok.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-or",
+    "code": "US-OR",
+    "type": "state",
+    "name": {
+      "ru": "Орегон",
+      "en": "Oregon"
+    },
+    "description": {
+      "ru": "Флаг штата «Орегон» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Oregon (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-or.gif",
+      "fallbackGifUrl": "/flags/us-or.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-pa",
+    "code": "US-PA",
+    "type": "state",
+    "name": {
+      "ru": "Пенсильвания",
+      "en": "Pennsylvania"
+    },
+    "description": {
+      "ru": "Флаг штата «Пенсильвания» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Pennsylvania (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-pa.gif",
+      "fallbackGifUrl": "/flags/us-pa.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ri",
+    "code": "US-RI",
+    "type": "state",
+    "name": {
+      "ru": "Род-Айленд",
+      "en": "Rhode Island"
+    },
+    "description": {
+      "ru": "Флаг штата «Род-Айленд» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Rhode Island (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ri.gif",
+      "fallbackGifUrl": "/flags/us-ri.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-sc",
+    "code": "US-SC",
+    "type": "state",
+    "name": {
+      "ru": "Южная Каролина",
+      "en": "South Carolina"
+    },
+    "description": {
+      "ru": "Флаг штата «Южная Каролина» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of South Carolina (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-sc.gif",
+      "fallbackGifUrl": "/flags/us-sc.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-sd",
+    "code": "US-SD",
+    "type": "state",
+    "name": {
+      "ru": "Южная Дакота",
+      "en": "South Dakota"
+    },
+    "description": {
+      "ru": "Флаг штата «Южная Дакота» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of South Dakota (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-sd.gif",
+      "fallbackGifUrl": "/flags/us-sd.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-tn",
+    "code": "US-TN",
+    "type": "state",
+    "name": {
+      "ru": "Теннесси",
+      "en": "Tennessee"
+    },
+    "description": {
+      "ru": "Флаг штата «Теннесси» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tennessee (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-tn.gif",
+      "fallbackGifUrl": "/flags/us-tn.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-tx",
+    "code": "US-TX",
+    "type": "state",
+    "name": {
+      "ru": "Техас",
+      "en": "Texas"
+    },
+    "description": {
+      "ru": "Флаг штата «Техас» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Texas (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-tx.gif",
+      "fallbackGifUrl": "/flags/us-tx.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-ut",
+    "code": "US-UT",
+    "type": "state",
+    "name": {
+      "ru": "Юта",
+      "en": "Utah"
+    },
+    "description": {
+      "ru": "Флаг штата «Юта» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Utah (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-ut.gif",
+      "fallbackGifUrl": "/flags/us-ut.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-vt",
+    "code": "US-VT",
+    "type": "state",
+    "name": {
+      "ru": "Вермонт",
+      "en": "Vermont"
+    },
+    "description": {
+      "ru": "Флаг штата «Вермонт» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Vermont (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-vt.gif",
+      "fallbackGifUrl": "/flags/us-vt.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-va",
+    "code": "US-VA",
+    "type": "state",
+    "name": {
+      "ru": "Виргиния",
+      "en": "Virginia"
+    },
+    "description": {
+      "ru": "Флаг штата «Виргиния» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Virginia (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-va.gif",
+      "fallbackGifUrl": "/flags/us-va.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-wa",
+    "code": "US-WA",
+    "type": "state",
+    "name": {
+      "ru": "Вашингтон",
+      "en": "Washington"
+    },
+    "description": {
+      "ru": "Флаг штата «Вашингтон» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Washington (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-wa.gif",
+      "fallbackGifUrl": "/flags/us-wa.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-wv",
+    "code": "US-WV",
+    "type": "state",
+    "name": {
+      "ru": "Западная Виргиния",
+      "en": "West Virginia"
+    },
+    "description": {
+      "ru": "Флаг штата «Западная Виргиния» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of West Virginia (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-wv.gif",
+      "fallbackGifUrl": "/flags/us-wv.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-wi",
+    "code": "US-WI",
+    "type": "state",
+    "name": {
+      "ru": "Висконсин",
+      "en": "Wisconsin"
+    },
+    "description": {
+      "ru": "Флаг штата «Висконсин» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Wisconsin (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-wi.gif",
+      "fallbackGifUrl": "/flags/us-wi.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "state-us-wy",
+    "code": "US-WY",
+    "type": "state",
+    "name": {
+      "ru": "Вайоминг",
+      "en": "Wyoming"
+    },
+    "description": {
+      "ru": "Флаг штата «Вайоминг» (США) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Wyoming (USA) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/us-wy.gif",
+      "fallbackGifUrl": "/flags/us-wy.png"
+    },
+    "attributes": {
+      "country": "United States",
+      "region": "North America",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ta",
+    "code": "RU-TA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Татарстан",
+      "en": "Tatarstan"
+    },
+    "description": {
+      "ru": "Флаг региона «Татарстан» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tatarstan (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ta.gif",
+      "fallbackGifUrl": "/flags/ru-ta.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ce",
+    "code": "RU-CE",
+    "type": "region_ru",
+    "name": {
+      "ru": "Чечня",
+      "en": "Chechnya"
+    },
+    "description": {
+      "ru": "Флаг региона «Чечня» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Chechnya (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ce.gif",
+      "fallbackGifUrl": "/flags/ru-ce.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ba",
+    "code": "RU-BA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Башкортостан",
+      "en": "Bashkortostan"
+    },
+    "description": {
+      "ru": "Флаг региона «Башкортостан» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bashkortostan (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ba.gif",
+      "fallbackGifUrl": "/flags/ru-ba.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-sa",
+    "code": "RU-SA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Саха (Якутия)",
+      "en": "Sakha (Yakutia)"
+    },
+    "description": {
+      "ru": "Флаг региона «Саха (Якутия)» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sakha (Yakutia) (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-sa.gif",
+      "fallbackGifUrl": "/flags/ru-sa.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-cu",
+    "code": "RU-CU",
+    "type": "region_ru",
+    "name": {
+      "ru": "Чувашия",
+      "en": "Chuvashia"
+    },
+    "description": {
+      "ru": "Флаг региона «Чувашия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Chuvashia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-cu.gif",
+      "fallbackGifUrl": "/flags/ru-cu.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-da",
+    "code": "RU-DA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Дагестан",
+      "en": "Dagestan"
+    },
+    "description": {
+      "ru": "Флаг региона «Дагестан» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Dagestan (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-da.gif",
+      "fallbackGifUrl": "/flags/ru-da.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kl",
+    "code": "RU-KL",
+    "type": "region_ru",
+    "name": {
+      "ru": "Калмыкия",
+      "en": "Kalmykia"
+    },
+    "description": {
+      "ru": "Флаг региона «Калмыкия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kalmykia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kl.gif",
+      "fallbackGifUrl": "/flags/ru-kl.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ty",
+    "code": "RU-TY",
+    "type": "region_ru",
+    "name": {
+      "ru": "Тыва",
+      "en": "Tuva"
+    },
+    "description": {
+      "ru": "Флаг региона «Тыва» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tuva (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ty.gif",
+      "fallbackGifUrl": "/flags/ru-ty.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-bu",
+    "code": "RU-BU",
+    "type": "region_ru",
+    "name": {
+      "ru": "Бурятия",
+      "en": "Buryatia"
+    },
+    "description": {
+      "ru": "Флаг региона «Бурятия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Buryatia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-bu.gif",
+      "fallbackGifUrl": "/flags/ru-bu.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kr",
+    "code": "RU-KR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Карелия",
+      "en": "Karelia"
+    },
+    "description": {
+      "ru": "Флаг региона «Карелия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Karelia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kr.gif",
+      "fallbackGifUrl": "/flags/ru-kr.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ko",
+    "code": "RU-KO",
+    "type": "region_ru",
+    "name": {
+      "ru": "Коми",
+      "en": "Komi"
+    },
+    "description": {
+      "ru": "Флаг региона «Коми» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Komi (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ko.gif",
+      "fallbackGifUrl": "/flags/ru-ko.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-me",
+    "code": "RU-ME",
+    "type": "region_ru",
+    "name": {
+      "ru": "Марий Эл",
+      "en": "Mari El"
+    },
+    "description": {
+      "ru": "Флаг региона «Марий Эл» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mari El (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-me.gif",
+      "fallbackGifUrl": "/flags/ru-me.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-mo",
+    "code": "RU-MO",
+    "type": "region_ru",
+    "name": {
+      "ru": "Мордовия",
+      "en": "Mordovia"
+    },
+    "description": {
+      "ru": "Флаг региона «Мордовия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Mordovia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-mo.gif",
+      "fallbackGifUrl": "/flags/ru-mo.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ud",
+    "code": "RU-UD",
+    "type": "region_ru",
+    "name": {
+      "ru": "Удмуртия",
+      "en": "Udmurtia"
+    },
+    "description": {
+      "ru": "Флаг региона «Удмуртия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Udmurtia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ud.gif",
+      "fallbackGifUrl": "/flags/ru-ud.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-al",
+    "code": "RU-AL",
+    "type": "region_ru",
+    "name": {
+      "ru": "Республика Алтай",
+      "en": "Altai Republic"
+    },
+    "description": {
+      "ru": "Флаг региона «Республика Алтай» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Altai Republic (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-al.gif",
+      "fallbackGifUrl": "/flags/ru-al.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kk",
+    "code": "RU-KK",
+    "type": "region_ru",
+    "name": {
+      "ru": "Хакасия",
+      "en": "Khakassia"
+    },
+    "description": {
+      "ru": "Флаг региона «Хакасия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Khakassia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kk.gif",
+      "fallbackGifUrl": "/flags/ru-kk.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kc",
+    "code": "RU-KC",
+    "type": "region_ru",
+    "name": {
+      "ru": "Карачаево-Черкесия",
+      "en": "Karachay-Cherkessia"
+    },
+    "description": {
+      "ru": "Флаг региона «Карачаево-Черкесия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Karachay-Cherkessia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kc.gif",
+      "fallbackGifUrl": "/flags/ru-kc.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kb",
+    "code": "RU-KB",
+    "type": "region_ru",
+    "name": {
+      "ru": "Кабардино-Балкария",
+      "en": "Kabardino-Balkaria"
+    },
+    "description": {
+      "ru": "Флаг региона «Кабардино-Балкария» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kabardino-Balkaria (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kb.gif",
+      "fallbackGifUrl": "/flags/ru-kb.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-se",
+    "code": "RU-SE",
+    "type": "region_ru",
+    "name": {
+      "ru": "Северная Осетия",
+      "en": "North Ossetia-Alania"
+    },
+    "description": {
+      "ru": "Флаг региона «Северная Осетия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of North Ossetia-Alania (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-se.gif",
+      "fallbackGifUrl": "/flags/ru-se.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-in",
+    "code": "RU-IN",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ингушетия",
+      "en": "Ingushetia"
+    },
+    "description": {
+      "ru": "Флаг региона «Ингушетия» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ingushetia (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-in.gif",
+      "fallbackGifUrl": "/flags/ru-in.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ad",
+    "code": "RU-AD",
+    "type": "region_ru",
+    "name": {
+      "ru": "Адыгея",
+      "en": "Adygea"
+    },
+    "description": {
+      "ru": "Флаг региона «Адыгея» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Adygea (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ad.gif",
+      "fallbackGifUrl": "/flags/ru-ad.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-cr",
+    "code": "RU-CR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Крым",
+      "en": "Crimea"
+    },
+    "description": {
+      "ru": "Флаг региона «Крым» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Crimea (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-cr.gif",
+      "fallbackGifUrl": "/flags/ru-cr.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-sv",
+    "code": "RU-SV",
+    "type": "region_ru",
+    "name": {
+      "ru": "Севастополь",
+      "en": "Sevastopol"
+    },
+    "description": {
+      "ru": "Флаг региона «Севастополь» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sevastopol (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-sv.gif",
+      "fallbackGifUrl": "/flags/ru-sv.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-mow",
+    "code": "RU-MOW",
+    "type": "region_ru",
+    "name": {
+      "ru": "Москва",
+      "en": "Moscow"
+    },
+    "description": {
+      "ru": "Флаг региона «Москва» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Moscow (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-mow.gif",
+      "fallbackGifUrl": "/flags/ru-mow.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-spe",
+    "code": "RU-SPE",
+    "type": "region_ru",
+    "name": {
+      "ru": "Санкт-Петербург",
+      "en": "Saint Petersburg"
+    },
+    "description": {
+      "ru": "Флаг региона «Санкт-Петербург» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Saint Petersburg (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-spe.gif",
+      "fallbackGifUrl": "/flags/ru-spe.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-amu",
+    "code": "RU-AMU",
+    "type": "region_ru",
+    "name": {
+      "ru": "Амурская область",
+      "en": "Amur Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Амурская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Amur Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-amu.gif",
+      "fallbackGifUrl": "/flags/ru-amu.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ark",
+    "code": "RU-ARK",
+    "type": "region_ru",
+    "name": {
+      "ru": "Архангельская область",
+      "en": "Arkhangelsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Архангельская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Arkhangelsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ark.gif",
+      "fallbackGifUrl": "/flags/ru-ark.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ast",
+    "code": "RU-AST",
+    "type": "region_ru",
+    "name": {
+      "ru": "Астраханская область",
+      "en": "Astrakhan Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Астраханская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Astrakhan Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ast.gif",
+      "fallbackGifUrl": "/flags/ru-ast.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-bel",
+    "code": "RU-BEL",
+    "type": "region_ru",
+    "name": {
+      "ru": "Белгородская область",
+      "en": "Belgorod Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Белгородская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Belgorod Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-bel.gif",
+      "fallbackGifUrl": "/flags/ru-bel.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-bry",
+    "code": "RU-BRY",
+    "type": "region_ru",
+    "name": {
+      "ru": "Брянская область",
+      "en": "Bryansk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Брянская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Bryansk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-bry.gif",
+      "fallbackGifUrl": "/flags/ru-bry.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-che",
+    "code": "RU-CHE",
+    "type": "region_ru",
+    "name": {
+      "ru": "Челябинская область",
+      "en": "Chelyabinsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Челябинская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Chelyabinsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-che.gif",
+      "fallbackGifUrl": "/flags/ru-che.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-irk",
+    "code": "RU-IRK",
+    "type": "region_ru",
+    "name": {
+      "ru": "Иркутская область",
+      "en": "Irkutsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Иркутская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Irkutsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-irk.gif",
+      "fallbackGifUrl": "/flags/ru-irk.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-iva",
+    "code": "RU-IVA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ивановская область",
+      "en": "Ivanovo Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Ивановская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ivanovo Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-iva.gif",
+      "fallbackGifUrl": "/flags/ru-iva.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kgd",
+    "code": "RU-KGD",
+    "type": "region_ru",
+    "name": {
+      "ru": "Калининградская область",
+      "en": "Kaliningrad Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Калининградская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kaliningrad Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kgd.gif",
+      "fallbackGifUrl": "/flags/ru-kgd.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-klu",
+    "code": "RU-KLU",
+    "type": "region_ru",
+    "name": {
+      "ru": "Калужская область",
+      "en": "Kaluga Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Калужская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kaluga Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-klu.gif",
+      "fallbackGifUrl": "/flags/ru-klu.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kem",
+    "code": "RU-KEM",
+    "type": "region_ru",
+    "name": {
+      "ru": "Кемеровская область",
+      "en": "Kemerovo Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Кемеровская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kemerovo Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kem.gif",
+      "fallbackGifUrl": "/flags/ru-kem.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kir",
+    "code": "RU-KIR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Кировская область",
+      "en": "Kirov Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Кировская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kirov Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kir.gif",
+      "fallbackGifUrl": "/flags/ru-kir.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kos",
+    "code": "RU-KOS",
+    "type": "region_ru",
+    "name": {
+      "ru": "Костромская область",
+      "en": "Kostroma Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Костромская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kostroma Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kos.gif",
+      "fallbackGifUrl": "/flags/ru-kos.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kgn",
+    "code": "RU-KGN",
+    "type": "region_ru",
+    "name": {
+      "ru": "Курганская область",
+      "en": "Kurgan Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Курганская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kurgan Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kgn.gif",
+      "fallbackGifUrl": "/flags/ru-kgn.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-krs",
+    "code": "RU-KRS",
+    "type": "region_ru",
+    "name": {
+      "ru": "Курская область",
+      "en": "Kursk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Курская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kursk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-krs.gif",
+      "fallbackGifUrl": "/flags/ru-krs.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-len",
+    "code": "RU-LEN",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ленинградская область",
+      "en": "Leningrad Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Ленинградская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Leningrad Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-len.gif",
+      "fallbackGifUrl": "/flags/ru-len.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-lip",
+    "code": "RU-LIP",
+    "type": "region_ru",
+    "name": {
+      "ru": "Липецкая область",
+      "en": "Lipetsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Липецкая область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Lipetsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-lip.gif",
+      "fallbackGifUrl": "/flags/ru-lip.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-mag",
+    "code": "RU-MAG",
+    "type": "region_ru",
+    "name": {
+      "ru": "Магаданская область",
+      "en": "Magadan Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Магаданская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Magadan Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-mag.gif",
+      "fallbackGifUrl": "/flags/ru-mag.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-mos",
+    "code": "RU-MOS",
+    "type": "region_ru",
+    "name": {
+      "ru": "Московская область",
+      "en": "Moscow Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Московская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Moscow Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-mos.gif",
+      "fallbackGifUrl": "/flags/ru-mos.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-mur",
+    "code": "RU-MUR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Мурманская область",
+      "en": "Murmansk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Мурманская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Murmansk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-mur.gif",
+      "fallbackGifUrl": "/flags/ru-mur.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-niz",
+    "code": "RU-NIZ",
+    "type": "region_ru",
+    "name": {
+      "ru": "Нижегородская область",
+      "en": "Nizhny Novgorod Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Нижегородская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nizhny Novgorod Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-niz.gif",
+      "fallbackGifUrl": "/flags/ru-niz.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ngr",
+    "code": "RU-NGR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Новгородская область",
+      "en": "Novgorod Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Новгородская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Novgorod Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ngr.gif",
+      "fallbackGifUrl": "/flags/ru-ngr.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-nvs",
+    "code": "RU-NVS",
+    "type": "region_ru",
+    "name": {
+      "ru": "Новосибирская область",
+      "en": "Novosibirsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Новосибирская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Novosibirsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-nvs.gif",
+      "fallbackGifUrl": "/flags/ru-nvs.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-oms",
+    "code": "RU-OMS",
+    "type": "region_ru",
+    "name": {
+      "ru": "Омская область",
+      "en": "Omsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Омская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Omsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-oms.gif",
+      "fallbackGifUrl": "/flags/ru-oms.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ore",
+    "code": "RU-ORE",
+    "type": "region_ru",
+    "name": {
+      "ru": "Оренбургская область",
+      "en": "Orenburg Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Оренбургская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Orenburg Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ore.gif",
+      "fallbackGifUrl": "/flags/ru-ore.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-orl",
+    "code": "RU-ORL",
+    "type": "region_ru",
+    "name": {
+      "ru": "Орловская область",
+      "en": "Oryol Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Орловская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Oryol Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-orl.gif",
+      "fallbackGifUrl": "/flags/ru-orl.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-pnz",
+    "code": "RU-PNZ",
+    "type": "region_ru",
+    "name": {
+      "ru": "Пензенская область",
+      "en": "Penza Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Пензенская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Penza Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-pnz.gif",
+      "fallbackGifUrl": "/flags/ru-pnz.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-psk",
+    "code": "RU-PSK",
+    "type": "region_ru",
+    "name": {
+      "ru": "Псковская область",
+      "en": "Pskov Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Псковская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Pskov Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-psk.gif",
+      "fallbackGifUrl": "/flags/ru-psk.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-ros",
+    "code": "RU-ROS",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ростовская область",
+      "en": "Rostov Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Ростовская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Rostov Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-ros.gif",
+      "fallbackGifUrl": "/flags/ru-ros.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-rya",
+    "code": "RU-RYA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Рязанская область",
+      "en": "Ryazan Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Рязанская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ryazan Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-rya.gif",
+      "fallbackGifUrl": "/flags/ru-rya.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-sak",
+    "code": "RU-SAK",
+    "type": "region_ru",
+    "name": {
+      "ru": "Сахалинская область",
+      "en": "Sakhalin Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Сахалинская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sakhalin Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-sak.gif",
+      "fallbackGifUrl": "/flags/ru-sak.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-sam",
+    "code": "RU-SAM",
+    "type": "region_ru",
+    "name": {
+      "ru": "Самарская область",
+      "en": "Samara Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Самарская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Samara Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-sam.gif",
+      "fallbackGifUrl": "/flags/ru-sam.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-sar",
+    "code": "RU-SAR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Саратовская область",
+      "en": "Saratov Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Саратовская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Saratov Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-sar.gif",
+      "fallbackGifUrl": "/flags/ru-sar.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-smo",
+    "code": "RU-SMO",
+    "type": "region_ru",
+    "name": {
+      "ru": "Смоленская область",
+      "en": "Smolensk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Смоленская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Smolensk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-smo.gif",
+      "fallbackGifUrl": "/flags/ru-smo.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-sve",
+    "code": "RU-SVE",
+    "type": "region_ru",
+    "name": {
+      "ru": "Свердловская область",
+      "en": "Sverdlovsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Свердловская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Sverdlovsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-sve.gif",
+      "fallbackGifUrl": "/flags/ru-sve.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-tam",
+    "code": "RU-TAM",
+    "type": "region_ru",
+    "name": {
+      "ru": "Тамбовская область",
+      "en": "Tambov Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Тамбовская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tambov Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-tam.gif",
+      "fallbackGifUrl": "/flags/ru-tam.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-tom",
+    "code": "RU-TOM",
+    "type": "region_ru",
+    "name": {
+      "ru": "Томская область",
+      "en": "Tomsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Томская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tomsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-tom.gif",
+      "fallbackGifUrl": "/flags/ru-tom.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-tul",
+    "code": "RU-TUL",
+    "type": "region_ru",
+    "name": {
+      "ru": "Тульская область",
+      "en": "Tula Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Тульская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tula Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-tul.gif",
+      "fallbackGifUrl": "/flags/ru-tul.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-tve",
+    "code": "RU-TVE",
+    "type": "region_ru",
+    "name": {
+      "ru": "Тверская область",
+      "en": "Tver Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Тверская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tver Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-tve.gif",
+      "fallbackGifUrl": "/flags/ru-tve.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-tyu",
+    "code": "RU-TYU",
+    "type": "region_ru",
+    "name": {
+      "ru": "Тюменская область",
+      "en": "Tyumen Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Тюменская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Tyumen Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-tyu.gif",
+      "fallbackGifUrl": "/flags/ru-tyu.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-uly",
+    "code": "RU-ULY",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ульяновская область",
+      "en": "Ulyanovsk Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Ульяновская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Ulyanovsk Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-uly.gif",
+      "fallbackGifUrl": "/flags/ru-uly.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-vla",
+    "code": "RU-VLA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Владимирская область",
+      "en": "Vladimir Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Владимирская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Vladimir Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-vla.gif",
+      "fallbackGifUrl": "/flags/ru-vla.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-vgg",
+    "code": "RU-VGG",
+    "type": "region_ru",
+    "name": {
+      "ru": "Волгоградская область",
+      "en": "Volgograd Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Волгоградская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Volgograd Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-vgg.gif",
+      "fallbackGifUrl": "/flags/ru-vgg.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-vlg",
+    "code": "RU-VLG",
+    "type": "region_ru",
+    "name": {
+      "ru": "Вологодская область",
+      "en": "Vologda Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Вологодская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Vologda Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-vlg.gif",
+      "fallbackGifUrl": "/flags/ru-vlg.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-vor",
+    "code": "RU-VOR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Воронежская область",
+      "en": "Voronezh Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Воронежская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Voronezh Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-vor.gif",
+      "fallbackGifUrl": "/flags/ru-vor.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-yar",
+    "code": "RU-YAR",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ярославская область",
+      "en": "Yaroslavl Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Ярославская область» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Yaroslavl Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-yar.gif",
+      "fallbackGifUrl": "/flags/ru-yar.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-alt",
+    "code": "RU-ALT",
+    "type": "region_ru",
+    "name": {
+      "ru": "Алтайский край",
+      "en": "Altai Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Алтайский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Altai Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-alt.gif",
+      "fallbackGifUrl": "/flags/ru-alt.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kam",
+    "code": "RU-KAM",
+    "type": "region_ru",
+    "name": {
+      "ru": "Камчатский край",
+      "en": "Kamchatka Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Камчатский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Kamchatka Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kam.gif",
+      "fallbackGifUrl": "/flags/ru-kam.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kha",
+    "code": "RU-KHA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Хабаровский край",
+      "en": "Khabarovsk Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Хабаровский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Khabarovsk Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kha.gif",
+      "fallbackGifUrl": "/flags/ru-kha.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kda",
+    "code": "RU-KDA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Краснодарский край",
+      "en": "Krasnodar Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Краснодарский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Krasnodar Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kda.gif",
+      "fallbackGifUrl": "/flags/ru-kda.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-kya",
+    "code": "RU-KYA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Красноярский край",
+      "en": "Krasnoyarsk Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Красноярский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Krasnoyarsk Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-kya.gif",
+      "fallbackGifUrl": "/flags/ru-kya.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-per",
+    "code": "RU-PER",
+    "type": "region_ru",
+    "name": {
+      "ru": "Пермский край",
+      "en": "Perm Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Пермский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Perm Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-per.gif",
+      "fallbackGifUrl": "/flags/ru-per.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-pri",
+    "code": "RU-PRI",
+    "type": "region_ru",
+    "name": {
+      "ru": "Приморский край",
+      "en": "Primorsky Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Приморский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Primorsky Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-pri.gif",
+      "fallbackGifUrl": "/flags/ru-pri.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-sta",
+    "code": "RU-STA",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ставропольский край",
+      "en": "Stavropol Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Ставропольский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Stavropol Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-sta.gif",
+      "fallbackGifUrl": "/flags/ru-sta.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-zab",
+    "code": "RU-ZAB",
+    "type": "region_ru",
+    "name": {
+      "ru": "Забайкальский край",
+      "en": "Zabaykalsky Krai"
+    },
+    "description": {
+      "ru": "Флаг региона «Забайкальский край» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Zabaykalsky Krai (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-zab.gif",
+      "fallbackGifUrl": "/flags/ru-zab.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-chu",
+    "code": "RU-CHU",
+    "type": "region_ru",
+    "name": {
+      "ru": "Чукотский АО",
+      "en": "Chukotka Okrug"
+    },
+    "description": {
+      "ru": "Флаг региона «Чукотский АО» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Chukotka Okrug (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-chu.gif",
+      "fallbackGifUrl": "/flags/ru-chu.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-khm",
+    "code": "RU-KHM",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ханты-Мансийский АО",
+      "en": "Khanty-Mansi Okrug"
+    },
+    "description": {
+      "ru": "Флаг региона «Ханты-Мансийский АО» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Khanty-Mansi Okrug (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-khm.gif",
+      "fallbackGifUrl": "/flags/ru-khm.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-nen",
+    "code": "RU-NEN",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ненецкий АО",
+      "en": "Nenets Okrug"
+    },
+    "description": {
+      "ru": "Флаг региона «Ненецкий АО» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Nenets Okrug (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-nen.gif",
+      "fallbackGifUrl": "/flags/ru-nen.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-yan",
+    "code": "RU-YAN",
+    "type": "region_ru",
+    "name": {
+      "ru": "Ямало-Ненецкий АО",
+      "en": "Yamalo-Nenets Okrug"
+    },
+    "description": {
+      "ru": "Флаг региона «Ямало-Ненецкий АО» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Yamalo-Nenets Okrug (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-yan.gif",
+      "fallbackGifUrl": "/flags/ru-yan.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "region-ru-yev",
+    "code": "RU-YEV",
+    "type": "region_ru",
+    "name": {
+      "ru": "Еврейская АО",
+      "en": "Jewish Autonomous Oblast"
+    },
+    "description": {
+      "ru": "Флаг региона «Еврейская АО» (Россия) с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Jewish Autonomous Oblast (Russia) with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ru-yev.gif",
+      "fallbackGifUrl": "/flags/ru-yev.png"
+    },
+    "attributes": {
+      "country": "Russia",
+      "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
   }
 ]
