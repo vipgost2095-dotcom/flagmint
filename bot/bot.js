@@ -30,11 +30,13 @@ const bot = new Telegraf(BOT_TOKEN);
 
 const locales = {
   ru: {
+    usersLine: (count) => `👥 Уже с нами: ${count.toLocaleString("ru-RU")}\n\n`,
     welcome:
       "Привет! Здесь можно заминтить анимированный NFT-флаг любой страны или региона — оплата в TON, коллекция сразу доступна на Getgems.",
     openApp: "🎌 Открыть каталог флагов",
   },
   en: {
+    usersLine: (count) => `👥 Already joined: ${count.toLocaleString("en-US")}\n\n`,
     welcome:
       "Hi! Mint an animated NFT flag of any country or region — pay in TON, the collection is instantly visible on Getgems.",
     openApp: "🎌 Open flag catalog",
@@ -44,6 +46,34 @@ const locales = {
 function textFor(ctx) {
   const lang = ctx.from?.language_code?.startsWith("ru") ? "ru" : "en";
   return locales[lang];
+}
+
+/**
+ * Регистрирует пользователя (если он новый) и возвращает актуальное
+ * общее число уникальных пользователей — для показа наверху приветствия,
+ * как это принято у многих ботов ("👥 Уже с нами: N"). При недоступности
+ * backend просто не показываем строку со счётчиком — не блокируем вход.
+ */
+async function trackUserAndGetCount(ctx) {
+  if (!BACKEND_URL || !INTERNAL_API_SECRET) return null;
+  try {
+    await fetch(`${BACKEND_URL}/api/stats/track-user`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Internal-Secret": INTERNAL_API_SECRET,
+      },
+      body: JSON.stringify({ userId: ctx.from.id }),
+    });
+    const res = await fetch(`${BACKEND_URL}/api/stats/users-count`, {
+      headers: { "X-Internal-Secret": INTERNAL_API_SECRET },
+    });
+    const data = await res.json();
+    return typeof data.count === "number" ? data.count : null;
+  } catch (err) {
+    console.error("[stats] Не удалось учесть пользователя/получить счётчик:", err.message);
+    return null;
+  }
 }
 
 /**
@@ -77,10 +107,12 @@ async function reportReferralIfAny(ctx) {
 }
 
 bot.start(async (ctx) => {
+  const usersCount = await trackUserAndGetCount(ctx);
   await reportReferralIfAny(ctx);
   const t = textFor(ctx);
+  const messageText = (usersCount !== null ? t.usersLine(usersCount) : "") + t.welcome;
   return ctx.reply(
-    t.welcome,
+    messageText,
     Markup.inlineKeyboard([Markup.button.url(t.openApp, MINI_APP_DIRECT_LINK)])
   );
 });
