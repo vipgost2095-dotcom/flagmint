@@ -2025,31 +2025,6 @@
     "priceTon": 0.5
   },
   {
-    "id": "country-il",
-    "code": "IL",
-    "type": "country",
-    "name": {
-      "ru": "Израиль",
-      "en": "Israel"
-    },
-    "description": {
-      "ru": "Флаг страны «Израиль» с зацикленной анимацией развевания на ветру.",
-      "en": "Flag of Israel with a looping waving-in-the-wind animation."
-    },
-    "animation": {
-      "type": "gif-wave",
-      "previewUrl": "/flags/il.gif",
-      "fallbackGifUrl": "/flags/il.png"
-    },
-    "attributes": {
-      "country": "Israel",
-      "region": "Asia",
-      "animation_type": "wave-loop",
-      "edition": 20000
-    },
-    "priceTon": 0.5
-  },
-  {
     "id": "country-it",
     "code": "IT",
     "type": "country",
