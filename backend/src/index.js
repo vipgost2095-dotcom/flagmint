@@ -7,6 +7,7 @@ import { validateInitData } from "./middleware/validateInitData.js";
 import { flagsRouter } from "./routes/flags.js";
 import { mintRouter } from "./routes/mint.js";
 import { nftsRouter } from "./routes/nfts.js";
+import { statsRouter } from "./routes/stats.js";
 
 const app = express();
 
@@ -49,6 +50,10 @@ const requireTelegramAuth = validateInitData({
 
 app.use("/api/mint", requireTelegramAuth, mintRouter);
 app.use("/api/nfts", requireTelegramAuth, nftsRouter);
+
+// Внутренняя статистика — вызывается только ботом, защищена отдельным
+// секретом (X-Internal-Secret), а не пользовательской Telegram-авторизацией.
+app.use("/api/stats", statsRouter);
 
 // Единый обработчик ошибок — не отдаём стектрейсы наружу
 app.use((err, req, res, next) => {
