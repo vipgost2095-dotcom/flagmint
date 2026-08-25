@@ -22,7 +22,7 @@
       "animation_type": "wave-loop",
       "edition": 20000
     },
-    "priceTon": 5
+    "priceTon": 0.5
   },
   {
     "id": "country-us",
@@ -47,7 +47,7 @@
       "animation_type": "wave-loop",
       "edition": 20000
     },
-    "priceTon": 5
+    "priceTon": 0.5
   },
   {
     "id": "country-jp",
@@ -72,7 +72,7 @@
       "animation_type": "wave-loop",
       "edition": 20000
     },
-    "priceTon": 5
+    "priceTon": 0.5
   },
   {
     "id": "region-eu",
@@ -97,7 +97,7 @@
       "animation_type": "wave-loop",
       "edition": 20000
     },
-    "priceTon": 5
+    "priceTon": 0.5
   },
   {
     "id": "region-hk",
@@ -122,7 +122,7 @@
       "animation_type": "wave-loop",
       "edition": 20000
     },
-    "priceTon": 1.8
+    "priceTon": 0.5
   },
   {
     "id": "country-br",
@@ -147,6 +147,6 @@
       "animation_type": "wave-loop",
       "edition": 20000
     },
-    "priceTon": 5
+    "priceTon": 0.5
   }
 ]
