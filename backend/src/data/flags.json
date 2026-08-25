@@ -2024,7 +2024,31 @@
     },
     "priceTon": 2
   },
-
+  {
+    "id": "country-il",
+    "code": "IL",
+    "type": "country",
+    "name": {
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "description": {
+      "ru": "Флаг страны «Израиль» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Israel with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/il.gif",
+      "fallbackGifUrl": "/flags/il.png"
+    },
+    "attributes": {
+      "country": "Israel",
+      "region": "Asia",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
   {
     "id": "country-it",
     "code": "IT",
@@ -8370,6 +8394,31 @@
     "attributes": {
       "country": "Russia",
       "region": "Europe",
+      "animation_type": "wave-loop",
+      "edition": 20000
+    },
+    "priceTon": 2
+  },
+  {
+    "id": "country-ps",
+    "code": "PS",
+    "type": "country",
+    "name": {
+      "ru": "Палестина",
+      "en": "Palestine"
+    },
+    "description": {
+      "ru": "Флаг страны «Палестина» с зацикленной анимацией развевания на ветру.",
+      "en": "Flag of Palestine with a looping waving-in-the-wind animation."
+    },
+    "animation": {
+      "type": "gif-wave",
+      "previewUrl": "/flags/ps.gif",
+      "fallbackGifUrl": "/flags/ps.png"
+    },
+    "attributes": {
+      "country": "Palestine",
+      "region": "Asia",
       "animation_type": "wave-loop",
       "edition": 20000
     },
